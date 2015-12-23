@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C281DFD-5A9F-4D7E-B0BA-258408E16FB7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KARO_AFDD</RootNamespace>
+    <AssemblyName>KARO_AFDD</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Automation.BDaq, Version=1.0.1.0, Culture=neutral, PublicKeyToken=463f5928d60183a0" />
+    <Reference Include="Automation.BDaq.Design, Version=1.0.1.0, Culture=neutral, PublicKeyToken=463f5928d60183a0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\System32\Automation.BDaq.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="ComLine">
+      <HintPath>..\ThirdParty\ComLine.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>..\ThirdParty\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\ThirdParty\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Modbus_v2">
+      <HintPath>..\ThirdParty\Modbus_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AFDD\9.9.2\frm9922.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.2\frm9922.Designer.cs">
+      <DependentUpon>frm9922.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.2\frm9923.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.2\frm9923.Designer.cs">
+      <DependentUpon>frm9923.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.2\frm9924.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.2\frm9924.Designer.cs">
+      <DependentUpon>frm9924.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonOperate.cs" />
+    <Compile Include="ConstVal.cs" />
+    <Compile Include="DbgHelper.cs" />
+    <Compile Include="DoubleBufferListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.2\frmAFD632.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.2\frmAFD632.Designer.cs">
+      <DependentUpon>frmAFD632.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD6331.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD6331.Designer.cs">
+      <DependentUpon>frmAFD6331.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD634.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD634.Designer.cs">
+      <DependentUpon>frmAFD634.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD63411.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD63411.Designer.cs">
+      <DependentUpon>frmAFD63411.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.3\frm9931.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.3\frm9931.Designer.cs">
+      <DependentUpon>frm9931.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.3\frm9932.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.3\frm9932.Designer.cs">
+      <DependentUpon>frm9932.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.3\frm9933.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.3\frm9933.Designer.cs">
+      <DependentUpon>frm9933.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99421.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99421.Designer.cs">
+      <DependentUpon>frm99421.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99422.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99422.Designer.cs">
+      <DependentUpon>frm99422.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99431.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99431.Designer.cs">
+      <DependentUpon>frm99431.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm9944.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm9944.Designer.cs">
+      <DependentUpon>frm9944.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99423.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99423.Designer.cs">
+      <DependentUpon>frm99423.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99424.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99424.Designer.cs">
+      <DependentUpon>frm99424.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99425.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99425.Designer.cs">
+      <DependentUpon>frm99425.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99426.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99426.Designer.cs">
+      <DependentUpon>frm99426.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99427.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99427.Designer.cs">
+      <DependentUpon>frm99427.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99428.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm99428.Designer.cs">
+      <DependentUpon>frm99428.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm9952.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm9952.Designer.cs">
+      <DependentUpon>frm9952.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99541.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99541.Designer.cs">
+      <DependentUpon>frm99541.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99542.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99542.Designer.cs">
+      <DependentUpon>frm99542.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99543.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99543.Designer.cs">
+      <DependentUpon>frm99543.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99544.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99544.Designer.cs">
+      <DependentUpon>frm99544.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99545.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99545.Designer.cs">
+      <DependentUpon>frm99545.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99546.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99546.Designer.cs">
+      <DependentUpon>frm99546.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99547.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm99547.Designer.cs">
+      <DependentUpon>frm99547.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.2\frm992.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.2\frm992.Designer.cs">
+      <DependentUpon>frm992.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.3\frm993.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.3\frm993.Designer.cs">
+      <DependentUpon>frm993.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm994.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm994.Designer.cs">
+      <DependentUpon>frm994.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm9942.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.4\frm9942.Designer.cs">
+      <DependentUpon>frm9942.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm995.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm995.Designer.cs">
+      <DependentUpon>frm995.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD634111.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD634111.Designer.cs">
+      <DependentUpon>frmAFD634111.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD634112.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD634112.Designer.cs">
+      <DependentUpon>frmAFD634112.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD634113.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD634113.Designer.cs">
+      <DependentUpon>frmAFD634113.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63311.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63311.Designer.cs">
+      <DependentUpon>frmAFD63311.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63312.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63312.Designer.cs">
+      <DependentUpon>frmAFD63312.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63313.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63313.Designer.cs">
+      <DependentUpon>frmAFD63313.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63314.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63314.Designer.cs">
+      <DependentUpon>frmAFD63314.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63315.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63315.Designer.cs">
+      <DependentUpon>frmAFD63315.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63316.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63316.Designer.cs">
+      <DependentUpon>frmAFD63316.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63317.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63317.Designer.cs">
+      <DependentUpon>frmAFD63317.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63318.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63318.Designer.cs">
+      <DependentUpon>frmAFD63318.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63319.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD63319.Designer.cs">
+      <DependentUpon>frmAFD63319.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD6332.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD6332.Designer.cs">
+      <DependentUpon>frmAFD6332.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD63412.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD63412.Designer.cs">
+      <DependentUpon>frmAFD63412.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD63413.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.4\frmAFD63413.Designer.cs">
+      <DependentUpon>frmAFD63413.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm9954.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\9.9.5\frm9954.Designer.cs">
+      <DependentUpon>frm9954.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.2\frmAFD63221.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.2\frmAFD63221.Designer.cs">
+      <DependentUpon>frmAFD63221.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.2\frmAFD63222.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.2\frmAFD63222.Designer.cs">
+      <DependentUpon>frmAFD63222.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\6.3.2\frmAFD63223.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.2\frmAFD63223.Designer.cs">
+      <DependentUpon>frmAFD63223.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAFDDManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAFDDManual.Designer.cs">
+      <DependentUpon>frmAFDDManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBufferedAi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBufferedAi.Designer.cs">
+      <DependentUpon>frmBufferedAi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationValue.Designer.cs">
+      <DependentUpon>frmCalibrationValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCPath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCPath.Designer.cs">
+      <DependentUpon>frmCPath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInstantAi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInstantAi.Designer.cs">
+      <DependentUpon>frmInstantAi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModel.Designer.cs">
+      <DependentUpon>frmModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDefault.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDefault.Designer.cs">
+      <DependentUpon>frmDefault.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDOTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDOTest.Designer.cs">
+      <DependentUpon>frmDOTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmCarbidePath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarbidePath.Designer.cs">
+      <DependentUpon>frmCarbidePath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFD\frmAFD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\frmAFD.Designer.cs">
+      <DependentUpon>frmAFD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AFDD\frmAFDD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFDD\frmAFDD.Designer.cs">
+      <DependentUpon>frmAFDD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDITest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDITest.Designer.cs">
+      <DependentUpon>frmDITest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAndArc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAndArc.Designer.cs">
+      <DependentUpon>frmAndArc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleGraph.cs" />
+    <Compile Include="AFD\6.3.3\frmAFD633.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AFD\6.3.3\frmAFD633.Designer.cs">
+      <DependentUpon>frmAFD633.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AFDD\9.9.2\frm9922.resx">
+      <DependentUpon>frm9922.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.2\frm9924.resx">
+      <DependentUpon>frm9924.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.3\frm9931.resx">
+      <DependentUpon>frm9931.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.3\frm9932.resx">
+      <DependentUpon>frm9932.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.3\frm9933.resx">
+      <DependentUpon>frm9933.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm99423.resx">
+      <DependentUpon>frm99423.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm99424.resx">
+      <DependentUpon>frm99424.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm99425.resx">
+      <DependentUpon>frm99425.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm99426.resx">
+      <DependentUpon>frm99426.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm99427.resx">
+      <DependentUpon>frm99427.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm99428.resx">
+      <DependentUpon>frm99428.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm99431.resx">
+      <DependentUpon>frm99431.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm9944.resx">
+      <DependentUpon>frm9944.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.5\frm995.resx">
+      <DependentUpon>frm995.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.5\frm9952.resx">
+      <DependentUpon>frm9952.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.5\frm9954.resx">
+      <DependentUpon>frm9954.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.5\frm99541.resx">
+      <DependentUpon>frm99541.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.5\frm99542.resx">
+      <DependentUpon>frm99542.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.5\frm99543.resx">
+      <DependentUpon>frm99543.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.5\frm99544.resx">
+      <DependentUpon>frm99544.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.5\frm99545.resx">
+      <DependentUpon>frm99545.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.5\frm99546.resx">
+      <DependentUpon>frm99546.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.5\frm99547.resx">
+      <DependentUpon>frm99547.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD63311.resx">
+      <DependentUpon>frmAFD63311.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD63312.resx">
+      <DependentUpon>frmAFD63312.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD63313.resx">
+      <DependentUpon>frmAFD63313.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD63314.resx">
+      <DependentUpon>frmAFD63314.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD63315.resx">
+      <DependentUpon>frmAFD63315.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD63316.resx">
+      <DependentUpon>frmAFD63316.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD63317.resx">
+      <DependentUpon>frmAFD63317.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD63318.resx">
+      <DependentUpon>frmAFD63318.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD63319.resx">
+      <DependentUpon>frmAFD63319.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD6332.resx">
+      <DependentUpon>frmAFD6332.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.4\frmAFD63412.resx">
+      <DependentUpon>frmAFD63412.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.4\frmAFD63413.resx">
+      <DependentUpon>frmAFD63413.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.2\frmAFD632.resx">
+      <DependentUpon>frmAFD632.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD6331.resx">
+      <DependentUpon>frmAFD6331.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.4\frmAFD634.resx">
+      <DependentUpon>frmAFD634.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.4\frmAFD63411.resx">
+      <DependentUpon>frmAFD63411.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.4\frmAFD634111.resx">
+      <DependentUpon>frmAFD634111.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.4\frmAFD634112.resx">
+      <DependentUpon>frmAFD634112.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.4\frmAFD634113.resx">
+      <DependentUpon>frmAFD634113.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.2\frm9923.resx">
+      <DependentUpon>frm9923.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm99421.resx">
+      <DependentUpon>frm99421.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm99422.resx">
+      <DependentUpon>frm99422.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.2\frm992.resx">
+      <DependentUpon>frm992.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.3\frm993.resx">
+      <DependentUpon>frm993.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm994.resx">
+      <DependentUpon>frm994.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\9.9.4\frm9942.resx">
+      <DependentUpon>frm9942.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.2\frmAFD63221.resx">
+      <DependentUpon>frmAFD63221.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.2\frmAFD63222.resx">
+      <DependentUpon>frmAFD63222.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.2\frmAFD63223.resx">
+      <DependentUpon>frmAFD63223.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAFDDManual.resx">
+      <DependentUpon>frmAFDDManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBufferedAi.resx">
+      <DependentUpon>frmBufferedAi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationValue.resx">
+      <DependentUpon>frmCalibrationValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCPath.resx">
+      <DependentUpon>frmCPath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInstantAi.resx">
+      <DependentUpon>frmInstantAi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModel.resx">
+      <DependentUpon>frmModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDefault.resx">
+      <DependentUpon>frmDefault.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDOTest.resx">
+      <DependentUpon>frmDOTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCarbidePath.resx">
+      <DependentUpon>frmCarbidePath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\frmAFD.resx">
+      <DependentUpon>frmAFD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFDD\frmAFDD.resx">
+      <DependentUpon>frmAFDD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDITest.resx">
+      <DependentUpon>frmDITest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAndArc.resx">
+      <DependentUpon>frmAndArc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFD\6.3.3\frmAFD633.resx">
+      <DependentUpon>frmAFD633.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="电路图\屏蔽A.jpg" />
+    <None Include="电路图\屏蔽B.jpg" />
+    <None Include="电路图\屏蔽C.jpg" />
+    <None Include="电路图\屏蔽D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CKM55LC_M\AFDD.csproj">
+      <Project>{8996CDC5-462A-41CE-B117-DC17A726BF0C}</Project>
+      <Name>AFDD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LinesDevicesManager\LinesDevicesManager.csproj">
+      <Project>{D40EAF49-AB49-48F6-9B12-B3D0C9A0E2A0}</Project>
+      <Name>LinesDevicesManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
