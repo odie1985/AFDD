@@ -39,72 +39,72 @@ namespace KARO_AFDD
             // 
             // btn9952
             // 
-            this.btn9952.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn9952.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn9952.Location = new System.Drawing.Point(426, 370);
             this.btn9952.Name = "btn9952";
             this.btn9952.Size = new System.Drawing.Size(141, 59);
             this.btn9952.TabIndex = 13;
-            this.btn9952.Text = "9.9.5.2 ´®ÈÅ\r\n²âÊÔ";
+            this.btn9952.Text = "9.9.5.2 ä¸²æ‰°\r\næµ‹è¯•";
             this.btn9952.UseVisualStyleBackColor = true;
             // 
             // btn9944
             // 
-            this.btn9944.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn9944.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn9944.Location = new System.Drawing.Point(426, 252);
             this.btn9944.Name = "btn9944";
             this.btn9944.Size = new System.Drawing.Size(141, 59);
             this.btn9944.TabIndex = 12;
-            this.btn9944.Text = "9.9.4.4 ´øÏßÂ·\r\n×è¿¹ÆÁ±ÎÊÔÑé";
+            this.btn9944.Text = "9.9.4.4 å¸¦çº¿è·¯\r\né˜»æŠ—å±è”½è¯•éªŒ";
             this.btn9944.UseVisualStyleBackColor = true;
             // 
             // btn9943
             // 
-            this.btn9943.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn9943.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn9943.Location = new System.Drawing.Point(426, 134);
             this.btn9943.Name = "btn9943";
             this.btn9943.Size = new System.Drawing.Size(141, 59);
             this.btn9943.TabIndex = 11;
-            this.btn9943.Text = "9.9.4.3 EMIÂË²¨\r\nÆÁ±ÎÊÔÑé";
+            this.btn9943.Text = "9.9.4.3 EMIæ»¤æ³¢\r\nå±è”½è¯•éªŒ";
             this.btn9943.UseVisualStyleBackColor = true;
             // 
             // btn9942
             // 
-            this.btn9942.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn9942.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn9942.Location = new System.Drawing.Point(218, 429);
             this.btn9942.Name = "btn9942";
             this.btn9942.Size = new System.Drawing.Size(141, 59);
             this.btn9942.TabIndex = 10;
-            this.btn9942.Text = "9.9.4.2 ÒÖÖÆĞÔ\r\n¸ºÔØÆÁ±ÎÊÔÑé";
+            this.btn9942.Text = "9.9.4.2 æŠ‘åˆ¶æ€§\r\nè´Ÿè½½å±è”½è¯•éªŒ";
             this.btn9942.UseVisualStyleBackColor = true;
             // 
             // btn993
             // 
-            this.btn993.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn993.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn993.Location = new System.Drawing.Point(218, 311);
             this.btn993.Name = "btn993";
             this.btn993.Size = new System.Drawing.Size(141, 59);
             this.btn993.TabIndex = 9;
-            this.btn993.Text = "9.9.3 ²¢»¡¹ÊÕÏ\r\nÊÔÑé";
+            this.btn993.Text = "9.9.3 å¹¶å¼§æ•…éšœ\r\nè¯•éªŒ";
             this.btn993.UseVisualStyleBackColor = true;
             // 
             // btn992
             // 
-            this.btn992.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn992.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn992.Location = new System.Drawing.Point(218, 193);
             this.btn992.Name = "btn992";
             this.btn992.Size = new System.Drawing.Size(141, 59);
             this.btn992.TabIndex = 8;
-            this.btn992.Text = "9.9.2 ´®»¡¹ÊÕÏ\r\nÊÔÑé";
+            this.btn992.Text = "9.9.2 ä¸²å¼§æ•…éšœ\r\nè¯•éªŒ";
             this.btn992.UseVisualStyleBackColor = true;
             // 
             // btnCarbidePath
             // 
-            this.btnCarbidePath.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnCarbidePath.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnCarbidePath.Location = new System.Drawing.Point(218, 75);
             this.btnCarbidePath.Name = "btnCarbidePath";
             this.btnCarbidePath.Size = new System.Drawing.Size(141, 59);
             this.btnCarbidePath.TabIndex = 7;
-            this.btnCarbidePath.Text = "Ì¼»¯Â·¾¶ÊÔÑé";
+            this.btnCarbidePath.Text = "ç¢³åŒ–è·¯å¾„è¯•éªŒ";
             this.btnCarbidePath.UseVisualStyleBackColor = true;
             this.btnCarbidePath.Click += new System.EventHandler(this.btnCarbidePath_Click);
             // 
@@ -123,7 +123,7 @@ namespace KARO_AFDD
             this.MaximumSize = new System.Drawing.Size(800, 600);
             this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "frmAFDDManual";
-            this.Text = "ÊÖ¶¯ÊÔÑé";
+            this.Text = "æ‰‹åŠ¨è¯•éªŒ";
             this.ResumeLayout(false);
 
         }

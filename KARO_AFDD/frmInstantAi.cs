@@ -35,7 +35,7 @@ namespace KARO_AFDD
 
         private void InstantAiForm_Load(object sender, EventArgs e)
         {
-          //ÏîÄ¿µÄÄ¬ÈÏÉè±¸ÑİÊ¾Éè±¸,ÓÃ»§¿ÉÒÔÑ¡ÔñÆäËûÉè±¸¸ù¾İËûÃÇµÄĞèÇó¡£
+          //é¡¹ç›®çš„é»˜è®¤è®¾å¤‡æ¼”ç¤ºè®¾å¤‡,ç”¨æˆ·å¯ä»¥é€‰æ‹©å…¶ä»–è®¾å¤‡æ ¹æ®ä»–ä»¬çš„éœ€æ±‚ã€‚
          if (!instantAiCtrl1.Initialized)
           {
              MessageBox.Show("No device be selected or device open failed!", "AI_InstantAI");
@@ -43,22 +43,22 @@ namespace KARO_AFDD
               return;
           }
 
-         //ÉèÖÃ±íµ¥µÄ±êÌâ¡£
+         //è®¾ç½®è¡¨å•çš„æ ‡é¢˜ã€‚
          this.Text = "Instant AI(" + instantAiCtrl1.SelectedDevice.Description + ")";
          
          button_start.Enabled = true;
          button_stop.Enabled = false;
          button_pause.Enabled = false;
 
-         //³õÊ¼»¯Ò»¸öÍ¼Æ¬¿ò¿ØÖÆÍ¼»æÖÆÈË¹¤ÖÇÄÜÊı¾İ¡£ 
+         //åˆå§‹åŒ–ä¸€ä¸ªå›¾ç‰‡æ¡†æ§åˆ¶å›¾ç»˜åˆ¶äººå·¥æ™ºèƒ½æ•°æ®ã€‚ 
          m_simpleGraph = new SimpleGraph(pictureBox.Size, pictureBox);
-         //³õÊ¼»¯¶¨Ê±Æ÷Çı¶¯Êı¾İ²É¼¯¡£
+         //åˆå§‹åŒ–å®šæ—¶å™¨é©±åŠ¨æ•°æ®é‡‡é›†ã€‚
          timer_getData.Interval = trackBar.Value;
 
          textBox.ReadOnly = true;
          textBox.Text = trackBar.Value.ToString();
 
-         //Ìí¼Ó×éºÏ¿òÑ¡ÔñstartÍ¨µÀºÍÍ¨µÀÊı
+         //æ·»åŠ ç»„åˆæ¡†é€‰æ‹©starté€šé“å’Œé€šé“æ•°
          int chanCount = (instantAiCtrl1.ChannelCount <= CHANNEL_COUNT_MAX) ? instantAiCtrl1.ChannelCount : CHANNEL_COUNT_MAX;
 
        
@@ -85,7 +85,7 @@ namespace KARO_AFDD
          label_XCoordinateMax.Text = X_rangeLabels[0];
          label_XCoordinateMin.Text = X_rangeLabels[1];
 
-         ValueUnit unit = (ValueUnit)(-1); // ²»ÏÔÊ¾µ¥ÔªµÄ±êÇ©¡£
+         ValueUnit unit = (ValueUnit)(-1); // ä¸æ˜¾ç¤ºå•å…ƒçš„æ ‡ç­¾ã€‚
          string[] Y_CordLables = new string[3];
          Helpers.GetYCordRangeLabels(Y_CordLables, 10, -10, unit);
          label_YCoordinateMax.Text = Y_CordLables[0];
@@ -103,7 +103,7 @@ namespace KARO_AFDD
          ErrorCode err;
 
          performanceCounter.Start();
-         //¸ù¾İChannelStartºÍChannelCount²ÎÊı¶ÁÈ¡Í¨µÀÖµ¡£DataScaledÀàĞÍÎªdouble¡£
+         //æ ¹æ®ChannelStartå’ŒChannelCountå‚æ•°è¯»å–é€šé“å€¼ã€‚DataScaledç±»å‹ä¸ºdoubleã€‚
          err = instantAiCtrl1.Read(comboBox_chanStart.SelectedIndex, chanCountSet, m_dataScaled);
          if (err != ErrorCode.Success)
          {

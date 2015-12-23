@@ -44,53 +44,53 @@ namespace KARO_AFDD
             this.btnReturnMain.Name = "btnReturnMain";
             this.btnReturnMain.Size = new System.Drawing.Size(141, 41);
             this.btnReturnMain.TabIndex = 3;
-            this.btnReturnMain.Text = "·µ»ØÖ÷²Ëµ¥";
+            this.btnReturnMain.Text = "è¿”å›ä¸»èœå•";
             this.btnReturnMain.UseVisualStyleBackColor = true;
             this.btnReturnMain.Click += new System.EventHandler(this.btnReturnMain_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(500, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(261, 75);
             this.label1.TabIndex = 4;
-            this.label1.Text = "AFDÊÔÑé";
+            this.label1.Text = "AFDè¯•éªŒ";
             // 
             // btnArcFalse
             // 
-            this.btnArcFalse.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnArcFalse.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnArcFalse.Location = new System.Drawing.Point(228, 326);
             this.btnArcFalse.Margin = new System.Windows.Forms.Padding(4);
             this.btnArcFalse.Name = "btnArcFalse";
             this.btnArcFalse.Size = new System.Drawing.Size(226, 85);
             this.btnArcFalse.TabIndex = 6;
-            this.btnArcFalse.Text = "6.3.2\r\n¹ÊÕÏµç»¡ÊÔÑé";
+            this.btnArcFalse.Text = "6.3.2\r\næ•…éšœç”µå¼§è¯•éªŒ";
             this.btnArcFalse.UseVisualStyleBackColor = true;
             this.btnArcFalse.Click += new System.EventHandler(this.btnArcFalse_Click);
             // 
             // btnFalseAlarm
             // 
-            this.btnFalseAlarm.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnFalseAlarm.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnFalseAlarm.Location = new System.Drawing.Point(517, 326);
             this.btnFalseAlarm.Margin = new System.Windows.Forms.Padding(4);
             this.btnFalseAlarm.Name = "btnFalseAlarm";
             this.btnFalseAlarm.Size = new System.Drawing.Size(226, 85);
             this.btnFalseAlarm.TabIndex = 7;
-            this.btnFalseAlarm.Text = "6.3.3\r\nÎó±¨¾¯ÊÔÑé";
+            this.btnFalseAlarm.Text = "6.3.3\r\nè¯¯æŠ¥è­¦è¯•éªŒ";
             this.btnFalseAlarm.UseVisualStyleBackColor = true;
             this.btnFalseAlarm.Click += new System.EventHandler(this.btnFalseAlarm_Click);
             // 
             // btnLoadInhibitory
             // 
-            this.btnLoadInhibitory.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnLoadInhibitory.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnLoadInhibitory.Location = new System.Drawing.Point(806, 326);
             this.btnLoadInhibitory.Margin = new System.Windows.Forms.Padding(4);
             this.btnLoadInhibitory.Name = "btnLoadInhibitory";
             this.btnLoadInhibitory.Size = new System.Drawing.Size(226, 85);
             this.btnLoadInhibitory.TabIndex = 8;
-            this.btnLoadInhibitory.Text = "6.3.4\r\n¸ºÔØÒÖÖÆĞÔÊÔÑé";
+            this.btnLoadInhibitory.Text = "6.3.4\r\nè´Ÿè½½æŠ‘åˆ¶æ€§è¯•éªŒ";
             this.btnLoadInhibitory.UseVisualStyleBackColor = true;
             this.btnLoadInhibitory.Click += new System.EventHandler(this.btnLoadInhibitory_Click);
             // 
@@ -116,7 +116,7 @@ namespace KARO_AFDD
             this.Controls.Add(this.btnArcFalse);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnReturnMain);
-            this.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximumSize = new System.Drawing.Size(1260, 736);

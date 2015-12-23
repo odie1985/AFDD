@@ -46,7 +46,7 @@ namespace KARO_AFDD
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(241)))), ((int)(((byte)(231)))));
             this.ClientSize = new System.Drawing.Size(1264, 762);
             this.Controls.Add(this.statusStrip1);
-            this.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
@@ -54,7 +54,7 @@ namespace KARO_AFDD
             this.MinimumSize = new System.Drawing.Size(1280, 800);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "¹ÊÕÏµç»¡ÊÔÑé";
+            this.Text = "æ•…éšœç”µå¼§è¯•éªŒ";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

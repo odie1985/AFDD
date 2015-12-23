@@ -57,23 +57,23 @@ namespace KARO_AFDD
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button2.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button2.Location = new System.Drawing.Point(291, 312);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(151, 65);
             this.button2.TabIndex = 10;
-            this.button2.Text = "DO²âÊÔ";
+            this.button2.Text = "DOæµ‹è¯•";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button3.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button3.Location = new System.Drawing.Point(62, 312);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(151, 65);
             this.button3.TabIndex = 9;
-            this.button3.Text = "DI²âÊÔ";
+            this.button3.Text = "DIæµ‹è¯•";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 

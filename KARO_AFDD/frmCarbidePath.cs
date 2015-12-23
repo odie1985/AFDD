@@ -96,25 +96,25 @@ namespace KARO_AFDD
             {
                 do
                 {
-                    DO_Click(0, 2);     //±’∫œS102
+                    DO_Click(0, 2);     //Èó≠ÂêàS102
                 } while ((int)DI_Check(0) == 2);
                 System.Threading.Thread.Sleep(1000);
 
                 do
                 {
-                    DO_Click(0, 3);     //±’∫œS101
+                    DO_Click(0, 3);     //Èó≠ÂêàS101
                 } while ((int)DI_Check(0) == 3);
                 System.Threading.Thread.Sleep(t1 * 1000);
 
                 do
                 {
-                    DO_Click(0, 2);     //∂œø™S101
+                    DO_Click(0, 2);     //Êñ≠ÂºÄS101
                 } while ((int)DI_Check(0) == 2);
                 System.Threading.Thread.Sleep(500);
 
                 do
                 {
-                    DO_Click(0, 0);     //∂œø™S102
+                    DO_Click(0, 0);     //Êñ≠ÂºÄS102
                 } while ((int)DI_Check(0) == 0);
             }
         }
@@ -126,25 +126,25 @@ namespace KARO_AFDD
             {
                 do
                 {
-                    DO_Click(0, 4);     //±’∫œS103
+                    DO_Click(0, 4);     //Èó≠ÂêàS103
                 } while ((int)DI_Check(0) == 4);
                 System.Threading.Thread.Sleep(1000);
 
                 do
                 {
-                    DO_Click(0, 5);     //±’∫œS101
+                    DO_Click(0, 5);     //Èó≠ÂêàS101
                 } while ((int)DI_Check(0) == 5);
                 System.Threading.Thread.Sleep(t2 * 1000);
 
                 do
                 {
-                    DO_Click(0, 4);     //∂œø™S101
+                    DO_Click(0, 4);     //Êñ≠ÂºÄS101
                 } while ((int)DI_Check(0) == 4);
                 System.Threading.Thread.Sleep(500);
 
                 do
                 {
-                    DO_Click(0, 0);     //∂œø™S103
+                    DO_Click(0, 0);     //Êñ≠ÂºÄS103
                 } while ((int)DI_Check(0) == 0);
             }
         }
@@ -156,19 +156,19 @@ namespace KARO_AFDD
             {
                 do
                 {
-                    DO_Click(0, 16);     //±’∫œS105
+                    DO_Click(0, 16);     //Èó≠ÂêàS105
                 } while ((int)DI_Check(0) == 16);
                 System.Threading.Thread.Sleep(1000);
 
                 do
                 {
-                    DO_Click(0, 24);     //±’∫œS104
+                    DO_Click(0, 24);     //Èó≠ÂêàS104
                 } while ((int)DI_Check(0) == 24);
                 System.Threading.Thread.Sleep(2000);
                 
                 do
                 {
-                    DO_Click(0, 0);     //∂œø™S104 S105
+                    DO_Click(0, 0);     //Êñ≠ÂºÄS104 S105
                 } while ((int)DI_Check(0) == 0);
             }
         }
@@ -183,25 +183,25 @@ namespace KARO_AFDD
             {
                 do
                 {
-                    DO_Click(0, 2);     //±’∫œS102
+                    DO_Click(0, 2);     //Èó≠ÂêàS102
                 } while ((int)DI_Check(0) == 2);
                 System.Threading.Thread.Sleep(1000);
 
                 do
                 {
-                    DO_Click(0, 3);     //±’∫œS101
+                    DO_Click(0, 3);     //Èó≠ÂêàS101
                 } while ((int)DI_Check(0) == 3);
                 System.Threading.Thread.Sleep(t1 * 1000);
 
                 do
                 {
-                    DO_Click(0, 2);     //∂œø™S101
+                    DO_Click(0, 2);     //Êñ≠ÂºÄS101
                 } while ((int)DI_Check(0) == 2);
                 System.Threading.Thread.Sleep(500);
 
                 do
                 {
-                    DO_Click(0, 0);     //∂œø™S102
+                    DO_Click(0, 0);     //Êñ≠ÂºÄS102
                 } while ((int)DI_Check(0) == 0);
             }
 
@@ -210,25 +210,25 @@ namespace KARO_AFDD
             {
                 do
                 {
-                    DO_Click(0, 4);     //±’∫œS103
+                    DO_Click(0, 4);     //Èó≠ÂêàS103
                 } while ((int)DI_Check(0) == 4);
                 System.Threading.Thread.Sleep(1000);
 
                 do
                 {
-                    DO_Click(0, 5);     //±’∫œS101
+                    DO_Click(0, 5);     //Èó≠ÂêàS101
                 } while ((int)DI_Check(0) == 5);
                 System.Threading.Thread.Sleep(t2 * 1000);
 
                 do
                 {
-                    DO_Click(0, 4);     //∂œø™S101
+                    DO_Click(0, 4);     //Êñ≠ÂºÄS101
                 } while ((int)DI_Check(0) == 4);
                 System.Threading.Thread.Sleep(500);
 
                 do
                 {
-                    DO_Click(0, 0);     //∂œø™S103
+                    DO_Click(0, 0);     //Êñ≠ÂºÄS103
                 } while ((int)DI_Check(0) == 0);
             }
 
@@ -237,19 +237,19 @@ namespace KARO_AFDD
             {
                 do
                 {
-                    DO_Click(0, 16);     //±’∫œS105
+                    DO_Click(0, 16);     //Èó≠ÂêàS105
                 } while ((int)DI_Check(0) == 16);
                 System.Threading.Thread.Sleep(1000);
 
                 do
                 {
-                    DO_Click(0, 24);     //±’∫œS104
+                    DO_Click(0, 24);     //Èó≠ÂêàS104
                 } while ((int)DI_Check(0) == 24);
                 System.Threading.Thread.Sleep(2000);
 
                 do
                 {
-                    DO_Click(0, 0);     //∂œø™S104 S105
+                    DO_Click(0, 0);     //Êñ≠ÂºÄS104 S105
                 } while ((int)DI_Check(0) == 0);
             }
         }
@@ -296,7 +296,7 @@ namespace KARO_AFDD
         #region Button Operate
 
         /// <summary>
-        /// DOø™πÿøÿ÷∆
+        /// DOÂºÄÂÖ≥ÊéßÂà∂
         /// </summary>
         private void DO_Click(int port, int data)
         {
@@ -311,7 +311,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// DI◊¥Ã¨ºÏ≤‚
+        /// DIÁä∂ÊÄÅÊ£ÄÊµã
         /// </summary>
         private byte DI_Check(int port)
         {

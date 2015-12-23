@@ -114,7 +114,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// ´´½¨Í¼Ïñ
+        /// åˆ›å»ºå›¾åƒ
         /// </summary>
         private void ConfigureGraph()
         {
@@ -218,7 +218,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// ÉèÖÃX×ø±êÖá
+        /// è®¾ç½®Xåæ ‡è½´
         /// </summary>
         private void SetXCord_I()
         {
@@ -341,7 +341,7 @@ namespace KARO_AFDD
 
                 double effectValue_I = effectiveValue(m_dataScaled_I);
                 double effectValue_V = effectiveValue(m_dataScaled_V);
-                txtCurrent.Text = effectValue_I.ToString("#0.00");  //±£ÁôÁ½Î»Ğ¡Êı
+                txtCurrent.Text = effectValue_I.ToString("#0.00");  //ä¿ç•™ä¸¤ä½å°æ•°
                 txtVoltage.Text = effectValue_V.ToString("#0.00");
 
                 this.Invoke((UpdateUIDelegate)delegate()
@@ -357,7 +357,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// ²ÉÑùÖµĞ£×¼
+        /// é‡‡æ ·å€¼æ ¡å‡†
         /// </summary>
         private void Samples_Calibration(double[] m_data)
         {
@@ -381,7 +381,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// µçÁ÷Öµ¼ÆËã
+        /// ç”µæµå€¼è®¡ç®—
         /// </summary>
         private void Current_Calculate(double[] m_data)
         {
@@ -403,7 +403,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// µçÑ¹Öµ¼ÆËã
+        /// ç”µå‹å€¼è®¡ç®—
         /// </summary>
         private void Voltage_Calculate(double[] m_data)
         {
@@ -414,7 +414,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// ÓĞĞ§Öµ¼ÆËã
+        /// æœ‰æ•ˆå€¼è®¡ç®—
         /// </summary>
         private double effectiveValue(double[] m_data)
         {
@@ -447,7 +447,7 @@ namespace KARO_AFDD
         #region Button Operate
 
         /// <summary>
-        /// DO¿ª¹Ø¿ØÖÆ
+        /// DOå¼€å…³æ§åˆ¶
         /// </summary>
         private void DO_Click(int port, int data)
         {
@@ -462,7 +462,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// DI×´Ì¬¼ì²â
+        /// DIçŠ¶æ€æ£€æµ‹
         /// </summary>
         private byte DI_Check(int port)
         {

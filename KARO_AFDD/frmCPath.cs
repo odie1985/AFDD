@@ -108,7 +108,7 @@ namespace KARO_AFDD
 
             // refresh hex
             int state = Int32.Parse(m_portHex[boxInfo.PortNum - ConstVal.StartPort].Text, NumberStyles.AllowHexSpecifier);
-            // ~ °´Î»Çó²¹·ûºÅ
+            // ~ æŒ‰ä½æ±‚è¡¥ç¬¦å·
             state &= ~(0x1 << boxInfo.BitNum);
             state |= boxInfo.BitValue << boxInfo.BitNum;
 

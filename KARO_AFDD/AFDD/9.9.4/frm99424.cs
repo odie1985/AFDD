@@ -119,7 +119,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// ´´½¨Í¼Ïñ
+        /// åˆ›å»ºå›¾åƒ
         /// </summary>
         private void ConfigureGraph()
         {
@@ -223,7 +223,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// ÉèÖÃX×ø±êÖá
+        /// è®¾ç½®Xåæ ‡è½´
         /// </summary>
         private void SetXCord_I()
         {
@@ -281,11 +281,11 @@ namespace KARO_AFDD
         {
             if (DI_Check(2) == 1)
             {
-                if (cbxArcGear.Text == "µç»¡·¢ÉúÆ÷")
+                if (cbxArcGear.Text == "ç”µå¼§å‘ç”Ÿå™¨")
                 {
                     ArcGenerator();
                 }
-                else if (cbxArcGear.Text == "Ì¼»¯µçÀÂÊÔÆ·")
+                else if (cbxArcGear.Text == "ç¢³åŒ–ç”µç¼†è¯•å“")
                 {
                     CarbonationTest();
                 }
@@ -329,7 +329,7 @@ namespace KARO_AFDD
 
                 double effectValue_I = effectiveValue(m_dataScaled_I);
                 double effectValue_V = effectiveValue(m_dataScaled_V);
-                txtCurrent.Text = effectValue_I.ToString("#0.00");  //±£ÁôÁ½Î»Ğ¡Êı
+                txtCurrent.Text = effectValue_I.ToString("#0.00");  //ä¿ç•™ä¸¤ä½å°æ•°
                 txtVoltage.Text = effectValue_V.ToString("#0.00");
 
                 this.Invoke((UpdateUIDelegate)delegate()
@@ -345,7 +345,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// ²ÉÑùÖµĞ£×¼
+        /// é‡‡æ ·å€¼æ ¡å‡†
         /// </summary>
         private void Samples_Calibration(double[] m_data)
         {
@@ -369,7 +369,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// µçÁ÷Öµ¼ÆËã
+        /// ç”µæµå€¼è®¡ç®—
         /// </summary>
         private void Current_Calculate(double[] m_data)
         {
@@ -391,7 +391,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// µçÑ¹Öµ¼ÆËã
+        /// ç”µå‹å€¼è®¡ç®—
         /// </summary>
         private void Voltage_Calculate(double[] m_data)
         {
@@ -402,7 +402,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// ÓĞĞ§Öµ¼ÆËã
+        /// æœ‰æ•ˆå€¼è®¡ç®—
         /// </summary>
         private double effectiveValue(double[] m_data)
         {
@@ -435,7 +435,7 @@ namespace KARO_AFDD
         #region Button Operate
 
         /// <summary>
-        /// DO¿ª¹Ø¿ØÖÆ
+        /// DOå¼€å…³æ§åˆ¶
         /// </summary>
         private void DO_Click(int port, int data)
         {
@@ -450,7 +450,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// DI×´Ì¬¼ì²â
+        /// DIçŠ¶æ€æ£€æµ‹
         /// </summary>
         private byte DI_Check(int port)
         {
@@ -464,7 +464,7 @@ namespace KARO_AFDD
 
 
         /// <summary>
-        /// ÊÔÑé·ÖÖ§¡ª¡ªµç»¡·¢ÉúÆ÷
+        /// è¯•éªŒåˆ†æ”¯â€”â€”ç”µå¼§å‘ç”Ÿå™¨
         /// </summary>
         private void ArcGenerator()
         {
@@ -483,19 +483,19 @@ namespace KARO_AFDD
                 DO_Click(1, 2);     //S110
             } while ((int)DI_Check(1) == 2);
             
-            if (cbxCircuitConfig.Text == "Í¼A")
+            if (cbxCircuitConfig.Text == "å›¾A")
             {
                 SchematicA();
             }
-            else if (cbxCircuitConfig.Text == "Í¼B")
+            else if (cbxCircuitConfig.Text == "å›¾B")
             {
                 SchematicB();
             }
-            else if (cbxCircuitConfig.Text == "Í¼C")
+            else if (cbxCircuitConfig.Text == "å›¾C")
             {
                 SchematicC();
             }
-            else if (cbxCircuitConfig.Text == "Í¼D")
+            else if (cbxCircuitConfig.Text == "å›¾D")
             {
                 SchematicD();
             }
@@ -503,7 +503,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// ÊÔÑé·ÖÖ§¡ª¡ªÌ¼»¯ÊÔÆ·
+        /// è¯•éªŒåˆ†æ”¯â€”â€”ç¢³åŒ–è¯•å“
         /// </summary>
         private void CarbonationTest()
         {
@@ -522,26 +522,26 @@ namespace KARO_AFDD
                 DO_Click(1, 3);     //S109 S110
             } while ((int)DI_Check(1) == 3);
 
-            if (cbxCircuitConfig.Text == "Í¼A")
+            if (cbxCircuitConfig.Text == "å›¾A")
             {
                 SchematicA();
             }
-            else if (cbxCircuitConfig.Text == "Í¼B")
+            else if (cbxCircuitConfig.Text == "å›¾B")
             {
                 SchematicB();
             }
-            else if (cbxCircuitConfig.Text == "Í¼C")
+            else if (cbxCircuitConfig.Text == "å›¾C")
             {
                 SchematicC();
             }
-            else if (cbxCircuitConfig.Text == "Í¼D")
+            else if (cbxCircuitConfig.Text == "å›¾D")
             {
                 SchematicD();
             }
         }
 
         /// <summary>
-        /// µçÂ·Í¼A
+        /// ç”µè·¯å›¾A
         /// </summary>
         private void SchematicA()
         {
@@ -550,11 +550,11 @@ namespace KARO_AFDD
                 DO_Click(10, 128);    //S508
             } while ((int)DI_Check(10) == 128);
 
-            if (cbxArcGear.Text == "µç»¡·¢ÉúÆ÷")
+            if (cbxArcGear.Text == "ç”µå¼§å‘ç”Ÿå™¨")
             {
                 Sampling_A();
             }
-            else if (cbxArcGear.Text == "Ì¼»¯µçÀÂÊÔÆ·")
+            else if (cbxArcGear.Text == "ç¢³åŒ–ç”µç¼†è¯•å“")
             {
                 Sampling_B();
             }
@@ -562,7 +562,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// µçÂ·Í¼B
+        /// ç”µè·¯å›¾B
         /// </summary>
         private void SchematicB()
         {
@@ -581,18 +581,18 @@ namespace KARO_AFDD
                 DO_Click(4, 7);     //S317 S318 S319
             } while ((int)DI_Check(4) == 7);
 
-            if (cbxArcGear.Text == "µç»¡·¢ÉúÆ÷")
+            if (cbxArcGear.Text == "ç”µå¼§å‘ç”Ÿå™¨")
             {
                 Sampling_A();
             }
-            else if (cbxArcGear.Text == "Ì¼»¯µçÀÂÊÔÆ·")
+            else if (cbxArcGear.Text == "ç¢³åŒ–ç”µç¼†è¯•å“")
             {
                 Sampling_B();
             }
         }
 
         /// <summary>
-        /// µçÂ·Í¼C
+        /// ç”µè·¯å›¾C
         /// </summary>
         private void SchematicC()
         {
@@ -611,18 +611,18 @@ namespace KARO_AFDD
                 DO_Click(4, 7);     //S317 S318 S319
             } while ((int)DI_Check(4) == 7);
 
-            if (cbxArcGear.Text == "µç»¡·¢ÉúÆ÷")
+            if (cbxArcGear.Text == "ç”µå¼§å‘ç”Ÿå™¨")
             {
                 Sampling_A();
             }
-            else if (cbxArcGear.Text == "Ì¼»¯µçÀÂÊÔÆ·")
+            else if (cbxArcGear.Text == "ç¢³åŒ–ç”µç¼†è¯•å“")
             {
                 Sampling_B();
             }
         }
 
         /// <summary>
-        /// µçÂ·Í¼D
+        /// ç”µè·¯å›¾D
         /// </summary>
         private void SchematicD()
         {
@@ -641,18 +641,18 @@ namespace KARO_AFDD
                 DO_Click(4, 7);     //S317 S318 S319
             } while ((int)DI_Check(4) == 7);
 
-            if (cbxArcGear.Text == "µç»¡·¢ÉúÆ÷")
+            if (cbxArcGear.Text == "ç”µå¼§å‘ç”Ÿå™¨")
             {
                 Sampling_A();
             }
-            else if (cbxArcGear.Text == "Ì¼»¯µçÀÂÊÔÆ·")
+            else if (cbxArcGear.Text == "ç¢³åŒ–ç”µç¼†è¯•å“")
             {
                 Sampling_B();
             }
         }
 
         /// <summary>
-        /// ÊÔÑé²ÉÑù(µç»¡·¢ÉúÆ÷)
+        /// è¯•éªŒé‡‡æ ·(ç”µå¼§å‘ç”Ÿå™¨)
         /// </summary>
         private void Sampling_A()
         {
@@ -664,7 +664,7 @@ namespace KARO_AFDD
         }
 
         /// <summary>
-        /// ÊÔÑé²ÉÑù(Ì¼»¯ÊÔÆ·µçÀÂ)
+        /// è¯•éªŒé‡‡æ ·(ç¢³åŒ–è¯•å“ç”µç¼†)
         /// </summary>
         private void Sampling_B()
         {
@@ -740,21 +740,21 @@ namespace KARO_AFDD
 
         private void cbxCircuitConfig_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbxCircuitConfig.Text == "Í¼A")
+            if (cbxCircuitConfig.Text == "å›¾A")
             {
-                picSchematic.Image = global::KARO_AFDD.Properties.Resources.ÆÁ±ÎA;
+                picSchematic.Image = global::KARO_AFDD.Properties.Resources.å±è”½A;
             }
-            else if (cbxCircuitConfig.Text == "Í¼B")
+            else if (cbxCircuitConfig.Text == "å›¾B")
             {
-                picSchematic.Image = global::KARO_AFDD.Properties.Resources.ÆÁ±ÎB;
+                picSchematic.Image = global::KARO_AFDD.Properties.Resources.å±è”½B;
             }
-            else if (cbxCircuitConfig.Text == "Í¼C")
+            else if (cbxCircuitConfig.Text == "å›¾C")
             {
-                picSchematic.Image = global::KARO_AFDD.Properties.Resources.ÆÁ±ÎC;
+                picSchematic.Image = global::KARO_AFDD.Properties.Resources.å±è”½C;
             }
-            else if (cbxCircuitConfig.Text == "Í¼D")
+            else if (cbxCircuitConfig.Text == "å›¾D")
             {
-                picSchematic.Image = global::KARO_AFDD.Properties.Resources.ÆÁ±ÎD;
+                picSchematic.Image = global::KARO_AFDD.Properties.Resources.å±è”½D;
             }
         }
         

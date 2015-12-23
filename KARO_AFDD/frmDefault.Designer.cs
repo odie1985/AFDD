@@ -40,61 +40,61 @@ namespace KARO_AFDD
             // 
             // btnCarbidePath
             // 
-            this.btnCarbidePath.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnCarbidePath.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnCarbidePath.Location = new System.Drawing.Point(216, 326);
             this.btnCarbidePath.Margin = new System.Windows.Forms.Padding(4);
             this.btnCarbidePath.Name = "btnCarbidePath";
             this.btnCarbidePath.Size = new System.Drawing.Size(198, 85);
             this.btnCarbidePath.TabIndex = 0;
-            this.btnCarbidePath.Text = "ÃºªØ¬∑æ∂ ‘—È";
+            this.btnCarbidePath.Text = "Á¢≥ÂåñË∑ØÂæÑËØïÈ™å";
             this.btnCarbidePath.UseVisualStyleBackColor = true;
             this.btnCarbidePath.Click += new System.EventHandler(this.btnCarbidePath_Click);
             // 
             // btnAFDD
             // 
-            this.btnAFDD.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnAFDD.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnAFDD.Location = new System.Drawing.Point(426, 326);
             this.btnAFDD.Margin = new System.Windows.Forms.Padding(4);
             this.btnAFDD.Name = "btnAFDD";
             this.btnAFDD.Size = new System.Drawing.Size(198, 85);
             this.btnAFDD.TabIndex = 1;
-            this.btnAFDD.Text = "AFDD ‘—È";
+            this.btnAFDD.Text = "AFDDËØïÈ™å";
             this.btnAFDD.UseVisualStyleBackColor = true;
             this.btnAFDD.Click += new System.EventHandler(this.btnAFDD_Click);
             // 
             // btnAFD
             // 
-            this.btnAFD.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnAFD.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnAFD.Location = new System.Drawing.Point(636, 326);
             this.btnAFD.Margin = new System.Windows.Forms.Padding(4);
             this.btnAFD.Name = "btnAFD";
             this.btnAFD.Size = new System.Drawing.Size(198, 85);
             this.btnAFD.TabIndex = 2;
-            this.btnAFD.Text = "AFD ‘—È";
+            this.btnAFD.Text = "AFDËØïÈ™å";
             this.btnAFD.UseVisualStyleBackColor = true;
             this.btnAFD.Click += new System.EventHandler(this.btnAFD_Click);
             // 
             // btnManual
             // 
-            this.btnManual.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnManual.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnManual.Location = new System.Drawing.Point(846, 326);
             this.btnManual.Margin = new System.Windows.Forms.Padding(4);
             this.btnManual.Name = "btnManual";
             this.btnManual.Size = new System.Drawing.Size(198, 85);
             this.btnManual.TabIndex = 3;
-            this.btnManual.Text = " ÷∂Ø≤Ÿ◊˜";
+            this.btnManual.Text = "ÊâãÂä®Êìç‰Ωú";
             this.btnManual.UseVisualStyleBackColor = true;
             this.btnManual.Click += new System.EventHandler(this.btnManual_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(446, 98);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(368, 75);
             this.label1.TabIndex = 6;
-            this.label1.Text = "π ’œµÁª° ‘—È";
+            this.label1.Text = "ÊïÖÈöúÁîµÂºßËØïÈ™å";
             // 
             // pictureBox1
             // 
@@ -118,7 +118,7 @@ namespace KARO_AFDD
             this.Controls.Add(this.btnAFD);
             this.Controls.Add(this.btnAFDD);
             this.Controls.Add(this.btnCarbidePath);
-            this.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximumSize = new System.Drawing.Size(1260, 736);

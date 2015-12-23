@@ -8,7 +8,7 @@ namespace KARO_AFDD
     static class Program
     {
         /// <summary>
-        /// Ó¦ÓÃ³ÌĞòµÄÖ÷Èë¿Úµã¡£
+        /// åº”ç”¨ç¨‹åºçš„ä¸»å…¥å£ç‚¹ã€‚
         /// </summary>
         [STAThread]
         static void Main()

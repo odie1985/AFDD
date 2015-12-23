@@ -67,7 +67,7 @@ namespace KARO_AFDD
             // label_YCoordinateMin
             // 
             this.label_YCoordinateMin.BackColor = System.Drawing.SystemColors.Control;
-            this.label_YCoordinateMin.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_YCoordinateMin.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_YCoordinateMin.Location = new System.Drawing.Point(5, 336);
             this.label_YCoordinateMin.Name = "label_YCoordinateMin";
             this.label_YCoordinateMin.Size = new System.Drawing.Size(53, 23);
@@ -78,7 +78,7 @@ namespace KARO_AFDD
             // label_YCoordinateMiddle
             // 
             this.label_YCoordinateMiddle.BackColor = System.Drawing.SystemColors.Control;
-            this.label_YCoordinateMiddle.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_YCoordinateMiddle.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_YCoordinateMiddle.Location = new System.Drawing.Point(7, 181);
             this.label_YCoordinateMiddle.Name = "label_YCoordinateMiddle";
             this.label_YCoordinateMiddle.Size = new System.Drawing.Size(53, 23);
@@ -89,7 +89,7 @@ namespace KARO_AFDD
             // label_YCoordinateMax
             // 
             this.label_YCoordinateMax.BackColor = System.Drawing.SystemColors.Control;
-            this.label_YCoordinateMax.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_YCoordinateMax.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_YCoordinateMax.Location = new System.Drawing.Point(6, 13);
             this.label_YCoordinateMax.Name = "label_YCoordinateMax";
             this.label_YCoordinateMax.Size = new System.Drawing.Size(53, 23);
@@ -101,7 +101,7 @@ namespace KARO_AFDD
             // 
             this.label_XCoordinateMax.AutoSize = true;
             this.label_XCoordinateMax.BackColor = System.Drawing.SystemColors.Control;
-            this.label_XCoordinateMax.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_XCoordinateMax.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_XCoordinateMax.Location = new System.Drawing.Point(669, 358);
             this.label_XCoordinateMax.Name = "label_XCoordinateMax";
             this.label_XCoordinateMax.Size = new System.Drawing.Size(52, 20);
@@ -112,7 +112,7 @@ namespace KARO_AFDD
             // 
             this.label_XCoordinateMin.AutoSize = true;
             this.label_XCoordinateMin.BackColor = System.Drawing.SystemColors.Control;
-            this.label_XCoordinateMin.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_XCoordinateMin.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_XCoordinateMin.Location = new System.Drawing.Point(61, 358);
             this.label_XCoordinateMin.Name = "label_XCoordinateMin";
             this.label_XCoordinateMin.Size = new System.Drawing.Size(44, 20);
@@ -123,7 +123,7 @@ namespace KARO_AFDD
             // 
             this.label_divide.AutoSize = true;
             this.label_divide.BackColor = System.Drawing.SystemColors.Control;
-            this.label_divide.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_divide.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_divide.Location = new System.Drawing.Point(520, 447);
             this.label_divide.Name = "label_divide";
             this.label_divide.Size = new System.Drawing.Size(28, 20);
@@ -133,7 +133,7 @@ namespace KARO_AFDD
             // button_getData
             // 
             this.button_getData.CausesValidation = false;
-            this.button_getData.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button_getData.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button_getData.Location = new System.Drawing.Point(634, 484);
             this.button_getData.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button_getData.Name = "button_getData";
@@ -147,7 +147,7 @@ namespace KARO_AFDD
             // 
             this.label_shift.AutoSize = true;
             this.label_shift.BackColor = System.Drawing.SystemColors.Control;
-            this.label_shift.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_shift.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_shift.Location = new System.Drawing.Point(180, 447);
             this.label_shift.Name = "label_shift";
             this.label_shift.Size = new System.Drawing.Size(28, 20);
@@ -184,7 +184,7 @@ namespace KARO_AFDD
             // 
             // textBox_div
             // 
-            this.textBox_div.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_div.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_div.Location = new System.Drawing.Point(437, 446);
             this.textBox_div.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_div.Name = "textBox_div";
@@ -196,7 +196,7 @@ namespace KARO_AFDD
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Control;
-            this.label3.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(397, 448);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 20);
@@ -205,7 +205,7 @@ namespace KARO_AFDD
             // 
             // textBox_shift
             // 
-            this.textBox_shift.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_shift.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_shift.Location = new System.Drawing.Point(98, 445);
             this.textBox_shift.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox_shift.Name = "textBox_shift";
@@ -218,7 +218,7 @@ namespace KARO_AFDD
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Control;
-            this.label2.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(49, 448);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 20);
@@ -229,7 +229,7 @@ namespace KARO_AFDD
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Control;
-            this.label1.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(61, 406);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(130, 20);
@@ -254,7 +254,7 @@ namespace KARO_AFDD
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("΢���ź�", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox1.Location = new System.Drawing.Point(98, 484);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";

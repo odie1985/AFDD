@@ -53,37 +53,37 @@ namespace KARO_AFDD
             // 
             // btn12kV
             // 
-            this.btn12kV.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn12kV.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn12kV.Location = new System.Drawing.Point(111, 204);
             this.btn12kV.Margin = new System.Windows.Forms.Padding(4);
             this.btn12kV.Name = "btn12kV";
             this.btn12kV.Size = new System.Drawing.Size(198, 85);
             this.btn12kV.TabIndex = 0;
-            this.btn12kV.Text = "12kVÕ®µÁ";
+            this.btn12kV.Text = "12kVÈÄöÁîµ";
             this.btn12kV.UseVisualStyleBackColor = true;
             this.btn12kV.Click += new System.EventHandler(this.btn12kV_Click);
             // 
             // btn2kV
             // 
-            this.btn2kV.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn2kV.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn2kV.Location = new System.Drawing.Point(111, 332);
             this.btn2kV.Margin = new System.Windows.Forms.Padding(4);
             this.btn2kV.Name = "btn2kV";
             this.btn2kV.Size = new System.Drawing.Size(198, 85);
             this.btn2kV.TabIndex = 1;
-            this.btn2kV.Text = "2kVÕ®µÁ";
+            this.btn2kV.Text = "2kVÈÄöÁîµ";
             this.btn2kV.UseVisualStyleBackColor = true;
             this.btn2kV.Click += new System.EventHandler(this.btn2kV_Click);
             // 
             // btnLamp
             // 
-            this.btnLamp.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnLamp.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnLamp.Location = new System.Drawing.Point(111, 460);
             this.btnLamp.Margin = new System.Windows.Forms.Padding(4);
             this.btnLamp.Name = "btnLamp";
             this.btnLamp.Size = new System.Drawing.Size(198, 85);
             this.btnLamp.TabIndex = 2;
-            this.btnLamp.Text = "∞◊≥„µ∆≤‚ ‘";
+            this.btnLamp.Text = "ÁôΩÁÇΩÁÅØÊµãËØï";
             this.btnLamp.UseVisualStyleBackColor = true;
             this.btnLamp.Click += new System.EventHandler(this.btnLamp_Click);
             // 
@@ -93,19 +93,19 @@ namespace KARO_AFDD
             this.btnReturnMain.Name = "btnReturnMain";
             this.btnReturnMain.Size = new System.Drawing.Size(141, 41);
             this.btnReturnMain.TabIndex = 3;
-            this.btnReturnMain.Text = "∑µªÿ÷˜≤Àµ•";
+            this.btnReturnMain.Text = "ËøîÂõû‰∏ªËèúÂçï";
             this.btnReturnMain.UseVisualStyleBackColor = true;
             this.btnReturnMain.Click += new System.EventHandler(this.btnReturnMain_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(446, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(368, 75);
             this.label1.TabIndex = 4;
-            this.label1.Text = "ÃºªØ¬∑æ∂ ‘—È";
+            this.label1.Text = "Á¢≥ÂåñË∑ØÂæÑËØïÈ™å";
             // 
             // pictureBox1
             // 
@@ -118,71 +118,71 @@ namespace KARO_AFDD
             // 
             // btnExhaustFan
             // 
-            this.btnExhaustFan.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnExhaustFan.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnExhaustFan.Location = new System.Drawing.Point(374, 460);
             this.btnExhaustFan.Name = "btnExhaustFan";
             this.btnExhaustFan.Size = new System.Drawing.Size(198, 85);
             this.btnExhaustFan.TabIndex = 67;
-            this.btnExhaustFan.Text = "≈≈∆¯…»";
+            this.btnExhaustFan.Text = "ÊéíÊ∞îÊâá";
             this.btnExhaustFan.UseVisualStyleBackColor = true;
             this.btnExhaustFan.Click += new System.EventHandler(this.btnExhaustFan_Click);
             // 
             // btnQuit
             // 
-            this.btnQuit.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnQuit.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnQuit.Location = new System.Drawing.Point(643, 588);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(198, 85);
             this.btnQuit.TabIndex = 66;
-            this.btnQuit.Text = "ÕÀ≥ˆ ‘—È";
+            this.btnQuit.Text = "ÈÄÄÂá∫ËØïÈ™å";
             this.btnQuit.UseVisualStyleBackColor = true;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // btnPause
             // 
-            this.btnPause.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnPause.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnPause.Location = new System.Drawing.Point(374, 588);
             this.btnPause.Name = "btnPause";
             this.btnPause.Size = new System.Drawing.Size(198, 85);
             this.btnPause.TabIndex = 65;
-            this.btnPause.Text = "Õ£÷π ‘—È";
+            this.btnPause.Text = "ÂÅúÊ≠¢ËØïÈ™å";
             this.btnPause.UseVisualStyleBackColor = true;
             this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
             // 
             // btnStart
             // 
-            this.btnStart.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnStart.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnStart.Location = new System.Drawing.Point(111, 588);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(198, 85);
             this.btnStart.TabIndex = 64;
-            this.btnStart.Text = "ø™ º ‘—È";
+            this.btnStart.Text = "ÂºÄÂßãËØïÈ™å";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(368, 258);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 31);
             this.label2.TabIndex = 68;
-            this.label2.Text = "…Ë÷√ ±º‰t1";
+            this.label2.Text = "ËÆæÁΩÆÊó∂Èó¥t1";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(368, 332);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(133, 31);
             this.label3.TabIndex = 69;
-            this.label3.Text = "…Ë÷√ ±º‰t2";
+            this.label3.Text = "ËÆæÁΩÆÊó∂Èó¥t2";
             // 
             // txtT1
             // 
-            this.txtT1.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txtT1.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtT1.Location = new System.Drawing.Point(557, 255);
             this.txtT1.Name = "txtT1";
             this.txtT1.Size = new System.Drawing.Size(155, 39);
@@ -192,7 +192,7 @@ namespace KARO_AFDD
             // 
             // txtT2
             // 
-            this.txtT2.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txtT2.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtT2.Location = new System.Drawing.Point(557, 329);
             this.txtT2.Name = "txtT2";
             this.txtT2.Size = new System.Drawing.Size(155, 39);
@@ -203,7 +203,7 @@ namespace KARO_AFDD
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.Location = new System.Drawing.Point(730, 258);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(25, 31);
@@ -213,7 +213,7 @@ namespace KARO_AFDD
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.Location = new System.Drawing.Point(730, 332);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(25, 31);
@@ -251,7 +251,7 @@ namespace KARO_AFDD
             this.Controls.Add(this.btnLamp);
             this.Controls.Add(this.btn2kV);
             this.Controls.Add(this.btn12kV);
-            this.Font = new System.Drawing.Font("Œ¢»Ì—≈∫⁄", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("ÂæÆËΩØÈõÖÈªë", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximumSize = new System.Drawing.Size(1260, 736);

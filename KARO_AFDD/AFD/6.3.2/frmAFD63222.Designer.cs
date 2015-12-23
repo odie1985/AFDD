@@ -1,4 +1,4 @@
-﻿namespace KARO_AFDD
+namespace KARO_AFDD
 {
     partial class frmAFD63222
     {

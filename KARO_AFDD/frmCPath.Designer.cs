@@ -64,7 +64,7 @@ namespace KARO_AFDD
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label24.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label24.Location = new System.Drawing.Point(157, 184);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(46, 21);
@@ -74,7 +74,7 @@ namespace KARO_AFDD
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label23.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label23.Location = new System.Drawing.Point(213, 184);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(46, 21);
@@ -84,7 +84,7 @@ namespace KARO_AFDD
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label22.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label22.Location = new System.Drawing.Point(269, 184);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(46, 21);
@@ -94,7 +94,7 @@ namespace KARO_AFDD
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label21.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label21.Location = new System.Drawing.Point(325, 184);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(46, 21);
@@ -104,7 +104,7 @@ namespace KARO_AFDD
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Î¢ÈíÑÅºÚ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label20.Font = new System.Drawing.Font("å¾®è½¯é›…é»‘", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label20.Location = new System.Drawing.Point(381, 184);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(46, 21);
@@ -169,7 +169,7 @@ namespace KARO_AFDD
             this.MaximumSize = new System.Drawing.Size(600, 480);
             this.MinimumSize = new System.Drawing.Size(600, 480);
             this.Name = "frmCPath";
-            this.Text = "Ì¼»¯Â·¾¶";
+            this.Text = "ç¢³åŒ–è·¯å¾„";
             this.Load += new System.EventHandler(this.frmCPath_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DO02)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DO01)).EndInit();

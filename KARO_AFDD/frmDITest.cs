@@ -75,13 +75,13 @@ namespace KARO_AFDD
        {
           // read Di port state
           byte portData = 0;
-          //ErrorCode ¶¨ÒåËùÓĞ¿ÉÄÜµÄ´íÎó´úÂë¡£
+          //ErrorCode å®šä¹‰æ‰€æœ‰å¯èƒ½çš„é”™è¯¯ä»£ç ã€‚
           ErrorCode err = ErrorCode.Success;
 
-          //PortCount»ñÈ¡¿ÉÓÃµÄÊı×ÖÁ¿ÊäÈë¶Ë¿Ú»òÊı×ÖÁ¿Êä³ö¶Ë¿ÚµÄ×Ü¸öÊı¡£
+          //PortCountè·å–å¯ç”¨çš„æ•°å­—é‡è¾“å…¥ç«¯å£æˆ–æ•°å­—é‡è¾“å‡ºç«¯å£çš„æ€»ä¸ªæ•°ã€‚
           for (int i = 0; (i + m_startPort) < instantDiCtrl1.Features.PortCount && i < m_portCountShow; ++i)
           {
-             //¶ÁÈ¡Ö¸¶¨DI¶Ë¿ÚµÄÊı¾İ¡£  
+             //è¯»å–æŒ‡å®šDIç«¯å£çš„æ•°æ®ã€‚  
              //public ErrorCode Read(int port, out byte data)
              err = instantDiCtrl1.Read(i + m_startPort, out portData);
              if (err != ErrorCode.Success)

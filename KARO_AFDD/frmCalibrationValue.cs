@@ -31,7 +31,7 @@ namespace KARO_AFDD
         ErrorCode errorCode = ErrorCode.Success;
         #endregion
 
-        // º¯Êı y * 1024 = (kx + b) * 1024
+        // å‡½æ•° y * 1024 = (kx + b) * 1024
         private class Fun
         {
             public double x1 = 0;
@@ -84,7 +84,7 @@ namespace KARO_AFDD
             }
             catch (System.Exception)
             {
-                MessageBox.Show("´íÎó£ºµçÁ÷ÊäÈë´íÎó!");
+                MessageBox.Show("é”™è¯¯ï¼šç”µæµè¾“å…¥é”™è¯¯!");
                 return;
             }
 
@@ -131,7 +131,7 @@ namespace KARO_AFDD
             }
             catch (System.Exception)
             {
-                MessageBox.Show("´íÎó£ºµçÁ÷ÊäÈë´íÎó!");
+                MessageBox.Show("é”™è¯¯ï¼šç”µæµè¾“å…¥é”™è¯¯!");
                 return;
             }
 
@@ -216,7 +216,7 @@ namespace KARO_AFDD
         private void setKB()
         {
 
-            lblbStep5.Text = "ÕıÔÚÉèÖÃ...";
+            lblbStep5.Text = "æ­£åœ¨è®¾ç½®...";
 
             if (chkA.Checked)
             {
@@ -284,8 +284,8 @@ namespace KARO_AFDD
 
                 if (err == 0)
                 {
-                    lblbStep5.Text = "Ğ£×¼Íê³É.";
-                    btnStep5.Text = "¹Ø±Õ";
+                    lblbStep5.Text = "æ ¡å‡†å®Œæˆ.";
+                    btnStep5.Text = "å…³é—­";
                     retry = false;
                     return;
                 }
@@ -293,15 +293,15 @@ namespace KARO_AFDD
 
             retry = true;
 
-            lblbStep5.Text = "ÉèÖÃÊ§°Ü£¬ÇëÖØÊÔ!";
-            btnStep5.Text = "ÖØÊÔ";
+            lblbStep5.Text = "è®¾ç½®å¤±è´¥ï¼Œè¯·é‡è¯•!";
+            btnStep5.Text = "é‡è¯•";
         }
 
         private void calcKB(ref Fun f)
         {
             if (Math.Abs(f.x2 - f.x1) <= 30)
             {
-                throw new Exception("´íÎó£ºÁ½´Î²ÉÑùÖµ²îĞ¡ÓÚ30£¡");
+                throw new Exception("é”™è¯¯ï¼šä¸¤æ¬¡é‡‡æ ·å€¼å·®å°äº30ï¼");
             }
 
             f.k = (f.y2 - f.y1) / (f.x2 - f.x1);
