@@ -8,36 +8,36 @@ namespace Devices.MCCB
 {
     public class FactorySet
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         public event AsyncCallback GetCallBack;
 
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨äº‹ä»¶
         /// </summary>
         public event GetSetRegisterAsyncHandler GetRegisterAsync;
         public event GetSetRegisterHandler GetRegister;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
 
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
         #endregion
 
-        #region ¹«ÓĞ·½·¨
+        #region å…¬æœ‰æ–¹æ³•
         /// <summary>
-        /// ´ÓÉè±¸¶ÁÈ¡²ÎÊı
+        /// ä»è®¾å¤‡è¯»å–å‚æ•°
         /// </summary>
         public void GetRegistersAsync(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Òì²½¶ÁÈ¡ÔËĞĞ²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("å¼‚æ­¥è¯»å–è¿è¡Œå‚æ•°"); }
 
             if (GetRegisterAsync != null)
             {
@@ -54,7 +54,7 @@ namespace Devices.MCCB
 
         public void GetRegisters(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Í¬²½¶ÁÈ¡ÔËĞĞ²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("åŒæ­¥è¯»å–è¿è¡Œå‚æ•°"); }
 
             if (GetRegister != null)
             {
@@ -70,25 +70,25 @@ namespace Devices.MCCB
         }
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
 
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
 
-        #region modbus ¼Ä´æÆ÷¶¨Òå
+        #region modbus å¯„å­˜å™¨å®šä¹‰
         private enum MBREG : ushort
         {
 
         }
         #endregion
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(RunValue));
 
         /// <summary>
-        /// ²âÁ¿²ÎÊı
+        /// æµ‹é‡å‚æ•°
         /// </summary>
         //private DeviceCache _cache_run_value
         //    = new DeviceCache(MBREG.Address_Run_Value_End - MBREG.Address_Run_Value_Start + 1);

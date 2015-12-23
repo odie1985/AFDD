@@ -11,13 +11,13 @@ using log4net;
 namespace Devices.AFDD
 {
     /// <summary>
-    /// ¶ÁĞ´¼Ä´æÆ÷·½·¨Î¯ÍĞÀàĞÍ
+    /// è¯»å†™å¯„å­˜å™¨æ–¹æ³•å§”æ‰˜ç±»å‹
     /// </summary>
     public delegate void GetSetRegisterAsyncHandler(ushort start_ad, ushort nums, ushort[] buf, int timeout, AsyncCallback callback, object @object);
     public delegate void GetSetRegisterHandler(ushort start_ad, ushort nums, ushort[] buf, int timeout);
 
     /// <summary>
-    /// Éè±¸ÃüÁî·¢³öºóµÈ´ı×ÜÏß¿ÕÏĞµÄ³¬Ê±Ê±¼ä
+    /// è®¾å¤‡å‘½ä»¤å‘å‡ºåç­‰å¾…æ€»çº¿ç©ºé—²çš„è¶…æ—¶æ—¶é—´
     /// </summary>
     public enum Timeout
     {
@@ -29,33 +29,33 @@ namespace Devices.AFDD
 
     public class AFDD:Common.BaseDevice
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
 
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶ÁĞ´¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å†™å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         //public event AsyncCallback SetCallBack;
         //public event AsyncCallback GetCallBack;
 
         /// <summary>
-        /// Éè±¸Í¨Ñ¶ÊÂ¼ş
+        /// è®¾å¤‡é€šè®¯äº‹ä»¶
         /// </summary> 
         public event DeviceEventHandler Online;
         public event DeviceEventHandler Offline;
 
         /// <summary>
-        /// ¹©UIÊ¹ÓÃ£¬»ñµÃSet²Ù×÷½á¹û
-        /// ÓÉÓÚGet²Ù×÷¶¼ÎªÄÚ²¿²Ù×÷£¬¹Ê²»Ìá¹©¸øUIÊ¹ÓÃ
+        /// ä¾›UIä½¿ç”¨ï¼Œè·å¾—Setæ“ä½œç»“æœ
+        /// ç”±äºGetæ“ä½œéƒ½ä¸ºå†…éƒ¨æ“ä½œï¼Œæ•…ä¸æä¾›ç»™UIä½¿ç”¨
         /// </summary>
         public event DeviceEventHandler SetResult;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
         /// <summary>
-        /// ²âÁ¿²ÎÊı
+        /// æµ‹é‡å‚æ•°
         /// </summary>
         public RunValue RunValues
         {
@@ -66,7 +66,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¼àÊÓ²ÎÊı
+        /// ç›‘è§†å‚æ•°
         /// </summary>
         public MonitorValue MonitorValues
         {
@@ -77,7 +77,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¿ØÖÆ²ÎÊı
+        /// æ§åˆ¶å‚æ•°
         /// </summary>
         public ControlSet ControlSets
         {
@@ -88,7 +88,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Õï¶Ï²ÎÊı
+        /// è¯Šæ–­å‚æ•°
         /// </summary>
         public DiagnosisValue DiagnosisValues
         {
@@ -98,7 +98,7 @@ namespace Devices.AFDD
             }
         }
         /// <summary>
-        /// ±£»¤²ÎÊı
+        /// ä¿æŠ¤å‚æ•°
         /// </summary>
         public ProtectSet ProtectSets
         {
@@ -109,7 +109,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÖØºÏÕ¢²ÎÊı
+        /// é‡åˆé—¸å‚æ•°
         /// </summary>
         public ReclosingSet ReclosingSets
         {
@@ -119,8 +119,8 @@ namespace Devices.AFDD
             }
         }
 
-        /// <summary>¡£
-        /// ÏµÍ³²ÎÊı
+        /// <summary>ã€‚
+        /// ç³»ç»Ÿå‚æ•°
         /// </summary>
         public SystemSet SystemSets
         {
@@ -131,7 +131,7 @@ namespace Devices.AFDD
         }
         
         /// <summary>
-        /// Ê¶±ğ²ÎÊı
+        /// è¯†åˆ«å‚æ•°
         /// </summary>
         public IdentityValue IdentityValues
         {
@@ -142,7 +142,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ³ö³§ĞŞÕı²ÎÊı
+        /// å‡ºå‚ä¿®æ­£å‚æ•°
         /// </summary>
         public CalibrationValue CalibrationValues
         {
@@ -153,7 +153,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Âö³å²ÎÊı
+        /// è„‰å†²å‚æ•°
         /// </summary>
         public PulseValues PulseValues
         {
@@ -164,7 +164,7 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
         public AFDD(byte index, BaseLine line)
             : base(index, "CKM55LC_M")
         {
@@ -186,7 +186,7 @@ namespace Devices.AFDD
                 _modbus.Send += new IOEventHandler(cl.Send);
                 _modbus.Receive += new IOEventHandler(cl.Receive);
 
-                if (Log.IsDebugEnabled) { Log.DebugFormat("³õÊ¼»¯CKM55LC_M[{0}]°ó¶¨ComLine[{1}]", index, cl.Name); }
+                if (Log.IsDebugEnabled) { Log.DebugFormat("åˆå§‹åŒ–CKM55LC_M[{0}]ç»‘å®šComLine[{1}]", index, cl.Name); }
             }
             else if (str == "Lines.Ethernet.NetLine")
             {
@@ -197,11 +197,11 @@ namespace Devices.AFDD
                 throw new Exception("unsupported Line type:" + str);
             }
 
-            //Òì²½²Ù×÷Handler¶ÔÏó³õÊ¼»¯
+            //å¼‚æ­¥æ“ä½œHandlerå¯¹è±¡åˆå§‹åŒ–
             _SetRegisterHandle = new GetSetRegisterHandler(SetRegister);
             _GetRegisterHandle = new GetSetRegisterHandler(GetRegister);
 
-            //¸÷Àà¼Ä´æÆ÷¶ÔÏó³õÊ¼»¯
+            //å„ç±»å¯„å­˜å™¨å¯¹è±¡åˆå§‹åŒ–
             _RunValues = new RunValue();
             _RunValues.GetRegister += new GetSetRegisterHandler(GetRegister);
             _RunValues.GetRegisterAsync += new GetSetRegisterAsyncHandler(GetRegisterAsync);
@@ -252,10 +252,10 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ¹«ÓĞ·½·¨
+        #region å…¬æœ‰æ–¹æ³•
         /// <summary>
-        /// Òì²½¶ÁÈ¡ËùÓĞ¼Ä´æÆ÷
-        /// Ä¬ÈÏÎŞµÈ´ı×ÜÏß³¬Ê±Ê±¼ä
+        /// å¼‚æ­¥è¯»å–æ‰€æœ‰å¯„å­˜å™¨
+        /// é»˜è®¤æ— ç­‰å¾…æ€»çº¿è¶…æ—¶æ—¶é—´
         /// </summary>
         public void GetAllRegistersAsync()
         {
@@ -263,17 +263,17 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Òì²½¶ÁÈ¡ËùÓĞ¼Ä´æÆ÷
+        /// å¼‚æ­¥è¯»å–æ‰€æœ‰å¯„å­˜å™¨
         /// </summary>
-        /// <param name="timeout">µÈ´ı×ÜÏß³¬Ê±Ê±¼ä£¨ms£©</param>
+        /// <param name="timeout">ç­‰å¾…æ€»çº¿è¶…æ—¶æ—¶é—´ï¼ˆmsï¼‰</param>
         public void GetAllRegistersAsync(Timeout timeout)
         {
             GetAllRegistersAsync((int)timeout);
         }
 
         /// <summary>
-        /// Í¬²½¶ÁÈ¡ËùÓĞ¼Ä´æÆ÷
-        /// Ä¬ÈÏÎŞµÈ´ı×ÜÏß³¬Ê±Ê±¼ä
+        /// åŒæ­¥è¯»å–æ‰€æœ‰å¯„å­˜å™¨
+        /// é»˜è®¤æ— ç­‰å¾…æ€»çº¿è¶…æ—¶æ—¶é—´
         /// </summary>
         public void GetAllRegisters()
         {
@@ -281,29 +281,29 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Í¬²½¶ÁÈ¡ËùÓĞ¼Ä´æÆ÷
+        /// åŒæ­¥è¯»å–æ‰€æœ‰å¯„å­˜å™¨
         /// </summary>
-        /// <param name="timeout">µÈ´ı×ÜÏß³¬Ê±Ê±¼ä£¨ms£©</param>
+        /// <param name="timeout">ç­‰å¾…æ€»çº¿è¶…æ—¶æ—¶é—´ï¼ˆmsï¼‰</param>
         public void GetAllRegisters(Timeout timeout)
         {
             GetAllRegisters((int)timeout);
         }
 
         /// <summary>
-        /// Ìá¹©¸øÏßÂ·¶¨Ê±Ë¢ĞÂµÄ´¦Àíº¯Êı
+        /// æä¾›ç»™çº¿è·¯å®šæ—¶åˆ·æ–°çš„å¤„ç†å‡½æ•°
         /// </summary>
         public void PeriodRefresh(object sender, ElapsedEventArgs e)
         {
-            // Ö»ÊµÊ±Ë¢ĞÂÔËĞĞ²ÎÊıºÍ¼àÊÓ²ÎÊı
+            // åªå®æ—¶åˆ·æ–°è¿è¡Œå‚æ•°å’Œç›‘è§†å‚æ•°
             _RunValues.GetRegistersAsync((int)Timeout.Short);
             _MonitorValues.GetRegistersAsync((int)Timeout.Short);
             //_DiagnosisValues.GetCounterRegistersAsync((int)Timeout.Short);
-            // ¼àÊÓ²ÎÊıÓ¦µ±ÓĞ»Øµ÷´¦Àí¸÷ÖÖÊÂ¼ş**********************************************
+            // ç›‘è§†å‚æ•°åº”å½“æœ‰å›è°ƒå¤„ç†å„ç§äº‹ä»¶**********************************************
 
         }
 
         /// <summary>
-        /// Ìá¹©¸øÏßÂ·¶¨Ê±Ë¢ĞÂµÄ´¦Àíº¯Êı
+        /// æä¾›ç»™çº¿è·¯å®šæ—¶åˆ·æ–°çš„å¤„ç†å‡½æ•°
         /// </summary>
         public void FactoryRefresh(object sender, ElapsedEventArgs e)
         {
@@ -318,15 +318,15 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
         /// <summary>
-        /// Òì²½¶ÁÈ¡ËùÓĞ¼Ä´æÆ÷
+        /// å¼‚æ­¥è¯»å–æ‰€æœ‰å¯„å­˜å™¨
         /// </summary>
         private void GetAllRegistersAsync(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.DebugFormat("Òì²½¶ÁÈ¡[{0}]ËùÓĞ¼Ä´æÆ÷,Timeout[{1}]", this.Index, timeout); }
+            if (Log.IsDebugEnabled) { Log.DebugFormat("å¼‚æ­¥è¯»å–[{0}]æ‰€æœ‰å¯„å­˜å™¨,Timeout[{1}]", this.Index, timeout); }
 
-            // ¶ÁÈ¡ËùÓĞ¼Ä´æÆ÷£¨Òì²½·½·¨£©
+            // è¯»å–æ‰€æœ‰å¯„å­˜å™¨ï¼ˆå¼‚æ­¥æ–¹æ³•ï¼‰
             _RunValues.GetRegistersAsync(timeout);
             _MonitorValues.GetRegistersAsync(timeout);
             _DiagnosisValues.GetRegistersAsync(timeout);
@@ -339,13 +339,13 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Í¬²½¶ÁÈ¡ËùÓĞ¼Ä´æÆ÷
+        /// åŒæ­¥è¯»å–æ‰€æœ‰å¯„å­˜å™¨
         /// </summary>
         private void GetAllRegisters(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.DebugFormat("Í¬²½¶ÁÈ¡[{0}]ËùÓĞ¼Ä´æÆ÷,Timeout[{1}]", this.Index, timeout); }
+            if (Log.IsDebugEnabled) { Log.DebugFormat("åŒæ­¥è¯»å–[{0}]æ‰€æœ‰å¯„å­˜å™¨,Timeout[{1}]", this.Index, timeout); }
 
-            // ¶ÁÈ¡ËùÓĞ¼Ä´æÆ÷£¨Í¬²½·½·¨£©
+            // è¯»å–æ‰€æœ‰å¯„å­˜å™¨ï¼ˆåŒæ­¥æ–¹æ³•ï¼‰
             _RunValues.GetRegisters(timeout);
             _MonitorValues.GetRegisters(timeout);
             _DiagnosisValues.GetRegisters(timeout);
@@ -357,9 +357,9 @@ namespace Devices.AFDD
             _PulseValues.GetRegisters(timeout);
         }
 
-        #region ¶ÁĞ´¼Ä´æÆ÷Òì²½·½·¨
+        #region è¯»å†™å¯„å­˜å™¨å¼‚æ­¥æ–¹æ³•
         /// <summary>
-        /// ÉèÖÃ¼Ä´æÆ÷
+        /// è®¾ç½®å¯„å­˜å™¨
         /// </summary>
         private void SetRegisterAsync(ushort start_ad, ushort nums, ushort[] buf, int timeout, AsyncCallback callback, object @object)
         {
@@ -367,7 +367,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÉèÖÃ¼Ä´æÆ÷
+        /// è®¾ç½®å¯„å­˜å™¨
         /// </summary>
         private void GetRegisterAsync(ushort start_ad, ushort nums, ushort[] buf, int timeout, AsyncCallback callback, object @object)
         {
@@ -375,9 +375,9 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ¶ÁĞ´¼Ä´æÆ÷Í¬²½·½·¨
+        #region è¯»å†™å¯„å­˜å™¨åŒæ­¥æ–¹æ³•
         /// <summary>
-        /// ÉèÖÃ¼Ä´æÆ÷
+        /// è®¾ç½®å¯„å­˜å™¨
         /// </summary>
         private void SetRegister(ushort start_ad, ushort nums, ushort[] buf, int timeout)
         {
@@ -393,7 +393,7 @@ namespace Devices.AFDD
                 {
                     if (IsOffline == true)
                     {
-                        // ÖØÊÔ0´Î
+                        // é‡è¯•0æ¬¡
                         _modbus.WriteRegs(0, timeout);
 
                         if (IsOffline == true)
@@ -415,7 +415,7 @@ namespace Devices.AFDD
                     }
                     else
                     {
-                        // ÖØÊÔ0´Î
+                        // é‡è¯•0æ¬¡
                         _modbus.WriteRegs(0, timeout);
                         Status = "SetRegister successful";
                         IsSetSuccess = true;
@@ -423,7 +423,7 @@ namespace Devices.AFDD
 
                     if (SetResult != null)
                     {
-                        SetResult(this, "¼Ä´æÆ÷ÉèÖÃ³É¹¦");
+                        SetResult(this, "å¯„å­˜å™¨è®¾ç½®æˆåŠŸ");
                     }
                 }
                 catch (System.Exception ex)
@@ -435,7 +435,7 @@ namespace Devices.AFDD
 
                     if (SetResult != null)
                     {
-                        SetResult(this, "¼Ä´æÆ÷ÉèÖÃÊ§°Ü");
+                        SetResult(this, "å¯„å­˜å™¨è®¾ç½®å¤±è´¥");
                     }
 
                     if (Log.IsDebugEnabled) { Log.DebugFormat("Device:[{0}]" + Status + " - " + ex.Message, this.Index); }
@@ -459,7 +459,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¶ÁÈ¡¼Ä´æÆ÷
+        /// è¯»å–å¯„å­˜å™¨
         /// </summary>
         private void GetRegister(ushort start_ad, ushort nums, ushort[] buf, int timeout)
         {
@@ -475,7 +475,7 @@ namespace Devices.AFDD
                 {
                     if (IsOffline == true)
                     {
-                        // ÖØÊÔ0´Î
+                        // é‡è¯•0æ¬¡
                         _modbus.ReadRegs(0, timeout);
 
                         if (IsOffline == true)
@@ -497,7 +497,7 @@ namespace Devices.AFDD
                     }
                     else
                     {
-                        // ÖØÊÔ0´Î
+                        // é‡è¯•0æ¬¡
                         _modbus.ReadRegs(0, timeout);
                         Status = "GetRegister successful";
                         IsGetSuccess = true;
@@ -533,75 +533,75 @@ namespace Devices.AFDD
 
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(AFDD));
 
         /// <summary>
-        /// ¶ÁĞ´¼Ä´æÆ÷·½·¨Î¯ÍĞ
+        /// è¯»å†™å¯„å­˜å™¨æ–¹æ³•å§”æ‰˜
         /// </summary>
         private GetSetRegisterHandler _SetRegisterHandle;
         private GetSetRegisterHandler _GetRegisterHandle;
 
         /// <summary>
-        /// modbus¶ÔÏó
+        /// modbuså¯¹è±¡
         /// </summary>
         private Modbus _modbus;
 
         /// <summary>
-        /// ²âÁ¿²ÎÊı
+        /// æµ‹é‡å‚æ•°
         /// </summary>
         private RunValue _RunValues;
 
         /// <summary>
-        /// ¼àÊÓ²ÎÊı
+        /// ç›‘è§†å‚æ•°
         /// </summary>
         private MonitorValue _MonitorValues;
 
         /// <summary>
-        /// ¿ØÖÆ²ÎÊı
+        /// æ§åˆ¶å‚æ•°
         /// </summary>
         private ControlSet _ControlSets;
 
         /// <summary>
-        /// Õï¶Ï²ÎÊı
+        /// è¯Šæ–­å‚æ•°
         /// </summary>
         private DiagnosisValue _DiagnosisValues;
 
         /// <summary>
-        /// ±£»¤²ÎÊı
+        /// ä¿æŠ¤å‚æ•°
         /// </summary>
         private ProtectSet _ProtectSets;
 
         /// <summary>
-        /// ÖØºÏÕ¢²ÎÊı
+        /// é‡åˆé—¸å‚æ•°
         /// </summary>
         private ReclosingSet _ReclosingSets;
         
         /// <summary>
-        /// ÏµÍ³²ÎÊı
+        /// ç³»ç»Ÿå‚æ•°
         /// </summary>
         private SystemSet _SystemSets;
 
         /// <summary>
-        /// Ê¶±ğĞÅÏ¢
+        /// è¯†åˆ«ä¿¡æ¯
         /// </summary>
         private IdentityValue _IdentityValues;
 
         /// <summary>
-        /// ³ö³§ĞŞÕı²ÎÊı
+        /// å‡ºå‚ä¿®æ­£å‚æ•°
         /// </summary>
         private CalibrationValue _CalibrationValues;
 
         /// <summary>
-        /// Âö³å²ÎÊı
+        /// è„‰å†²å‚æ•°
         /// </summary>
         private PulseValues _PulseValues;
 
         /// <summary>
-        /// ÅÅËüËø
+        /// æ’å®ƒé”
         /// </summary>
         private object _lock;
         #endregion

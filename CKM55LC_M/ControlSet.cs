@@ -8,38 +8,38 @@ using log4net;
 namespace Devices.AFDD
 {
     /// <summary>
-    /// ¿ØÖÆ²ÎÊıÀà
+    /// æ§åˆ¶å‚æ•°ç±»
     /// </summary>
     public class ControlSet
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
 
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         public event AsyncCallback SetCallBack;
 
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨äº‹ä»¶
         /// </summary>
         public event GetSetRegisterAsyncHandler SetRegisterAsync;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
 
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
 
         #endregion
 
-        #region ¹«ÓĞ·½·¨
-        #region Âí´ï¿ØÖÆ²ÎÊı(·½·¨)
+        #region å…¬æœ‰æ–¹æ³•
+        #region é©¬è¾¾æ§åˆ¶å‚æ•°(æ–¹æ³•)
         /// <summary>
-        /// ºÏÕ¢
+        /// åˆé—¸
         /// </summary>
         public void Open(AsyncCallback callback)
         {
@@ -49,7 +49,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ·ÖÕ¢
+        /// åˆ†é—¸
         /// </summary>
         public void Close(AsyncCallback callback)
         {
@@ -59,7 +59,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¸´Î»
+        /// å¤ä½
         /// </summary>
         public void Reset(AsyncCallback callback)
         {
@@ -69,7 +69,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÊÔÑé
+        /// è¯•éªŒ
         /// </summary>
         public void Test(AsyncCallback callback)
         {
@@ -79,7 +79,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Çå³ıÈÈÈİ
+        /// æ¸…é™¤çƒ­å®¹
         /// </summary>
         public void ResetQ(AsyncCallback callback)
         {
@@ -89,7 +89,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÊÖ¶¯Êä³ö
+        /// æ‰‹åŠ¨è¾“å‡º
         /// </summary>
         public void Output(AsyncCallback callback)
         {
@@ -99,7 +99,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Í£Ö¹Êä³ö
+        /// åœæ­¢è¾“å‡º
         /// </summary>
         public void Stop(AsyncCallback callback)
         {
@@ -109,7 +109,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ç°½øµã¶¯
+        /// å‰è¿›ç‚¹åŠ¨
         /// </summary>
         public void Forward(AsyncCallback callback)
         {
@@ -119,7 +119,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ºóÍËµã¶¯
+        /// åé€€ç‚¹åŠ¨
         /// </summary>
         public void Backward(AsyncCallback callback)
         {
@@ -129,7 +129,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×Ô¶¯³ÌĞò
+        /// è‡ªåŠ¨ç¨‹åº
         /// </summary>
         public void Auto(AsyncCallback callback)
         {
@@ -141,13 +141,13 @@ namespace Devices.AFDD
 
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
         /// <summary>
-        /// Ğ´¼Ä´æÆ÷£¨Òì²½£©
+        /// å†™å¯„å­˜å™¨ï¼ˆå¼‚æ­¥ï¼‰
         /// </summary>
         private void pSetRegisterAsync(ushort start_ad, ushort nums, ushort[] buf, AsyncCallback callback, object @object)
         {
-            if (Log.IsDebugEnabled) { Log.DebugFormat("Òì²½Ğ´Èë¿ØÖÆ²ÎÊı({0})=[{1}]", start_ad, buf[0]); }
+            if (Log.IsDebugEnabled) { Log.DebugFormat("å¼‚æ­¥å†™å…¥æ§åˆ¶å‚æ•°({0})=[{1}]", start_ad, buf[0]); }
 
             if (SetRegisterAsync != null)
             {
@@ -163,11 +163,11 @@ namespace Devices.AFDD
 
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
 
-        #region modbus ¼Ä´æÆ÷¶¨Òå
+        #region modbus å¯„å­˜å™¨å®šä¹‰
         /// <summary>
-        /// modbus ¼Ä´æÆ÷¶¨Òå
+        /// modbus å¯„å­˜å™¨å®šä¹‰
         /// </summary>
         private enum MBREG : ushort
         {
@@ -179,12 +179,12 @@ namespace Devices.AFDD
         }
         #endregion
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(ControlSet));
 
         /// <summary>
-        /// ¿ØÖÆ²ÎÊı
+        /// æ§åˆ¶å‚æ•°
         /// </summary>
         private DeviceCache _cache_control_value
             = new DeviceCache(MBREG.Address_Control_Value_End - MBREG.Address_Control_Value_Start + 1);

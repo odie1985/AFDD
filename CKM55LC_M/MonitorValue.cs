@@ -8,13 +8,13 @@ using log4net;
 namespace Devices.AFDD
 {
     /// <summary>
-    /// ¼àÊÓ²ÎÊıÀà
+    /// ç›‘è§†å‚æ•°ç±»
     /// </summary>
     public class MonitorValue
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
         /// <summary>
-        /// ×ÛºÏ×´Ì¬
+        /// ç»¼åˆçŠ¶æ€
         /// </summary>
         public enum GENSTATUS
         {
@@ -32,7 +32,7 @@ namespace Devices.AFDD
         };
 
         /// <summary>
-        /// ¹ÊÕÏ×´Ì¬
+        /// æ•…éšœçŠ¶æ€
         /// </summary>
         public enum FAULTSTATUS
         {
@@ -52,7 +52,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÏàÎ»Ö¸Ê¾
+        /// ç›¸ä½æŒ‡ç¤º
         /// </summary>
         public enum PHASEINDIC
         {
@@ -63,22 +63,22 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         public event AsyncCallback GetCallBack;
 
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨äº‹ä»¶
         /// </summary>
         public event GetSetRegisterAsyncHandler GetRegisterAsync;
         public event GetSetRegisterHandler GetRegister;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
         /// <summary>
-        /// Ö÷´¥Í·×´Ì¬
+        /// ä¸»è§¦å¤´çŠ¶æ€
         /// </summary>
         public byte Status_MC
         {
@@ -91,7 +91,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// DO×´Ì¬
+        /// DOçŠ¶æ€
         /// </summary>
         public byte Status_DO
         {
@@ -105,7 +105,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×ÛºÏ×´Ì¬
+        /// ç»¼åˆçŠ¶æ€
         /// </summary>
         public List<GENSTATUS> Status_General
         {
@@ -119,7 +119,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¹ÊÕÏ×´Ì¬
+        /// æ•…éšœçŠ¶æ€
         /// </summary>
         public List<FAULTSTATUS> Status_Fault
         {
@@ -133,7 +133,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÏàÎ»Ö¸Ê¾
+        /// ç›¸ä½æŒ‡ç¤º
         /// </summary>
         public List<PHASEINDIC> Phase_Indicator
         {
@@ -147,17 +147,17 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
 
         #endregion
 
-        #region ¹«ÓĞ·½·¨
+        #region å…¬æœ‰æ–¹æ³•
         /// <summary>
-        /// ´ÓÉè±¸¶ÁÈ¡²ÎÊı
+        /// ä»è®¾å¤‡è¯»å–å‚æ•°
         /// </summary>
         public void GetRegistersAsync(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Òì²½¶ÁÈ¡¼àÊÓ²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("å¼‚æ­¥è¯»å–ç›‘è§†å‚æ•°"); }
 
             if (GetRegisterAsync != null)
             {
@@ -174,7 +174,7 @@ namespace Devices.AFDD
 
         public void GetRegisters(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Í¬²½¶ÁÈ¡¼àÊÓ²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("åŒæ­¥è¯»å–ç›‘è§†å‚æ•°"); }
 
             if (GetRegister != null)
             {
@@ -190,15 +190,15 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
 
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
 
-        #region modbus ¼Ä´æÆ÷¶¨Òå
+        #region modbus å¯„å­˜å™¨å®šä¹‰
         /// <summary>
-        /// modbus ¼Ä´æÆ÷¶¨Òå
+        /// modbus å¯„å­˜å™¨å®šä¹‰
         /// </summary>
         private enum MBREG : ushort
         {
@@ -213,12 +213,12 @@ namespace Devices.AFDD
         }
         #endregion
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(MonitorValue));
 
         /// <summary>
-        /// ¼àÊÓ²ÎÊı
+        /// ç›‘è§†å‚æ•°
         /// </summary>
         private DeviceCache _cache_monitor_value
                             = new DeviceCache(MBREG.Address_Monitor_Value_End - MBREG.Address_Monitor_Value_Start + 1);

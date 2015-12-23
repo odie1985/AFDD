@@ -9,19 +9,19 @@ namespace Devices.AFDD
 {
     public class PulseValues
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
 
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         public event AsyncCallback GetCallBack;
         public event AsyncCallback SetCallBack;
 
         /// <summary>
-        /// ¶ÁÈ¡¼Ä´æÆ÷ÊÂ¼ş
+        /// è¯»å–å¯„å­˜å™¨äº‹ä»¶
         /// </summary>
         public event GetSetRegisterAsyncHandler GetRegisterAsync;
         public event GetSetRegisterAsyncHandler SetRegisterAsync;
@@ -29,9 +29,9 @@ namespace Devices.AFDD
         public event GetSetRegisterHandler SetRegister;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
         /// <summary>
-        /// ÊÖ¶¯Êä³öÆµÂÊ£¨Hz£©
+        /// æ‰‹åŠ¨è¾“å‡ºé¢‘ç‡ï¼ˆHzï¼‰
         /// </summary>
         public ushort Manual_Output_Frequency
         {
@@ -49,7 +49,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÊÖ¶¯Êä³ö¸öÊı
+        /// æ‰‹åŠ¨è¾“å‡ºä¸ªæ•°
         /// </summary>
         public ushort Manual_Output_Count
         {
@@ -70,7 +70,7 @@ namespace Devices.AFDD
 
 
         /// <summary>
-        /// ÊÖ¶¯Êä³öÊ±¼ä£¨s£©
+        /// æ‰‹åŠ¨è¾“å‡ºæ—¶é—´ï¼ˆsï¼‰
         /// </summary>
         public ushort Manual_Output_Time
         {
@@ -88,7 +88,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÊÖ¶¯Êä³ö·½Ïò
+        /// æ‰‹åŠ¨è¾“å‡ºæ–¹å‘
         /// </summary>
         public ushort Manual_Output_Direction
         {
@@ -104,7 +104,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÊÖ¶¯Ã¿´Î°´ÏÂÂö³å¸öÊı£¨µã¶¯£©
+        /// æ‰‹åŠ¨æ¯æ¬¡æŒ‰ä¸‹è„‰å†²ä¸ªæ•°ï¼ˆç‚¹åŠ¨ï¼‰
         /// </summary>
         public ushort Manual_Point_Press_Pulse
         {
@@ -120,7 +120,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×Ô¶¯Êä³öÇ°½ø½×¶ÎÒ»ÆµÂÊ£¨Hz£©
+        /// è‡ªåŠ¨è¾“å‡ºå‰è¿›é˜¶æ®µä¸€é¢‘ç‡ï¼ˆHzï¼‰
         /// </summary>
         public ushort Auto_Output_Forward_Step_1_Frequency
         {
@@ -138,7 +138,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×Ô¶¯Êä³öÇ°½ø½×¶ÎÒ»¸öÊı
+        /// è‡ªåŠ¨è¾“å‡ºå‰è¿›é˜¶æ®µä¸€ä¸ªæ•°
         /// </summary>
         public ushort Auto_Output_Forward_Step_1_Count
         {
@@ -154,7 +154,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×Ô¶¯Êä³öÇ°½ø½×¶Î¶şÆµÂÊ£¨Hz£©
+        /// è‡ªåŠ¨è¾“å‡ºå‰è¿›é˜¶æ®µäºŒé¢‘ç‡ï¼ˆHzï¼‰
         /// </summary>
         public ushort Auto_Output_Forward_Step_2_Frequency
         {
@@ -172,7 +172,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×Ô¶¯Êä³öÇ°½ø½×¶Î¶ş¸öÊı
+        /// è‡ªåŠ¨è¾“å‡ºå‰è¿›é˜¶æ®µäºŒä¸ªæ•°
         /// </summary>
         public ushort Auto_Output_Forward_Step_2_Count
         {
@@ -188,7 +188,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×Ô¶¯Êä³öÇ°½ø½×¶ÎÈıÆµÂÊ£¨Hz£©
+        /// è‡ªåŠ¨è¾“å‡ºå‰è¿›é˜¶æ®µä¸‰é¢‘ç‡ï¼ˆHzï¼‰
         /// </summary>
         public ushort Auto_Output_Forward_Step_3_Frequency
         {
@@ -206,7 +206,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×Ô¶¯Êä³öÇ°½ø½×¶ÎÈı¸öÊı
+        /// è‡ªåŠ¨è¾“å‡ºå‰è¿›é˜¶æ®µä¸‰ä¸ªæ•°
         /// </summary>
         public ushort Auto_Output_Forward_Step_3_Count
         {
@@ -222,7 +222,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×Ô¶¯Êä³ö·µ»Ø½×¶ÎÆµÂÊ
+        /// è‡ªåŠ¨è¾“å‡ºè¿”å›é˜¶æ®µé¢‘ç‡
         /// </summary>
         public ushort Auto_Output_Return_Frequency
         {
@@ -240,7 +240,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×Ô¶¯Êä³ö·µ»Ø½×¶ÎÈı¸öÊı
+        /// è‡ªåŠ¨è¾“å‡ºè¿”å›é˜¶æ®µä¸‰ä¸ªæ•°
         /// </summary>
         public ushort Auto_Output_Return_Step_3_Count
         {
@@ -256,7 +256,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×Ô¶¯·µ»ØÇ°¼ì²âµ½µçÁ÷³ÖĞøÊ±¼ä
+        /// è‡ªåŠ¨è¿”å›å‰æ£€æµ‹åˆ°ç”µæµæŒç»­æ—¶é—´
         /// </summary>
         public ushort Detection_Current_Before_Return_Time
         {
@@ -274,20 +274,20 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
         public PulseValues()
         {
             SetCallBack += new AsyncCallback(pSetCallBack);
         }
         #endregion
 
-        #region ¹«ÓĞ·½·¨
+        #region å…¬æœ‰æ–¹æ³•
         /// <summary>
-        /// ´ÓÉè±¸¶ÁÈ¡²ÎÊı
+        /// ä»è®¾å¤‡è¯»å–å‚æ•°
         /// </summary>
         public void GetRegistersAsync(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Òì²½¶ÁÈ¡ÔËĞĞ²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("å¼‚æ­¥è¯»å–è¿è¡Œå‚æ•°"); }
 
             if (GetRegisterAsync != null)
             {
@@ -304,7 +304,7 @@ namespace Devices.AFDD
 
         public void GetRegisters(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Í¬²½¶ÁÈ¡ÔËĞĞ²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("åŒæ­¥è¯»å–è¿è¡Œå‚æ•°"); }
 
             if (GetRegister != null)
             {
@@ -320,13 +320,13 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
         /// <summary>
-        /// Ğ´¼Ä´æÆ÷£¨Òì²½£©
+        /// å†™å¯„å­˜å™¨ï¼ˆå¼‚æ­¥ï¼‰
         /// </summary>
         private void pSetRegisterAsync(ushort start_ad, ushort nums, ushort[] buf)
         {
-            if (Log.IsDebugEnabled) { Log.DebugFormat("Òì²½Ğ´Èë±£»¤²ÎÊı({0})=[{1}]", start_ad, buf[0]); }
+            if (Log.IsDebugEnabled) { Log.DebugFormat("å¼‚æ­¥å†™å…¥ä¿æŠ¤å‚æ•°({0})=[{1}]", start_ad, buf[0]); }
 
             if (SetRegisterAsync != null)
             {
@@ -341,7 +341,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÉèÖÃ¼Ä´æÆ÷»Øµ÷º¯Êı£¬ÓÃÓÚ¶Á»Ø¼Ä´æÆ÷Öµ
+        /// è®¾ç½®å¯„å­˜å™¨å›è°ƒå‡½æ•°ï¼Œç”¨äºè¯»å›å¯„å­˜å™¨å€¼
         /// </summary>
         private void pSetCallBack(IAsyncResult ar)
         {
@@ -349,9 +349,9 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
 
-        #region modbus ¼Ä´æÆ÷¶¨Òå
+        #region modbus å¯„å­˜å™¨å®šä¹‰
         private enum MBREG : ushort
         {
             Address_Pulse_Value_Start = 0xC8,
@@ -376,12 +376,12 @@ namespace Devices.AFDD
         }
         #endregion
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(RunValue));
 
         /// <summary>
-        /// ²âÁ¿²ÎÊı
+        /// æµ‹é‡å‚æ•°
         /// </summary>
         private DeviceCache _cache_pulse_value
             = new DeviceCache(MBREG.Address_Pulse_Value_End - MBREG.Address_Pulse_Value_Start + 1);

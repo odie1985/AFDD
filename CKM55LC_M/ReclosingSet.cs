@@ -8,27 +8,27 @@ namespace Devices.AFDD
 {
     public class ReclosingSet
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         public event AsyncCallback GetCallBack;
         public event AsyncCallback SetCallBack;
 
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨äº‹ä»¶
         /// </summary>
         public event GetSetRegisterAsyncHandler GetRegisterAsync;
         public event GetSetRegisterHandler GetRegister;
         public event GetSetRegisterAsyncHandler SetRegisterAsync;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
         /// <summary>
-        /// ÖØºÏÕ¢Ê¹ÄÜ
+        /// é‡åˆé—¸ä½¿èƒ½
         /// </summary>
         public List<string> Reclosing_Enable
         {
@@ -48,7 +48,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ê£ÓàµçÁ÷ÖØºÏÕ¢ÑÓÊ±£¨s£©
+        /// å‰©ä½™ç”µæµé‡åˆé—¸å»¶æ—¶ï¼ˆsï¼‰
         /// </summary>
         public ushort Residual_Reclosing_Delay
         {
@@ -64,7 +64,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ê£ÓàµçÁ÷30min±ÕËø´ÎÊı
+        /// å‰©ä½™ç”µæµ30miné—­é”æ¬¡æ•°
         /// </summary>
         public ushort Residual_30min_Lock
         {
@@ -80,7 +80,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¹ıÑ¹ÖØºÏÕ¢µçÑ¹Öµ£¨V£©
+        /// è¿‡å‹é‡åˆé—¸ç”µå‹å€¼ï¼ˆVï¼‰
         /// </summary>
         public ushort OverVoltage_Reclosing_Level
         {
@@ -96,7 +96,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¹ıÑ¹ÖØºÏÕ¢ÑÓÊ±£¨s£©
+        /// è¿‡å‹é‡åˆé—¸å»¶æ—¶ï¼ˆsï¼‰
         /// </summary>
         public ushort OverVoltage_Reclosing_Delay
         {
@@ -112,7 +112,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ç·Ñ¹ÖØºÏÕ¢µçÑ¹Öµ£¨V£©
+        /// æ¬ å‹é‡åˆé—¸ç”µå‹å€¼ï¼ˆVï¼‰
         /// </summary>
         public ushort UnderVoltage_Reclosing_Level
         {
@@ -128,7 +128,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ç·Ñ¹ÖØºÏÕ¢ÑÓÊ±£¨s£©
+        /// æ¬ å‹é‡åˆé—¸å»¶æ—¶ï¼ˆsï¼‰
         /// </summary>
         public ushort UnderVoltage_Reclosing_Delay
         {
@@ -145,16 +145,16 @@ namespace Devices.AFDD
 
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
         #endregion
 
-        #region ¹«ÓĞ·½·¨
+        #region å…¬æœ‰æ–¹æ³•
         /// <summary>
-        /// ´ÓÉè±¸¶ÁÈ¡²ÎÊı
+        /// ä»è®¾å¤‡è¯»å–å‚æ•°
         /// </summary>
         public void GetRegistersAsync(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Òì²½¶ÁÈ¡ÔËĞĞ²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("å¼‚æ­¥è¯»å–è¿è¡Œå‚æ•°"); }
 
             if (GetRegisterAsync != null)
             {
@@ -171,7 +171,7 @@ namespace Devices.AFDD
 
         public void GetRegisters(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Í¬²½¶ÁÈ¡ÔËĞĞ²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("åŒæ­¥è¯»å–è¿è¡Œå‚æ•°"); }
 
             if (GetRegister != null)
             {
@@ -187,12 +187,12 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
         private void pSetRegisterAsync(ushort start_ad, ushort nums, ushort[] buf)
         {
             if (Log.IsDebugEnabled)
             {
-                Log.DebugFormat("Òì²½Ğ´ÈëÖØºÏÕ¢²ÎÊı({0})=({1})", start_ad, buf[0]);
+                Log.DebugFormat("å¼‚æ­¥å†™å…¥é‡åˆé—¸å‚æ•°({0})=({1})", start_ad, buf[0]);
             }
 
             if (SetRegisterAsync != null)
@@ -208,9 +208,9 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
 
-        #region modbus ¼Ä´æÆ÷¶¨Òå
+        #region modbus å¯„å­˜å™¨å®šä¹‰
         private enum MBREG : ushort
         {
             Address_Reclosing_Set_Start = 0x46,
@@ -228,12 +228,12 @@ namespace Devices.AFDD
         }
         #endregion
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(ReclosingSet));
 
         /// <summary>
-        /// ²âÁ¿²ÎÊı
+        /// æµ‹é‡å‚æ•°
         /// </summary>
         private DeviceCache _cache_reclosing_set
             = new DeviceCache(MBREG.Address_Reclosing_Set_End - MBREG.Address_Reclosing_Set_Start + 1);

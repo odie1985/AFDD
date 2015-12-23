@@ -8,23 +8,23 @@ using log4net;
 namespace Devices.AFDD
 {
     /// <summary>
-    /// ³ö³§ĞŞÕı²ÎÊıÀà
+    /// å‡ºå‚ä¿®æ­£å‚æ•°ç±»
     /// </summary>
     public class CalibrationValue
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
 
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶ÁĞ´¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å†™å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         public event AsyncCallback GetCallBack;
         public event AsyncCallback SetCallBack;
 
         /// <summary>
-        /// ¶ÁĞ´¼Ä´æÆ÷ÊÂ¼ş
+        /// è¯»å†™å¯„å­˜å™¨äº‹ä»¶
         /// </summary>
         public event GetSetRegisterAsyncHandler GetRegisterAsync;
         public event GetSetRegisterAsyncHandler SetRegisterAsync;
@@ -32,9 +32,9 @@ namespace Devices.AFDD
         public event GetSetRegisterHandler SetRegister;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
         /// <summary>
-        /// ¶ÌÂ·µçÁ÷ÏµÊı
+        /// çŸ­è·¯ç”µæµç³»æ•°
         /// </summary>
         public short Short_Multiple
         {
@@ -52,7 +52,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ê£ÓàµçÁ÷ÏµÊıK
+        /// å‰©ä½™ç”µæµç³»æ•°K
         /// </summary>
         public short Residual_K
         {
@@ -70,7 +70,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ê£ÓàµçÁ÷ÏµÊıB
+        /// å‰©ä½™ç”µæµç³»æ•°B
         /// </summary>
         public short Residual_B
         {
@@ -88,7 +88,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// AÏàµçÁ÷ÏµÊıK
+        /// Aç›¸ç”µæµç³»æ•°K
         /// </summary>
         public short CurrentA_K
         {
@@ -106,7 +106,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// AÏàµçÁ÷ÏµÊıB
+        /// Aç›¸ç”µæµç³»æ•°B
         /// </summary>
         public short CurrentA_B
         {
@@ -124,7 +124,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// BÏàµçÁ÷ÏµÊıK
+        /// Bç›¸ç”µæµç³»æ•°K
         /// </summary>
         public short CurrentB_K
         {
@@ -142,7 +142,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// BÏàµçÁ÷ÏµÊıB
+        /// Bç›¸ç”µæµç³»æ•°B
         /// </summary>
         public short CurrentB_B
         {
@@ -160,7 +160,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// CÏàµçÁ÷ÏµÊıK
+        /// Cç›¸ç”µæµç³»æ•°K
         /// </summary>
         public short CurrentC_K
         {
@@ -178,7 +178,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// CÏàµçÁ÷ÏµÊıB
+        /// Cç›¸ç”µæµç³»æ•°B
         /// </summary>
         public short CurrentC_B
         {
@@ -196,7 +196,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// AÏàµçÑ¹ÏµÊıK
+        /// Aç›¸ç”µå‹ç³»æ•°K
         /// </summary>
         public short VoltageA_K
         {
@@ -214,7 +214,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// AÏàµçÑ¹ÏµÊıB
+        /// Aç›¸ç”µå‹ç³»æ•°B
         /// </summary>
         public short VoltageA_B
         {
@@ -232,7 +232,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// BÏàµçÑ¹ÏµÊıK
+        /// Bç›¸ç”µå‹ç³»æ•°K
         /// </summary>
         public short VoltageB_K
         {
@@ -250,7 +250,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// BÏàµçÑ¹ÏµÊıB
+        /// Bç›¸ç”µå‹ç³»æ•°B
         /// </summary>
         public short VoltageB_B
         {
@@ -268,7 +268,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// CÏàµçÑ¹ÏµÊıK
+        /// Cç›¸ç”µå‹ç³»æ•°K
         /// </summary>
         public short VoltageC_K
         {
@@ -286,7 +286,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// CÏàµçÑ¹ÏµÊıB
+        /// Cç›¸ç”µå‹ç³»æ•°B
         /// </summary>
         public short VoltageC_B
         {
@@ -304,7 +304,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ×î´óºÏÕ¢Ê±¼ä£¨s£©
+        /// æœ€å¤§åˆé—¸æ—¶é—´ï¼ˆsï¼‰
         /// </summary>
         public float Largest_Closing_Time
         {
@@ -322,7 +322,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ºÏÕ¢µç»úÑÓÊ±
+        /// åˆé—¸ç”µæœºå»¶æ—¶
         /// </summary>
         public float Closing_Delay
         {
@@ -341,7 +341,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¹Ø±ÕĞ£×¼¹¦ÄÜ
+        /// å…³é—­æ ¡å‡†åŠŸèƒ½
         /// </summary>
         public ushort Calibration_Disable
         {
@@ -359,7 +359,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¼¤»îÂë
+        /// æ¿€æ´»ç 
         /// </summary>
         public ushort License
         {
@@ -373,7 +373,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// AÏàµçÁ÷²ÉÑùRMSÖµ
+        /// Aç›¸ç”µæµé‡‡æ ·RMSå€¼
         /// </summary>
         public ushort Smp_CurrentA
         {
@@ -384,7 +384,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// BÏàµçÁ÷²ÉÑùRMSÖµ
+        /// Bç›¸ç”µæµé‡‡æ ·RMSå€¼
         /// </summary>
         public ushort Smp_CurrentB
         {
@@ -395,7 +395,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// CÏàµçÁ÷²ÉÑùRMSÖµ
+        /// Cç›¸ç”µæµé‡‡æ ·RMSå€¼
         /// </summary>
         public ushort Smp_CurrentC
         {
@@ -406,7 +406,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ê£ÓàµçÁ÷²ÉÑùRMSÖµ
+        /// å‰©ä½™ç”µæµé‡‡æ ·RMSå€¼
         /// </summary>
         public ushort Smp_Residual
         {
@@ -417,7 +417,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// AÏàµçÑ¹²ÉÑùRMSÖµ
+        /// Aç›¸ç”µå‹é‡‡æ ·RMSå€¼
         /// </summary>
         public ushort Smp_VoltageA
         {
@@ -428,7 +428,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// BÏàµçÑ¹²ÉÑùRMSÖµ
+        /// Bç›¸ç”µå‹é‡‡æ ·RMSå€¼
         /// </summary>
         public ushort Smp_VoltageB
         {
@@ -439,7 +439,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// CÏàµçÑ¹²ÉÑùRMSÖµ
+        /// Cç›¸ç”µå‹é‡‡æ ·RMSå€¼
         /// </summary>
         public ushort Smp_VoltageC
         {
@@ -451,20 +451,20 @@ namespace Devices.AFDD
 
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
         public CalibrationValue()
         {
             SetCallBack += new AsyncCallback(pSetCallBack);
         }
         #endregion
 
-        #region ¹«ÓĞ·½·¨
+        #region å…¬æœ‰æ–¹æ³•
         /// <summary>
-        /// ´ÓÉè±¸¶ÁÈ¡²ÎÊı
+        /// ä»è®¾å¤‡è¯»å–å‚æ•°
         /// </summary>
         public void GetRegistersAsync(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Òì²½¶ÁÈ¡³ö³§²ÎÊı,²ÉÑùÖµRMSÖµ"); }
+            if (Log.IsDebugEnabled) { Log.Debug("å¼‚æ­¥è¯»å–å‡ºå‚å‚æ•°,é‡‡æ ·å€¼RMSå€¼"); }
 
             if (GetRegisterAsync != null)
             {
@@ -481,7 +481,7 @@ namespace Devices.AFDD
 
         public void GetRegisters(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Í¬²½¶ÁÈ¡³ö³§²ÎÊı,²ÉÑùÖµRMSÖµ"); }
+            if (Log.IsDebugEnabled) { Log.Debug("åŒæ­¥è¯»å–å‡ºå‚å‚æ•°,é‡‡æ ·å€¼RMSå€¼"); }
 
             if (GetRegister != null)
             {
@@ -498,13 +498,13 @@ namespace Devices.AFDD
 
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
         /// <summary>
-        /// Ğ´¼Ä´æÆ÷£¨Òì²½£©
+        /// å†™å¯„å­˜å™¨ï¼ˆå¼‚æ­¥ï¼‰
         /// </summary>
         private void pSetRegisterAsync(ushort start_ad, ushort nums, ushort[] buf)
         {
-            if (Log.IsDebugEnabled) { Log.DebugFormat("Òì²½Ğ´Èë³ö³§²ÎÊı({0})=[{1}]", start_ad, buf[0]); }
+            if (Log.IsDebugEnabled) { Log.DebugFormat("å¼‚æ­¥å†™å…¥å‡ºå‚å‚æ•°({0})=[{1}]", start_ad, buf[0]); }
 
             if (SetRegisterAsync != null)
             {
@@ -519,11 +519,11 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ğ´¼Ä´æÆ÷£¨Í¬²½£©
+        /// å†™å¯„å­˜å™¨ï¼ˆåŒæ­¥ï¼‰
         /// </summary>
         private void pSetRegister(ushort start_ad, ushort nums, ushort[] buf)
         {
-            if (Log.IsDebugEnabled) { Log.DebugFormat("Í¬²½Ğ´ÈëĞ£×¼²ÎÊı({0})=[{1}]", start_ad, buf[0]); }
+            if (Log.IsDebugEnabled) { Log.DebugFormat("åŒæ­¥å†™å…¥æ ¡å‡†å‚æ•°({0})=[{1}]", start_ad, buf[0]); }
 
             if (SetRegister != null)
             {
@@ -538,7 +538,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÉèÖÃ¼Ä´æÆ÷»Øµ÷º¯Êı£¬ÓÃÓÚ¶Á»Ø¼Ä´æÆ÷Öµ
+        /// è®¾ç½®å¯„å­˜å™¨å›è°ƒå‡½æ•°ï¼Œç”¨äºè¯»å›å¯„å­˜å™¨å€¼
         /// </summary>
         private void pSetCallBack(IAsyncResult ar)
         {
@@ -546,9 +546,9 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
 
-        #region modbus ¼Ä´æÆ÷¶¨Òå
+        #region modbus å¯„å­˜å™¨å®šä¹‰
         private enum MBREG : ushort
         {
             Super_Write = 0xFE,
@@ -592,12 +592,12 @@ namespace Devices.AFDD
         }
         #endregion
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(CalibrationValue));
 
         /// <summary>
-        /// ³ö³§²ÎÊı
+        /// å‡ºå‚å‚æ•°
         /// </summary>
         private DeviceCache _cache_calibration_value
                             = new DeviceCache(MBREG.Address_Calibration_Value_End - MBREG.Address_Calibration_Value_Start + 1);

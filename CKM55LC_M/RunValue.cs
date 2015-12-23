@@ -9,26 +9,26 @@ namespace Devices.AFDD
 {
     public class RunValue
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
 
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         public event AsyncCallback GetCallBack;
 
         /// <summary>
-        /// ¶ÁÈ¡¼Ä´æÆ÷ÊÂ¼ş
+        /// è¯»å–å¯„å­˜å™¨äº‹ä»¶
         /// </summary>
         public event GetSetRegisterAsyncHandler GetRegisterAsync;
         public event GetSetRegisterHandler GetRegister;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
         /// <summary>
-        /// AÏàµçÁ÷£¨A£©
+        /// Aç›¸ç”µæµï¼ˆAï¼‰
         /// </summary>
         public float Current_A
         {
@@ -39,7 +39,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// BÏàµçÁ÷£¨A£©
+        /// Bç›¸ç”µæµï¼ˆAï¼‰
         /// </summary>
         public float Current_B
         {
@@ -50,7 +50,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// CÏàµçÁ÷£¨A£©
+        /// Cç›¸ç”µæµï¼ˆAï¼‰
         /// </summary>
         public float Current_C
         {
@@ -61,7 +61,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ê£ÓàµçÁ÷£¨A£©
+        /// å‰©ä½™ç”µæµï¼ˆAï¼‰
         /// </summary>
         public ushort Current_Residual
         {
@@ -72,7 +72,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// µçÁ÷²»Æ½ºâ¶È£¨%£©
+        /// ç”µæµä¸å¹³è¡¡åº¦ï¼ˆ%ï¼‰
         /// </summary>
         public ushort Ratio_Current_Imbalance
         {
@@ -83,7 +83,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// AÏàµçÑ¹£¨V£©
+        /// Aç›¸ç”µå‹ï¼ˆVï¼‰
         /// </summary>
         public ushort Voltage_A
         {
@@ -94,7 +94,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// BÏàµçÑ¹£¨V£©
+        /// Bç›¸ç”µå‹ï¼ˆVï¼‰
         /// </summary>
         public ushort Voltage_B
         {
@@ -105,7 +105,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// CÏàµçÑ¹£¨V£©
+        /// Cç›¸ç”µå‹ï¼ˆVï¼‰
         /// </summary>
         public ushort Voltage_C
         {
@@ -116,7 +116,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÈÈÈÛ±È£¨¡ë£©
+        /// çƒ­ç†”æ¯”ï¼ˆâ€°ï¼‰
         /// </summary>
         public ushort Ratio_Heat
         {
@@ -127,7 +127,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÄÚ²¿ÎÂ¶È£¨¡æ£©
+        /// å†…éƒ¨æ¸©åº¦ï¼ˆâ„ƒï¼‰
         /// </summary>
         public float Temperature
         {
@@ -139,16 +139,16 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
         #endregion
 
-        #region ¹«ÓĞ·½·¨
+        #region å…¬æœ‰æ–¹æ³•
         /// <summary>
-        /// ´ÓÉè±¸¶ÁÈ¡²ÎÊı
+        /// ä»è®¾å¤‡è¯»å–å‚æ•°
         /// </summary>
         public void GetRegistersAsync(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Òì²½¶ÁÈ¡ÔËĞĞ²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("å¼‚æ­¥è¯»å–è¿è¡Œå‚æ•°"); }
 
             if (GetRegisterAsync != null)
             {
@@ -165,7 +165,7 @@ namespace Devices.AFDD
 
         public void GetRegisters(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Í¬²½¶ÁÈ¡ÔËĞĞ²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("åŒæ­¥è¯»å–è¿è¡Œå‚æ•°"); }
 
             if (GetRegister != null)
             {
@@ -181,13 +181,13 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
 
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
 
-        #region modbus ¼Ä´æÆ÷¶¨Òå
+        #region modbus å¯„å­˜å™¨å®šä¹‰
         private enum MBREG : ushort
         {
             Address_Run_Value_Start=0x0A,
@@ -209,12 +209,12 @@ namespace Devices.AFDD
         }
         #endregion
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(RunValue));
 
         /// <summary>
-        /// ²âÁ¿²ÎÊı
+        /// æµ‹é‡å‚æ•°
         /// </summary>
         private DeviceCache _cache_run_value
             = new DeviceCache(MBREG.Address_Run_Value_End - MBREG.Address_Run_Value_Start + 1);

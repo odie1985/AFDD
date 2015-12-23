@@ -9,27 +9,27 @@ namespace Devices.AFDD
 {
     public class IdentityValue
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶Á¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         public event AsyncCallback GetCallBack;
         public event AsyncCallback SetCallBack;
 
         /// <summary>
-        /// ¶ÁÈ¡¼Ä´æÆ÷ÊÂ¼ş
+        /// è¯»å–å¯„å­˜å™¨äº‹ä»¶
         /// </summary>
         public event GetSetRegisterAsyncHandler GetRegisterAsync;
         public event GetSetRegisterHandler GetRegister;
         public event GetSetRegisterHandler SetRegister;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
         /// <summary>
-        /// ²úÆ·±àºÅ
+        /// äº§å“ç¼–å·
         /// </summary>
         public string Device_ProductNumber
         {
@@ -89,7 +89,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ²úÆ·ĞÍºÅ
+        /// äº§å“å‹å·
         /// </summary>
         public string Device_ProductModel
         {
@@ -127,7 +127,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÖÆÔìÉÌ
+        /// åˆ¶é€ å•†
         /// </summary>
         public string Device_Manufacture
         {
@@ -165,7 +165,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ó²¼ş°æ±¾ºÅ
+        /// ç¡¬ä»¶ç‰ˆæœ¬å·
         /// </summary>
         public string Device_HW_Version
         {
@@ -203,7 +203,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Èí¼ş°æ±¾ºÅ
+        /// è½¯ä»¶ç‰ˆæœ¬å·
         /// </summary>
         public string Device_SW_Version
         {
@@ -241,7 +241,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¶î¶¨µçÁ÷¹æ¸ñ
+        /// é¢å®šç”µæµè§„æ ¼
         /// </summary>
         public ushort In
         {
@@ -259,20 +259,20 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
         public IdentityValue()
         {
             SetCallBack += new AsyncCallback(pSetCallBack);
         }
         #endregion
 
-        #region ¹«ÓĞ·½·¨
+        #region å…¬æœ‰æ–¹æ³•
         /// <summary>
-        /// ´ÓÉè±¸¶ÁÈ¡²ÎÊı
+        /// ä»è®¾å¤‡è¯»å–å‚æ•°
         /// </summary>
         public void GetRegistersAsync(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Òì²½¶ÁÈ¡Ê¶±ğĞÅÏ¢"); }
+            if (Log.IsDebugEnabled) { Log.Debug("å¼‚æ­¥è¯»å–è¯†åˆ«ä¿¡æ¯"); }
 
             if (GetRegisterAsync != null)
             {
@@ -291,7 +291,7 @@ namespace Devices.AFDD
 
         public void GetRegisters(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Í¬²½¶ÁÈ¡Ê¶±ğĞÅÏ¢"); }
+            if (Log.IsDebugEnabled) { Log.Debug("åŒæ­¥è¯»å–è¯†åˆ«ä¿¡æ¯"); }
 
             if (GetRegister != null)
             {
@@ -309,13 +309,13 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
         /// <summary>
-        /// Ğ´¼Ä´æÆ÷£¨Í¬²½£©
+        /// å†™å¯„å­˜å™¨ï¼ˆåŒæ­¥ï¼‰
         /// </summary>
         private void pSetRegister(ushort start_ad, ushort nums, ushort[] buf)
         {
-            if (Log.IsDebugEnabled) { Log.DebugFormat("Í¬²½Ğ´ÈëÊ¶±ğ²ÎÊı({0})=[{1}]", start_ad, buf[0]); }
+            if (Log.IsDebugEnabled) { Log.DebugFormat("åŒæ­¥å†™å…¥è¯†åˆ«å‚æ•°({0})=[{1}]", start_ad, buf[0]); }
 
             if (SetRegister != null)
             {
@@ -336,9 +336,9 @@ namespace Devices.AFDD
 
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
 
-        #region modbus ¼Ä´æÆ÷¶¨Òå
+        #region modbus å¯„å­˜å™¨å®šä¹‰
         private enum MBREG : ushort
         {
             Super_Write = 0xFE,
@@ -361,12 +361,12 @@ namespace Devices.AFDD
         }
         #endregion
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(IdentityValue));
 
         /// <summary>
-        /// Ê¶±ğ²ÎÊı
+        /// è¯†åˆ«å‚æ•°
         /// </summary>
         private DeviceCache _cache_identity_code_1
                             = new DeviceCache(MBREG.Address_Identity_Code_End_1 - MBREG.Address_Identity_Code_Start_1 + 1);

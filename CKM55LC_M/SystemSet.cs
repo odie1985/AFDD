@@ -8,31 +8,31 @@ using log4net;
 namespace Devices.AFDD
 {
     /// <summary>
-    /// ÏµÍ³²ÎÊıÀà
+    /// ç³»ç»Ÿå‚æ•°ç±»
     /// </summary>
     public class SystemSet
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶ÁĞ´¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å†™å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         public event AsyncCallback GetCallBack;
         public event AsyncCallback SetCallBack;
 
         /// <summary>
-        /// ¶ÁĞ´¼Ä´æÆ÷ÊÂ¼ş
+        /// è¯»å†™å¯„å­˜å™¨äº‹ä»¶
         /// </summary>
         public event GetSetRegisterAsyncHandler GetRegisterAsync;
         public event GetSetRegisterAsyncHandler SetRegisterAsync;
         public event GetSetRegisterHandler GetRegister;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
         /// <summary>
-        /// Í¨Ñ¶µØÖ·
+        /// é€šè®¯åœ°å€
         /// </summary>
         public ushort Device_Address
         {
@@ -43,7 +43,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Í¨Ñ¶ËÙÂÊ
+        /// é€šè®¯é€Ÿç‡
         /// </summary>
         public ushort Device_BaudRate
         {
@@ -54,7 +54,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Í¨Ñ¶È¨ÏŞ
+        /// é€šè®¯æƒé™
         /// </summary>
         public ushort Communication_Keyboard_Enable
         {
@@ -65,7 +65,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¼üÅÌËø¶¨ÃÜÂë
+        /// é”®ç›˜é”å®šå¯†ç 
         /// </summary>
         public ushort Keyboard_Password
         {
@@ -81,7 +81,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ä¬ÈÏÏÔÊ¾Ñ¡Ïî
+        /// é»˜è®¤æ˜¾ç¤ºé€‰é¡¹
         /// </summary>
         public List<string> Display_Parameter
         {
@@ -101,20 +101,20 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
         public SystemSet()
         {
             SetCallBack += new AsyncCallback(pSetCallBack);
         }
         #endregion
 
-        #region ¹«ÓĞ·½·¨
+        #region å…¬æœ‰æ–¹æ³•
         /// <summary>
-        /// ´ÓÉè±¸¶ÁÈ¡²ÎÊı
+        /// ä»è®¾å¤‡è¯»å–å‚æ•°
         /// </summary>
         public void GetRegistersAsync(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Òì²½¶ÁÈ¡ÏµÍ³²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("å¼‚æ­¥è¯»å–ç³»ç»Ÿå‚æ•°"); }
 
             if (GetRegisterAsync != null)
             {
@@ -131,7 +131,7 @@ namespace Devices.AFDD
 
         public void GetRegisters(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Í¬²½¶ÁÈ¡ÏµÍ³²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("åŒæ­¥è¯»å–ç³»ç»Ÿå‚æ•°"); }
 
             if (GetRegister != null)
             {
@@ -147,13 +147,13 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
         /// <summary>
-        /// Ğ´¼Ä´æÆ÷£¨Òì²½£©
+        /// å†™å¯„å­˜å™¨ï¼ˆå¼‚æ­¥ï¼‰
         /// </summary>
         private void pSetRegisterAsync(ushort start_ad, ushort nums, ushort[] buf)
         {
-            if (Log.IsDebugEnabled) { Log.DebugFormat("Òì²½Ğ´ÈëÏµÍ³²ÎÊı({0})=[{1}]", start_ad, buf[0]); }
+            if (Log.IsDebugEnabled) { Log.DebugFormat("å¼‚æ­¥å†™å…¥ç³»ç»Ÿå‚æ•°({0})=[{1}]", start_ad, buf[0]); }
 
             if (SetRegisterAsync != null)
             {
@@ -168,7 +168,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÉèÖÃ¼Ä´æÆ÷»Øµ÷º¯Êı£¬ÓÃÓÚ¶Á»Ø¼Ä´æÆ÷Öµ
+        /// è®¾ç½®å¯„å­˜å™¨å›è°ƒå‡½æ•°ï¼Œç”¨äºè¯»å›å¯„å­˜å™¨å€¼
         /// </summary>
         private void pSetCallBack(IAsyncResult ar)
         {
@@ -177,9 +177,9 @@ namespace Devices.AFDD
 
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
 
-        #region modbus ¼Ä´æÆ÷¶¨Òå
+        #region modbus å¯„å­˜å™¨å®šä¹‰
         private enum MBREG : ushort
         {
             Address_System_Set_Start = 0x5A,
@@ -198,12 +198,12 @@ namespace Devices.AFDD
         }
         #endregion
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(SystemSet));
 
         /// <summary>
-        /// ÏµÍ³²ÎÊı
+        /// ç³»ç»Ÿå‚æ•°
         /// </summary>
         private DeviceCache _cache_system_set
             = new DeviceCache(MBREG.Address_System_Set_End - MBREG.Address_System_Set_Start + 1);

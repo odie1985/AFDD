@@ -8,32 +8,32 @@ using log4net;
 namespace Devices.AFDD
 {
     /// <summary>
-    /// ±£»¤²ÎÊıÀà
+    /// ä¿æŠ¤å‚æ•°ç±»
     /// </summary>
     public class ProtectSet
     {
-        #region ¹«ÓĞ×Ö¶Î
+        #region å…¬æœ‰å­—æ®µ
 
         #endregion
 
-        #region ÊÂ¼ş¶¨Òå
+        #region äº‹ä»¶å®šä¹‰
         /// <summary>
-        /// ¶ÁĞ´¼Ä´æÆ÷»Øµ÷ÊÂ¼ş
+        /// è¯»å†™å¯„å­˜å™¨å›è°ƒäº‹ä»¶
         /// </summary>
         public event AsyncCallback GetCallBack;
         public event AsyncCallback SetCallBack;
 
         /// <summary>
-        /// ¶ÁĞ´¼Ä´æÆ÷ÊÂ¼ş
+        /// è¯»å†™å¯„å­˜å™¨äº‹ä»¶
         /// </summary>
         public event GetSetRegisterAsyncHandler GetRegisterAsync;
         public event GetSetRegisterAsyncHandler SetRegisterAsync;
         public event GetSetRegisterHandler GetRegister;
         #endregion
 
-        #region ÊôĞÔ
+        #region å±æ€§
         /// <summary>
-        /// ±£»¤Ê¹ÄÜ
+        /// ä¿æŠ¤ä½¿èƒ½
         /// </summary>
         public List<string> Protect_Enable
         {
@@ -72,7 +72,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÔÊĞí¸´Î»ÈÈÈİ£¨%£©
+        /// å…è®¸å¤ä½çƒ­å®¹ï¼ˆ%ï¼‰
         /// </summary>
         public ushort Reset_Enable_Heat_Level
         {
@@ -88,7 +88,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÔÊĞí¸´Î»ÑÓÊ±£¨s£©
+        /// å…è®¸å¤ä½å»¶æ—¶ï¼ˆsï¼‰
         /// </summary>
         public ushort Reset_Enable_Heat_Delay
         {
@@ -104,7 +104,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ³¤ÑÓÊ±Õû¶¨µçÁ÷Ir1£¨A£©
+        /// é•¿å»¶æ—¶æ•´å®šç”µæµIr1ï¼ˆAï¼‰
         /// </summary>
         public ushort LongDelay_Ir1
         {
@@ -120,7 +120,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ³¤ÑÓÊ±Õû¶¨Ê±¼ät1£¨s£©
+        /// é•¿å»¶æ—¶æ•´å®šæ—¶é—´t1ï¼ˆsï¼‰
         /// </summary>
         public ushort LongDelay_t1
         {
@@ -136,7 +136,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        ///  ³¤ÑÓÊ±Ô¤±¨¾¯¶¯×÷Öµ£¨%£©
+        ///  é•¿å»¶æ—¶é¢„æŠ¥è­¦åŠ¨ä½œå€¼ï¼ˆ%ï¼‰
         /// </summary>
         public ushort LongDelay_Warning_Level
         {
@@ -152,7 +152,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¶ÌÑÓÊ±Õû¶¨µçÁ÷Ir2£¨A£©
+        /// çŸ­å»¶æ—¶æ•´å®šç”µæµIr2ï¼ˆAï¼‰
         /// </summary>
         public ushort ShortDelay_Ir2
         {
@@ -168,7 +168,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¶ÌÑÓÊ±Õû¶¨Ê±¼ät2£¨s£©
+        /// çŸ­å»¶æ—¶æ•´å®šæ—¶é—´t2ï¼ˆsï¼‰
         /// </summary>
         public float ShortDelay_Time_t2
         {
@@ -185,7 +185,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ë²Ê±Õû¶¨µçÁ÷Ir3£¨A£©
+        /// ç¬æ—¶æ•´å®šç”µæµIr3ï¼ˆAï¼‰
         /// </summary>
         public ushort Instant_Current_Ir3
         {
@@ -201,7 +201,7 @@ namespace Devices.AFDD
         }
         
         /// <summary>
-        /// Ê£ÓàµçÁ÷¶¯×÷Öµ£¨mA£©
+        /// å‰©ä½™ç”µæµåŠ¨ä½œå€¼ï¼ˆmAï¼‰
         /// </summary>
         public ushort Residual_Fault_Level
         {
@@ -217,7 +217,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ê£ÓàµçÁ÷ÑÓÊ±Ê±¼ä£¨s£©
+        /// å‰©ä½™ç”µæµå»¶æ—¶æ—¶é—´ï¼ˆsï¼‰
         /// </summary>
         public double Residual_Fault_Delay
         {
@@ -234,7 +234,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ²»Æ½ºâµçÁ÷¶¯×÷Öµ£¨%£©
+        /// ä¸å¹³è¡¡ç”µæµåŠ¨ä½œå€¼ï¼ˆ%ï¼‰
         /// </summary>
         public ushort Imbalance_Fault_Level
         {
@@ -250,7 +250,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ²»Æ½ºâµçÁ÷ÑÓÊ±Ê±¼ä£¨s£©
+        /// ä¸å¹³è¡¡ç”µæµå»¶æ—¶æ—¶é—´ï¼ˆsï¼‰
         /// </summary>
         public ushort Imbalance_Fault_Delay
         {
@@ -266,7 +266,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// È±ÏàµçÁ÷¶¯×÷Öµ£¨A£©
+        /// ç¼ºç›¸ç”µæµåŠ¨ä½œå€¼ï¼ˆAï¼‰
         /// </summary>
         public ushort Phase_Fault_Level
         {
@@ -282,7 +282,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// È±ÏàÑÓÊ±Ê±¼ä£¨s£©
+        /// ç¼ºç›¸å»¶æ—¶æ—¶é—´ï¼ˆsï¼‰
         /// </summary>
         public ushort Phase_Fault_Delay
         {
@@ -298,7 +298,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¶ÏÁãÑÓÊ±Ê±¼ä£¨s£©
+        /// æ–­é›¶å»¶æ—¶æ—¶é—´ï¼ˆsï¼‰
         /// </summary>
         public ushort Zero_Fault_Delay
         {
@@ -314,7 +314,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¹ıÑ¹¶¯×÷Öµ£¨V£©
+        /// è¿‡å‹åŠ¨ä½œå€¼ï¼ˆVï¼‰
         /// </summary>
         public ushort OverVoltage_Fault_Level
         {
@@ -330,7 +330,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ¹ıÑ¹ÑÓÊ±Ê±¼ä£¨s£©
+        /// è¿‡å‹å»¶æ—¶æ—¶é—´ï¼ˆsï¼‰
         /// </summary>
         public ushort OverVoltage_Fault_Delay
         {
@@ -346,7 +346,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ç·Ñ¹¶¯×÷Öµ£¨V£©
+        /// æ¬ å‹åŠ¨ä½œå€¼ï¼ˆVï¼‰
         /// </summary>
         public ushort UnderVoltage_Fault_Level
         {
@@ -362,7 +362,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// Ç·Ñ¹ÑÓÊ±Ê±¼ä£¨s£©
+        /// æ¬ å‹å»¶æ—¶æ—¶é—´ï¼ˆsï¼‰
         /// </summary>
         public ushort UnderVoltage_Fault_Delay
         {
@@ -380,20 +380,20 @@ namespace Devices.AFDD
 
         #endregion
 
-        #region ¹¹Ôìº¯Êı
+        #region æ„é€ å‡½æ•°
         public ProtectSet()
         {
             SetCallBack += new AsyncCallback(pSetCallBack);
         }
         #endregion
 
-        #region ¹«ÓĞ·½·¨
+        #region å…¬æœ‰æ–¹æ³•
         /// <summary>
-        /// ´ÓÉè±¸¶ÁÈ¡²ÎÊı
+        /// ä»è®¾å¤‡è¯»å–å‚æ•°
         /// </summary>
         public void GetRegistersAsync(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Òì²½¶ÁÈ¡±£»¤²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("å¼‚æ­¥è¯»å–ä¿æŠ¤å‚æ•°"); }
 
             if (GetRegisterAsync != null)
             {
@@ -410,7 +410,7 @@ namespace Devices.AFDD
 
         public void GetRegisters(int timeout)
         {
-            if (Log.IsDebugEnabled) { Log.Debug("Í¬²½¶ÁÈ¡±£»¤²ÎÊı"); }
+            if (Log.IsDebugEnabled) { Log.Debug("åŒæ­¥è¯»å–ä¿æŠ¤å‚æ•°"); }
 
             if (GetRegister != null)
             {
@@ -427,13 +427,13 @@ namespace Devices.AFDD
 
         #endregion
 
-        #region ±£»¤·½·¨
+        #region ä¿æŠ¤æ–¹æ³•
         /// <summary>
-        /// Ğ´¼Ä´æÆ÷£¨Òì²½£©
+        /// å†™å¯„å­˜å™¨ï¼ˆå¼‚æ­¥ï¼‰
         /// </summary>
         private void pSetRegisterAsync(ushort start_ad, ushort nums, ushort[] buf)
         {
-            if (Log.IsDebugEnabled) { Log.DebugFormat("Òì²½Ğ´Èë±£»¤²ÎÊı({0})=[{1}]", start_ad, buf[0]); }
+            if (Log.IsDebugEnabled) { Log.DebugFormat("å¼‚æ­¥å†™å…¥ä¿æŠ¤å‚æ•°({0})=[{1}]", start_ad, buf[0]); }
 
             if (SetRegisterAsync != null)
             {
@@ -448,7 +448,7 @@ namespace Devices.AFDD
         }
 
         /// <summary>
-        /// ÉèÖÃ¼Ä´æÆ÷»Øµ÷º¯Êı£¬ÓÃÓÚ¶Á»Ø¼Ä´æÆ÷Öµ
+        /// è®¾ç½®å¯„å­˜å™¨å›è°ƒå‡½æ•°ï¼Œç”¨äºè¯»å›å¯„å­˜å™¨å€¼
         /// </summary>
         private void pSetCallBack(IAsyncResult ar)
         {
@@ -456,11 +456,11 @@ namespace Devices.AFDD
         }
         #endregion
 
-        #region ±£»¤×Ö¶Î
+        #region ä¿æŠ¤å­—æ®µ
 
-        #region modbus ¼Ä´æÆ÷¶¨Òå
+        #region modbus å¯„å­˜å™¨å®šä¹‰
         /// <summary>
-        /// modbus ¼Ä´æÆ÷¶¨Òå
+        /// modbus å¯„å­˜å™¨å®šä¹‰
         /// </summary>
         private enum MBREG : ushort
         {
@@ -498,12 +498,12 @@ namespace Devices.AFDD
         }
         #endregion
         /// <summary>
-        /// ÈÕÖ¾
+        /// æ—¥å¿—
         /// </summary>
         static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(ProtectSet));
 
         /// <summary>
-        /// ±£»¤²ÎÊı
+        /// ä¿æŠ¤å‚æ•°
         /// </summary>
         private DeviceCache _cache_protect_set
             = new DeviceCache(MBREG.Address_Protect_Set_End - MBREG.Address_Protect_Set_Start + 1);
