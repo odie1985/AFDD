@@ -439,7 +439,7 @@ namespace KARO_AFDD
             StreamWriter sw = new StreamWriter("E:\\" + fileName + ".txt", true);
         }
 		
-		        private void frmAFD63311_Activated(object sender, EventArgs e)
+		private void frmAFD63311_Activated(object sender, EventArgs e)
         {
             InitializePortState();
         }

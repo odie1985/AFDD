@@ -689,5 +689,18 @@ namespace KARO_AFDD
                 }
             }
         }
+
+        private void btnManual_Click(object sender, EventArgs e)
+        {
+            foreach (Form form in this.MdiParent.MdiChildren)
+            {
+                if (form is frmAndArcManual)
+                {
+                    frmAndArcManual andArc = (frmAndArcManual)form;
+                    andArc.Activate();
+                    andArc.Show();
+                }
+            }
+        }
     }
 }

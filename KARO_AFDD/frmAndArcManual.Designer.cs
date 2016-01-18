@@ -1,6 +1,6 @@
 namespace KARO_AFDD
 {
-    partial class frmAndArc
+    partial class frmAndArcManual
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@ namespace KARO_AFDD
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAndArc));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAndArcManual));
             this.btnStart = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();

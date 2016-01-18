@@ -32,7 +32,7 @@ namespace KARO_AFDD
 
         private void button3_Click(object sender, EventArgs e)
         {
-            frmAndArc andArc = new frmAndArc();
+            frmAndArcManual andArc = new frmAndArcManual();
             andArc.Activate();
             andArc.Show();
         }

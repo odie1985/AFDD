@@ -82,6 +82,7 @@ namespace KARO_AFDD
             CreateAFD632Form();
             CreateAFD633Form();
             CreateAFD634Form();
+            CreateAndArcForm();
         }
 
         private void CreateAFD632Form()
@@ -180,7 +181,7 @@ namespace KARO_AFDD
 
         private void CreateAndArcForm()
         {
-            frmAndArc andArc = new frmAndArc();
+            frmAndArcManual andArc = new frmAndArcManual();
             andArc.MdiParent = this;
             andArc.WindowState = FormWindowState.Normal;
         }

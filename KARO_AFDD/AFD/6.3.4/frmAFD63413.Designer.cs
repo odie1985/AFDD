@@ -845,7 +845,7 @@ namespace KARO_AFDD
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
-            // frmAFD63412
+            // frmAFD63413
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -868,6 +868,7 @@ namespace KARO_AFDD
             this.Name = "frmAFD63413";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Activated += new System.EventHandler(this.frmAFD63413_Activated);
             this.Load += new System.EventHandler(this.frmAFD63413_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

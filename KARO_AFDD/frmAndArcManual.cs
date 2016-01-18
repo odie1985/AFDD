@@ -18,14 +18,14 @@ using Devices.AFDD;
 
 namespace KARO_AFDD
 {
-    public partial class frmAndArc : Form
+    public partial class frmAndArcManual : Form
     {
-        public frmAndArc()
+        public frmAndArcManual()
         {
             InitializeComponent();
         }
 
-        private void frmAndArc_Load(object sender, EventArgs e)
+        private void frmAndArcManual_Load(object sender, EventArgs e)
         {
             ComHelper.InitComLinesandDevices();
             //ComLine cl = ComHelper.GetComLines()[0];
