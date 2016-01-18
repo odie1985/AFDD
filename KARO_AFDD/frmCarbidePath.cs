@@ -64,15 +64,12 @@ namespace KARO_AFDD
                 this.Close();
                 return;
             }
-
-            InitializePortState();
+            //InitializePortState();
         }
 
         private void InitializePortState()
         {
             byte portData = 0;
-             
-            int startPort = 0;
             ErrorCode err = ErrorCode.Success;
             byte[] mask = instantDoCtrl1.Features.DataMask;
             for (int i = 0; (i + ConstVal.StartPort) < instantDoCtrl1.Features.PortCount && i < ConstVal.PortCountShow; ++i)
@@ -293,6 +290,11 @@ namespace KARO_AFDD
             }
         }
 
+        private void frmCarbidePath_Activated(object sender, EventArgs e)
+        {
+            InitializePortState();
+        }
+
         #region Button Operate
 
         /// <summary>
@@ -332,6 +334,7 @@ namespace KARO_AFDD
                 MessageBox.Show("Sorry ! There are some errors happened, the error code is: " + err.ToString(), "AsynchronousOneBufferedAI");
             }
         }
+
 
     }
 }

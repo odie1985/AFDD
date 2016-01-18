@@ -124,9 +124,9 @@ namespace KARO_AFDD
             this.label1.Font = new System.Drawing.Font("微软雅黑", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(318, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(624, 75);
+            this.label1.Size = new System.Drawing.Size(491, 75);
             this.label1.TabIndex = 12;
-            this.label1.Text = "6.3.3.1.7 电子式日光灯";
+            this.label1.Text = "6.3.3.1.7 日光灯2";
             // 
             // panel1
             // 
@@ -873,6 +873,7 @@ namespace KARO_AFDD
             this.Name = "frmAFD63317";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Activated += new System.EventHandler(this.frmAFD63317_Activated);
             this.Load += new System.EventHandler(this.frmAFD63317_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

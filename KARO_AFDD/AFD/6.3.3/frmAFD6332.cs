@@ -431,6 +431,12 @@ namespace KARO_AFDD
 
             StreamWriter sw = new StreamWriter("E:\\" + fileName + ".txt", true);
         }
+		
+		        private void frmAFD6332_Activated(object sender, EventArgs e)
+        {
+            InitializePortState();
+        }
+
 
         #region Button Operate
 

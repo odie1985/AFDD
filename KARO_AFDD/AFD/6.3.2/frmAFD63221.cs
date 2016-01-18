@@ -91,7 +91,7 @@ namespace KARO_AFDD
             txtSamples.Text = sampleCount.ToString();
 
             ConfigureGraph();
-            InitializePortState();
+            //InitializePortState();
         }
 
         private void InitializePortState()
@@ -421,6 +421,12 @@ namespace KARO_AFDD
 
             StreamWriter sw = new StreamWriter("E:\\" + fileName + ".txt", true);
         }
+		
+		        private void frmAFD63221_Activated(object sender, EventArgs e)
+        {
+            InitializePortState();
+        }
+
 
         #region Button Operate
 
@@ -710,11 +716,11 @@ namespace KARO_AFDD
                 }
                 else if (cbxPowerFactor.Text == "0.7")
                 {
-                    lblRemark.Text = "调整调压器示数为215V，" + "\r\n" + "电焊机示数为150（手柄朝下）";
+                    lblRemark.Text = "调整调压器示数为210V，" + "\r\n" + "电焊机示数为100（手柄朝下）";
                 }
                 else if (cbxPowerFactor.Text == "0.3")
                 {
-                    lblRemark.Text = "调整调压器示数为205V，" + "\r\n" + "电焊机示数为200（手柄朝下）";
+                    lblRemark.Text = "调整调压器示数为245V，" + "\r\n" + "电焊机示数为100（手柄朝下）";
                 }
             }
             else if (cbxPower.Text == "3")

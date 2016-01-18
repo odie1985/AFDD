@@ -260,6 +260,7 @@ namespace KARO_AFDD
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "frmDefault";
+            this.Activated += new System.EventHandler(this.frmCarbidePath_Activated);
             this.Load += new System.EventHandler(this.frmCarbidePath_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

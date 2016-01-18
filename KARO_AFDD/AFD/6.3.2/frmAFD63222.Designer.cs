@@ -1004,6 +1004,7 @@ namespace KARO_AFDD
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "frmAFD63222";
+            this.Activated += new System.EventHandler(this.frmAFD63222_Activated);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

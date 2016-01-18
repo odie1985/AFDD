@@ -91,7 +91,7 @@ namespace KARO_AFDD
             txtSamples.Text = sampleCount.ToString();
 
             ConfigureGraph();
-            InitializePortState();
+            //InitializePortState();
         }
 
         private void InitializePortState()
@@ -421,6 +421,12 @@ namespace KARO_AFDD
 
             StreamWriter sw = new StreamWriter("E:\\" + fileName + ".txt", true);
         }
+		
+		        private void frmAFD63223_Activated(object sender, EventArgs e)
+        {
+            InitializePortState();
+        }
+
 
         #region Button Operate
 

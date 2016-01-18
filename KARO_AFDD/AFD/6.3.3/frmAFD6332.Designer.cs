@@ -127,7 +127,7 @@ namespace KARO_AFDD
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(629, 75);
             this.label1.TabIndex = 12;
-            this.label1.Text = "6.3.3.2 并联抗扰动试验";
+            this.label1.Text = "6.3.3.2 串弧发生器试验";
             // 
             // panel1
             // 
@@ -889,6 +889,7 @@ namespace KARO_AFDD
             this.Name = "frmAFD6332";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Activated += new System.EventHandler(this.frmAFD6332_Activated);
             this.Load += new System.EventHandler(this.frmAFD6332_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -113,6 +113,7 @@ namespace KARO_AFDD
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.label20 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -604,6 +605,7 @@ namespace KARO_AFDD
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.button1);
             this.panel5.Controls.Add(this.cbxValueRange);
             this.panel5.Controls.Add(this.label19);
             this.panel5.Controls.Add(this.btnFan);
@@ -980,7 +982,16 @@ namespace KARO_AFDD
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
-            // frm63223
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(341, 97);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 36);
+            this.button1.TabIndex = 67;
+            this.button1.Text = "手动控制";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // frmAFD63223
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1000,10 +1011,11 @@ namespace KARO_AFDD
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximumSize = new System.Drawing.Size(1260, 736);
             this.MinimumSize = new System.Drawing.Size(1260, 736);
-            this.Name = "frm63223";
+            this.Name = "frmAFD63223";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "frmAFD63223";
+            this.Activated += new System.EventHandler(this.frmAFD63223_Activated);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -1113,5 +1125,6 @@ namespace KARO_AFDD
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnSetting;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -59,10 +59,12 @@ namespace KARO_AFDD
             this.label_YCoordinateMax_I = new System.Windows.Forms.Label();
             this.label_YCoordinateMiddle_I = new System.Windows.Forms.Label();
             this.label_YCoordinateMin_I = new System.Windows.Forms.Label();
+            this.pictureBox_I = new System.Windows.Forms.PictureBox();
             this.trackBar_div_I = new System.Windows.Forms.TrackBar();
             this.textBox_div_I = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.picSchematic = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.cbxValueRange = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -90,6 +92,7 @@ namespace KARO_AFDD
             this.label_YCoordinateMax_V = new System.Windows.Forms.Label();
             this.label_YCoordinateMiddle_V = new System.Windows.Forms.Label();
             this.label_YCoordinateMin_V = new System.Windows.Forms.Label();
+            this.pictureBox_V = new System.Windows.Forms.PictureBox();
             this.trackBar_div_V = new System.Windows.Forms.TrackBar();
             this.textBox_div_V = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
@@ -99,23 +102,20 @@ namespace KARO_AFDD
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_V = new System.Windows.Forms.PictureBox();
-            this.picSchematic = new System.Windows.Forms.PictureBox();
-            this.pictureBox_I = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_shift_I)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_I)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_div_I)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSchematic)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_shift_V)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_V)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_div_V)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_V)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picSchematic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_I)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -417,6 +417,17 @@ namespace KARO_AFDD
             this.label_YCoordinateMin_I.Text = "-10V";
             this.label_YCoordinateMin_I.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
+            // pictureBox_I
+            // 
+            this.pictureBox_I.BackColor = System.Drawing.SystemColors.ControlText;
+            this.pictureBox_I.Location = new System.Drawing.Point(34, 4);
+            this.pictureBox_I.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox_I.Name = "pictureBox_I";
+            this.pictureBox_I.Size = new System.Drawing.Size(550, 180);
+            this.pictureBox_I.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_I.TabIndex = 44;
+            this.pictureBox_I.TabStop = false;
+            // 
             // trackBar_div_I
             // 
             this.trackBar_div_I.AutoSize = false;
@@ -460,6 +471,16 @@ namespace KARO_AFDD
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(643, 305);
             this.panel4.TabIndex = 16;
+            // 
+            // picSchematic
+            // 
+            this.picSchematic.Image = global::KARO_AFDD.Properties.Resources.屏蔽A;
+            this.picSchematic.Location = new System.Drawing.Point(23, 11);
+            this.picSchematic.Name = "picSchematic";
+            this.picSchematic.Padding = new System.Windows.Forms.Padding(0, 40, 0, 0);
+            this.picSchematic.Size = new System.Drawing.Size(600, 280);
+            this.picSchematic.TabIndex = 0;
+            this.picSchematic.TabStop = false;
             // 
             // panel5
             // 
@@ -761,6 +782,17 @@ namespace KARO_AFDD
             this.label_YCoordinateMin_V.Text = "-693V";
             this.label_YCoordinateMin_V.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
+            // pictureBox_V
+            // 
+            this.pictureBox_V.BackColor = System.Drawing.SystemColors.ControlText;
+            this.pictureBox_V.Location = new System.Drawing.Point(34, 11);
+            this.pictureBox_V.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox_V.Name = "pictureBox_V";
+            this.pictureBox_V.Size = new System.Drawing.Size(550, 180);
+            this.pictureBox_V.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_V.TabIndex = 64;
+            this.pictureBox_V.TabStop = false;
+            // 
             // trackBar_div_V
             // 
             this.trackBar_div_V.AutoSize = false;
@@ -823,38 +855,6 @@ namespace KARO_AFDD
             this.pictureBox1.TabIndex = 80;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox_V
-            // 
-            this.pictureBox_V.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pictureBox_V.Location = new System.Drawing.Point(34, 11);
-            this.pictureBox_V.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox_V.Name = "pictureBox_V";
-            this.pictureBox_V.Size = new System.Drawing.Size(550, 180);
-            this.pictureBox_V.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_V.TabIndex = 64;
-            this.pictureBox_V.TabStop = false;
-            // 
-            // picSchematic
-            // 
-            this.picSchematic.Image = global::KARO_AFDD.Properties.Resources.屏蔽A;
-            this.picSchematic.Location = new System.Drawing.Point(23, 11);
-            this.picSchematic.Name = "picSchematic";
-            this.picSchematic.Padding = new System.Windows.Forms.Padding(0, 40, 0, 0);
-            this.picSchematic.Size = new System.Drawing.Size(600, 280);
-            this.picSchematic.TabIndex = 0;
-            this.picSchematic.TabStop = false;
-            // 
-            // pictureBox_I
-            // 
-            this.pictureBox_I.BackColor = System.Drawing.SystemColors.ControlText;
-            this.pictureBox_I.Location = new System.Drawing.Point(34, 4);
-            this.pictureBox_I.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox_I.Name = "pictureBox_I";
-            this.pictureBox_I.Size = new System.Drawing.Size(550, 180);
-            this.pictureBox_I.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_I.TabIndex = 44;
-            this.pictureBox_I.TabStop = false;
-            // 
             // frmAFD63315
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
@@ -878,6 +878,7 @@ namespace KARO_AFDD
             this.Name = "frmAFD63315";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Activated += new System.EventHandler(this.frmAFD63315_Activated);
             this.Load += new System.EventHandler(this.frmAFD63315_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -886,18 +887,18 @@ namespace KARO_AFDD
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_shift_I)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_I)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_div_I)).EndInit();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picSchematic)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_shift_V)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_V)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_div_V)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_V)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picSchematic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_I)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

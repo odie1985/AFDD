@@ -126,7 +126,7 @@ namespace KARO_AFDD
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(456, 75);
             this.label1.TabIndex = 12;
-            this.label1.Text = "6.3.3.1.9 电动机";
+            this.label1.Text = "6.3.3.1.9 消毒柜";
             // 
             // panel1
             // 
@@ -874,6 +874,7 @@ namespace KARO_AFDD
             this.Name = "frmAFD63319";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Activated += new System.EventHandler(this.frmAFD63319_Activated);
             this.Load += new System.EventHandler(this.frmAFD63319_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
