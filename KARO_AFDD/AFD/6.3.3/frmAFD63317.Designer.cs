@@ -124,9 +124,9 @@ namespace KARO_AFDD
             this.label1.Font = new System.Drawing.Font("微软雅黑", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(318, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(491, 75);
+            this.label1.Size = new System.Drawing.Size(624, 75);
             this.label1.TabIndex = 12;
-            this.label1.Text = "6.3.3.1.7 日光灯2";
+            this.label1.Text = "6.3.3.1.7 电子式日光灯";
             // 
             // panel1
             // 

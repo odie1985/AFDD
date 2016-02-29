@@ -726,17 +726,17 @@ namespace KARO_AFDD
             this.panel1.Controls.Add(this.PortHex0);
             this.panel1.Controls.Add(this.PortNum0);
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(5, 94);
+            this.panel1.Location = new System.Drawing.Point(75, 101);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(777, 465);
+            this.panel1.Size = new System.Drawing.Size(1104, 604);
             this.panel1.TabIndex = 17;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(734, 21);
+            this.label11.Location = new System.Drawing.Point(1032, 77);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(37, 20);
             this.label11.TabIndex = 299;
@@ -745,7 +745,7 @@ namespace KARO_AFDD
             // label12
             // 
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(384, 13);
+            this.label12.Location = new System.Drawing.Point(568, 61);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(38, 36);
             this.label12.TabIndex = 298;
@@ -755,7 +755,7 @@ namespace KARO_AFDD
             // label141
             // 
             this.label141.AutoSize = true;
-            this.label141.Location = new System.Drawing.Point(436, 408);
+            this.label141.Location = new System.Drawing.Point(616, 495);
             this.label141.Name = "label141";
             this.label141.Size = new System.Drawing.Size(27, 15);
             this.label141.TabIndex = 290;
@@ -764,7 +764,7 @@ namespace KARO_AFDD
             // label142
             // 
             this.label142.AutoSize = true;
-            this.label142.Location = new System.Drawing.Point(470, 408);
+            this.label142.Location = new System.Drawing.Point(666, 495);
             this.label142.Name = "label142";
             this.label142.Size = new System.Drawing.Size(27, 15);
             this.label142.TabIndex = 291;
@@ -773,7 +773,7 @@ namespace KARO_AFDD
             // label143
             // 
             this.label143.AutoSize = true;
-            this.label143.Location = new System.Drawing.Point(507, 408);
+            this.label143.Location = new System.Drawing.Point(719, 495);
             this.label143.Name = "label143";
             this.label143.Size = new System.Drawing.Size(27, 15);
             this.label143.TabIndex = 292;
@@ -782,7 +782,7 @@ namespace KARO_AFDD
             // label144
             // 
             this.label144.AutoSize = true;
-            this.label144.Location = new System.Drawing.Point(541, 408);
+            this.label144.Location = new System.Drawing.Point(769, 495);
             this.label144.Name = "label144";
             this.label144.Size = new System.Drawing.Size(27, 15);
             this.label144.TabIndex = 293;
@@ -791,7 +791,7 @@ namespace KARO_AFDD
             // label145
             // 
             this.label145.AutoSize = true;
-            this.label145.Location = new System.Drawing.Point(586, 408);
+            this.label145.Location = new System.Drawing.Point(830, 495);
             this.label145.Name = "label145";
             this.label145.Size = new System.Drawing.Size(27, 15);
             this.label145.TabIndex = 294;
@@ -800,7 +800,7 @@ namespace KARO_AFDD
             // label146
             // 
             this.label146.AutoSize = true;
-            this.label146.Location = new System.Drawing.Point(620, 408);
+            this.label146.Location = new System.Drawing.Point(880, 495);
             this.label146.Name = "label146";
             this.label146.Size = new System.Drawing.Size(27, 15);
             this.label146.TabIndex = 295;
@@ -809,7 +809,7 @@ namespace KARO_AFDD
             // label147
             // 
             this.label147.AutoSize = true;
-            this.label147.Location = new System.Drawing.Point(657, 408);
+            this.label147.Location = new System.Drawing.Point(933, 495);
             this.label147.Name = "label147";
             this.label147.Size = new System.Drawing.Size(27, 15);
             this.label147.TabIndex = 296;
@@ -818,7 +818,7 @@ namespace KARO_AFDD
             // label148
             // 
             this.label148.AutoSize = true;
-            this.label148.Location = new System.Drawing.Point(691, 408);
+            this.label148.Location = new System.Drawing.Point(983, 495);
             this.label148.Name = "label148";
             this.label148.Size = new System.Drawing.Size(27, 15);
             this.label148.TabIndex = 297;
@@ -830,15 +830,15 @@ namespace KARO_AFDD
             this.groupBox57.Controls.Add(this.DOF6);
             this.groupBox57.Controls.Add(this.DOF4);
             this.groupBox57.Controls.Add(this.DOF5);
-            this.groupBox57.Location = new System.Drawing.Point(580, 417);
+            this.groupBox57.Location = new System.Drawing.Point(824, 504);
             this.groupBox57.Name = "groupBox57";
-            this.groupBox57.Size = new System.Drawing.Size(144, 38);
+            this.groupBox57.Size = new System.Drawing.Size(206, 38);
             this.groupBox57.TabIndex = 289;
             this.groupBox57.TabStop = false;
             // 
             // DOF7
             // 
-            this.DOF7.Location = new System.Drawing.Point(111, 9);
+            this.DOF7.Location = new System.Drawing.Point(159, 9);
             this.DOF7.Name = "DOF7";
             this.DOF7.Size = new System.Drawing.Size(26, 27);
             this.DOF7.TabIndex = 5;
@@ -846,7 +846,7 @@ namespace KARO_AFDD
             // 
             // DOF6
             // 
-            this.DOF6.Location = new System.Drawing.Point(76, 9);
+            this.DOF6.Location = new System.Drawing.Point(108, 9);
             this.DOF6.Name = "DOF6";
             this.DOF6.Size = new System.Drawing.Size(26, 27);
             this.DOF6.TabIndex = 6;
@@ -862,7 +862,7 @@ namespace KARO_AFDD
             // 
             // DOF5
             // 
-            this.DOF5.Location = new System.Drawing.Point(41, 9);
+            this.DOF5.Location = new System.Drawing.Point(57, 9);
             this.DOF5.Name = "DOF5";
             this.DOF5.Size = new System.Drawing.Size(26, 27);
             this.DOF5.TabIndex = 4;
@@ -874,15 +874,15 @@ namespace KARO_AFDD
             this.groupBox58.Controls.Add(this.DOF2);
             this.groupBox58.Controls.Add(this.DOF0);
             this.groupBox58.Controls.Add(this.DOF1);
-            this.groupBox58.Location = new System.Drawing.Point(430, 417);
+            this.groupBox58.Location = new System.Drawing.Point(610, 504);
             this.groupBox58.Name = "groupBox58";
-            this.groupBox58.Size = new System.Drawing.Size(144, 38);
+            this.groupBox58.Size = new System.Drawing.Size(206, 38);
             this.groupBox58.TabIndex = 287;
             this.groupBox58.TabStop = false;
             // 
             // DOF3
             // 
-            this.DOF3.Location = new System.Drawing.Point(111, 9);
+            this.DOF3.Location = new System.Drawing.Point(159, 9);
             this.DOF3.Name = "DOF3";
             this.DOF3.Size = new System.Drawing.Size(26, 27);
             this.DOF3.TabIndex = 5;
@@ -890,7 +890,7 @@ namespace KARO_AFDD
             // 
             // DOF2
             // 
-            this.DOF2.Location = new System.Drawing.Point(76, 9);
+            this.DOF2.Location = new System.Drawing.Point(108, 9);
             this.DOF2.Name = "DOF2";
             this.DOF2.Size = new System.Drawing.Size(26, 27);
             this.DOF2.TabIndex = 6;
@@ -906,7 +906,7 @@ namespace KARO_AFDD
             // 
             // DOF1
             // 
-            this.DOF1.Location = new System.Drawing.Point(41, 9);
+            this.DOF1.Location = new System.Drawing.Point(57, 9);
             this.DOF1.Name = "DOF1";
             this.DOF1.Size = new System.Drawing.Size(26, 27);
             this.DOF1.TabIndex = 4;
@@ -915,7 +915,7 @@ namespace KARO_AFDD
             // PortHexF
             // 
             this.PortHexF.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHexF.Location = new System.Drawing.Point(738, 424);
+            this.PortHexF.Location = new System.Drawing.Point(1036, 514);
             this.PortHexF.Name = "PortHexF";
             this.PortHexF.Size = new System.Drawing.Size(30, 28);
             this.PortHexF.TabIndex = 286;
@@ -924,7 +924,7 @@ namespace KARO_AFDD
             // PortNumF
             // 
             this.PortNumF.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNumF.Location = new System.Drawing.Point(387, 426);
+            this.PortNumF.Location = new System.Drawing.Point(571, 514);
             this.PortNumF.Name = "PortNumF";
             this.PortNumF.Size = new System.Drawing.Size(28, 28);
             this.PortNumF.TabIndex = 284;
@@ -933,7 +933,7 @@ namespace KARO_AFDD
             // label151
             // 
             this.label151.AutoSize = true;
-            this.label151.Location = new System.Drawing.Point(429, 356);
+            this.label151.Location = new System.Drawing.Point(615, 438);
             this.label151.Name = "label151";
             this.label151.Size = new System.Drawing.Size(29, 15);
             this.label151.TabIndex = 276;
@@ -942,7 +942,7 @@ namespace KARO_AFDD
             // label152
             // 
             this.label152.AutoSize = true;
-            this.label152.Location = new System.Drawing.Point(463, 356);
+            this.label152.Location = new System.Drawing.Point(665, 438);
             this.label152.Name = "label152";
             this.label152.Size = new System.Drawing.Size(29, 15);
             this.label152.TabIndex = 277;
@@ -951,7 +951,7 @@ namespace KARO_AFDD
             // label153
             // 
             this.label153.AutoSize = true;
-            this.label153.Location = new System.Drawing.Point(500, 356);
+            this.label153.Location = new System.Drawing.Point(718, 438);
             this.label153.Name = "label153";
             this.label153.Size = new System.Drawing.Size(29, 15);
             this.label153.TabIndex = 278;
@@ -960,7 +960,7 @@ namespace KARO_AFDD
             // label154
             // 
             this.label154.AutoSize = true;
-            this.label154.Location = new System.Drawing.Point(534, 356);
+            this.label154.Location = new System.Drawing.Point(768, 438);
             this.label154.Name = "label154";
             this.label154.Size = new System.Drawing.Size(29, 15);
             this.label154.TabIndex = 279;
@@ -969,7 +969,7 @@ namespace KARO_AFDD
             // label155
             // 
             this.label155.AutoSize = true;
-            this.label155.Location = new System.Drawing.Point(584, 356);
+            this.label155.Location = new System.Drawing.Point(830, 438);
             this.label155.Name = "label155";
             this.label155.Size = new System.Drawing.Size(27, 15);
             this.label155.TabIndex = 280;
@@ -978,7 +978,7 @@ namespace KARO_AFDD
             // label156
             // 
             this.label156.AutoSize = true;
-            this.label156.Location = new System.Drawing.Point(618, 356);
+            this.label156.Location = new System.Drawing.Point(880, 438);
             this.label156.Name = "label156";
             this.label156.Size = new System.Drawing.Size(27, 15);
             this.label156.TabIndex = 281;
@@ -987,7 +987,7 @@ namespace KARO_AFDD
             // label157
             // 
             this.label157.AutoSize = true;
-            this.label157.Location = new System.Drawing.Point(655, 356);
+            this.label157.Location = new System.Drawing.Point(933, 438);
             this.label157.Name = "label157";
             this.label157.Size = new System.Drawing.Size(27, 15);
             this.label157.TabIndex = 282;
@@ -996,7 +996,7 @@ namespace KARO_AFDD
             // label158
             // 
             this.label158.AutoSize = true;
-            this.label158.Location = new System.Drawing.Point(689, 356);
+            this.label158.Location = new System.Drawing.Point(983, 438);
             this.label158.Name = "label158";
             this.label158.Size = new System.Drawing.Size(27, 15);
             this.label158.TabIndex = 283;
@@ -1008,15 +1008,15 @@ namespace KARO_AFDD
             this.groupBox61.Controls.Add(this.DOE6);
             this.groupBox61.Controls.Add(this.DOE4);
             this.groupBox61.Controls.Add(this.DOE5);
-            this.groupBox61.Location = new System.Drawing.Point(578, 365);
+            this.groupBox61.Location = new System.Drawing.Point(824, 447);
             this.groupBox61.Name = "groupBox61";
-            this.groupBox61.Size = new System.Drawing.Size(144, 38);
+            this.groupBox61.Size = new System.Drawing.Size(208, 38);
             this.groupBox61.TabIndex = 275;
             this.groupBox61.TabStop = false;
             // 
             // DOE7
             // 
-            this.DOE7.Location = new System.Drawing.Point(111, 9);
+            this.DOE7.Location = new System.Drawing.Point(159, 9);
             this.DOE7.Name = "DOE7";
             this.DOE7.Size = new System.Drawing.Size(26, 27);
             this.DOE7.TabIndex = 5;
@@ -1024,7 +1024,7 @@ namespace KARO_AFDD
             // 
             // DOE6
             // 
-            this.DOE6.Location = new System.Drawing.Point(76, 9);
+            this.DOE6.Location = new System.Drawing.Point(108, 9);
             this.DOE6.Name = "DOE6";
             this.DOE6.Size = new System.Drawing.Size(26, 27);
             this.DOE6.TabIndex = 6;
@@ -1040,7 +1040,7 @@ namespace KARO_AFDD
             // 
             // DOE5
             // 
-            this.DOE5.Location = new System.Drawing.Point(41, 9);
+            this.DOE5.Location = new System.Drawing.Point(57, 9);
             this.DOE5.Name = "DOE5";
             this.DOE5.Size = new System.Drawing.Size(26, 27);
             this.DOE5.TabIndex = 4;
@@ -1052,15 +1052,15 @@ namespace KARO_AFDD
             this.groupBox62.Controls.Add(this.DOE2);
             this.groupBox62.Controls.Add(this.DOE0);
             this.groupBox62.Controls.Add(this.DOE1);
-            this.groupBox62.Location = new System.Drawing.Point(428, 365);
+            this.groupBox62.Location = new System.Drawing.Point(610, 447);
             this.groupBox62.Name = "groupBox62";
-            this.groupBox62.Size = new System.Drawing.Size(144, 38);
+            this.groupBox62.Size = new System.Drawing.Size(208, 38);
             this.groupBox62.TabIndex = 273;
             this.groupBox62.TabStop = false;
             // 
             // DOE3
             // 
-            this.DOE3.Location = new System.Drawing.Point(111, 9);
+            this.DOE3.Location = new System.Drawing.Point(159, 9);
             this.DOE3.Name = "DOE3";
             this.DOE3.Size = new System.Drawing.Size(26, 27);
             this.DOE3.TabIndex = 5;
@@ -1068,7 +1068,7 @@ namespace KARO_AFDD
             // 
             // DOE2
             // 
-            this.DOE2.Location = new System.Drawing.Point(76, 9);
+            this.DOE2.Location = new System.Drawing.Point(108, 9);
             this.DOE2.Name = "DOE2";
             this.DOE2.Size = new System.Drawing.Size(26, 27);
             this.DOE2.TabIndex = 6;
@@ -1084,7 +1084,7 @@ namespace KARO_AFDD
             // 
             // DOE1
             // 
-            this.DOE1.Location = new System.Drawing.Point(41, 9);
+            this.DOE1.Location = new System.Drawing.Point(57, 9);
             this.DOE1.Name = "DOE1";
             this.DOE1.Size = new System.Drawing.Size(26, 27);
             this.DOE1.TabIndex = 4;
@@ -1093,7 +1093,7 @@ namespace KARO_AFDD
             // PortHexE
             // 
             this.PortHexE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHexE.Location = new System.Drawing.Point(738, 372);
+            this.PortHexE.Location = new System.Drawing.Point(1036, 455);
             this.PortHexE.Name = "PortHexE";
             this.PortHexE.Size = new System.Drawing.Size(30, 28);
             this.PortHexE.TabIndex = 272;
@@ -1102,7 +1102,7 @@ namespace KARO_AFDD
             // PortNumE
             // 
             this.PortNumE.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNumE.Location = new System.Drawing.Point(387, 374);
+            this.PortNumE.Location = new System.Drawing.Point(571, 455);
             this.PortNumE.Name = "PortNumE";
             this.PortNumE.Size = new System.Drawing.Size(28, 28);
             this.PortNumE.TabIndex = 270;
@@ -1111,7 +1111,7 @@ namespace KARO_AFDD
             // label161
             // 
             this.label161.AutoSize = true;
-            this.label161.Location = new System.Drawing.Point(434, 303);
+            this.label161.Location = new System.Drawing.Point(616, 377);
             this.label161.Name = "label161";
             this.label161.Size = new System.Drawing.Size(27, 15);
             this.label161.TabIndex = 262;
@@ -1120,7 +1120,7 @@ namespace KARO_AFDD
             // label162
             // 
             this.label162.AutoSize = true;
-            this.label162.Location = new System.Drawing.Point(468, 303);
+            this.label162.Location = new System.Drawing.Point(666, 377);
             this.label162.Name = "label162";
             this.label162.Size = new System.Drawing.Size(27, 15);
             this.label162.TabIndex = 263;
@@ -1129,7 +1129,7 @@ namespace KARO_AFDD
             // label163
             // 
             this.label163.AutoSize = true;
-            this.label163.Location = new System.Drawing.Point(505, 303);
+            this.label163.Location = new System.Drawing.Point(719, 377);
             this.label163.Name = "label163";
             this.label163.Size = new System.Drawing.Size(27, 15);
             this.label163.TabIndex = 264;
@@ -1138,7 +1138,7 @@ namespace KARO_AFDD
             // label164
             // 
             this.label164.AutoSize = true;
-            this.label164.Location = new System.Drawing.Point(539, 303);
+            this.label164.Location = new System.Drawing.Point(769, 377);
             this.label164.Name = "label164";
             this.label164.Size = new System.Drawing.Size(27, 15);
             this.label164.TabIndex = 265;
@@ -1147,7 +1147,7 @@ namespace KARO_AFDD
             // label165
             // 
             this.label165.AutoSize = true;
-            this.label165.Location = new System.Drawing.Point(584, 303);
+            this.label165.Location = new System.Drawing.Point(830, 377);
             this.label165.Name = "label165";
             this.label165.Size = new System.Drawing.Size(27, 15);
             this.label165.TabIndex = 266;
@@ -1156,7 +1156,7 @@ namespace KARO_AFDD
             // label166
             // 
             this.label166.AutoSize = true;
-            this.label166.Location = new System.Drawing.Point(618, 303);
+            this.label166.Location = new System.Drawing.Point(880, 377);
             this.label166.Name = "label166";
             this.label166.Size = new System.Drawing.Size(27, 15);
             this.label166.TabIndex = 267;
@@ -1165,7 +1165,7 @@ namespace KARO_AFDD
             // label167
             // 
             this.label167.AutoSize = true;
-            this.label167.Location = new System.Drawing.Point(655, 303);
+            this.label167.Location = new System.Drawing.Point(933, 377);
             this.label167.Name = "label167";
             this.label167.Size = new System.Drawing.Size(27, 15);
             this.label167.TabIndex = 268;
@@ -1174,7 +1174,7 @@ namespace KARO_AFDD
             // label168
             // 
             this.label168.AutoSize = true;
-            this.label168.Location = new System.Drawing.Point(689, 303);
+            this.label168.Location = new System.Drawing.Point(983, 377);
             this.label168.Name = "label168";
             this.label168.Size = new System.Drawing.Size(27, 15);
             this.label168.TabIndex = 269;
@@ -1186,15 +1186,15 @@ namespace KARO_AFDD
             this.groupBox65.Controls.Add(this.DOD6);
             this.groupBox65.Controls.Add(this.DOD4);
             this.groupBox65.Controls.Add(this.DOD5);
-            this.groupBox65.Location = new System.Drawing.Point(578, 312);
+            this.groupBox65.Location = new System.Drawing.Point(824, 386);
             this.groupBox65.Name = "groupBox65";
-            this.groupBox65.Size = new System.Drawing.Size(144, 38);
+            this.groupBox65.Size = new System.Drawing.Size(208, 38);
             this.groupBox65.TabIndex = 261;
             this.groupBox65.TabStop = false;
             // 
             // DOD7
             // 
-            this.DOD7.Location = new System.Drawing.Point(111, 9);
+            this.DOD7.Location = new System.Drawing.Point(159, 9);
             this.DOD7.Name = "DOD7";
             this.DOD7.Size = new System.Drawing.Size(26, 27);
             this.DOD7.TabIndex = 5;
@@ -1202,7 +1202,7 @@ namespace KARO_AFDD
             // 
             // DOD6
             // 
-            this.DOD6.Location = new System.Drawing.Point(76, 9);
+            this.DOD6.Location = new System.Drawing.Point(108, 9);
             this.DOD6.Name = "DOD6";
             this.DOD6.Size = new System.Drawing.Size(26, 27);
             this.DOD6.TabIndex = 6;
@@ -1218,7 +1218,7 @@ namespace KARO_AFDD
             // 
             // DOD5
             // 
-            this.DOD5.Location = new System.Drawing.Point(41, 9);
+            this.DOD5.Location = new System.Drawing.Point(57, 9);
             this.DOD5.Name = "DOD5";
             this.DOD5.Size = new System.Drawing.Size(26, 27);
             this.DOD5.TabIndex = 4;
@@ -1230,15 +1230,15 @@ namespace KARO_AFDD
             this.groupBox66.Controls.Add(this.DOD2);
             this.groupBox66.Controls.Add(this.DOD0);
             this.groupBox66.Controls.Add(this.DOD1);
-            this.groupBox66.Location = new System.Drawing.Point(428, 312);
+            this.groupBox66.Location = new System.Drawing.Point(610, 386);
             this.groupBox66.Name = "groupBox66";
-            this.groupBox66.Size = new System.Drawing.Size(144, 38);
+            this.groupBox66.Size = new System.Drawing.Size(208, 38);
             this.groupBox66.TabIndex = 259;
             this.groupBox66.TabStop = false;
             // 
             // DOD3
             // 
-            this.DOD3.Location = new System.Drawing.Point(111, 9);
+            this.DOD3.Location = new System.Drawing.Point(159, 9);
             this.DOD3.Name = "DOD3";
             this.DOD3.Size = new System.Drawing.Size(26, 27);
             this.DOD3.TabIndex = 5;
@@ -1246,7 +1246,7 @@ namespace KARO_AFDD
             // 
             // DOD2
             // 
-            this.DOD2.Location = new System.Drawing.Point(76, 9);
+            this.DOD2.Location = new System.Drawing.Point(108, 9);
             this.DOD2.Name = "DOD2";
             this.DOD2.Size = new System.Drawing.Size(26, 27);
             this.DOD2.TabIndex = 6;
@@ -1262,7 +1262,7 @@ namespace KARO_AFDD
             // 
             // DOD1
             // 
-            this.DOD1.Location = new System.Drawing.Point(41, 9);
+            this.DOD1.Location = new System.Drawing.Point(57, 9);
             this.DOD1.Name = "DOD1";
             this.DOD1.Size = new System.Drawing.Size(26, 27);
             this.DOD1.TabIndex = 4;
@@ -1271,7 +1271,7 @@ namespace KARO_AFDD
             // PortHexD
             // 
             this.PortHexD.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHexD.Location = new System.Drawing.Point(738, 320);
+            this.PortHexD.Location = new System.Drawing.Point(1036, 396);
             this.PortHexD.Name = "PortHexD";
             this.PortHexD.Size = new System.Drawing.Size(30, 28);
             this.PortHexD.TabIndex = 258;
@@ -1280,7 +1280,7 @@ namespace KARO_AFDD
             // PortNumD
             // 
             this.PortNumD.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNumD.Location = new System.Drawing.Point(387, 322);
+            this.PortNumD.Location = new System.Drawing.Point(571, 396);
             this.PortNumD.Name = "PortNumD";
             this.PortNumD.Size = new System.Drawing.Size(28, 28);
             this.PortNumD.TabIndex = 256;
@@ -1289,7 +1289,7 @@ namespace KARO_AFDD
             // label171
             // 
             this.label171.AutoSize = true;
-            this.label171.Location = new System.Drawing.Point(429, 251);
+            this.label171.Location = new System.Drawing.Point(611, 318);
             this.label171.Name = "label171";
             this.label171.Size = new System.Drawing.Size(36, 15);
             this.label171.TabIndex = 248;
@@ -1298,7 +1298,7 @@ namespace KARO_AFDD
             // label172
             // 
             this.label172.AutoSize = true;
-            this.label172.Location = new System.Drawing.Point(463, 251);
+            this.label172.Location = new System.Drawing.Point(661, 318);
             this.label172.Name = "label172";
             this.label172.Size = new System.Drawing.Size(36, 15);
             this.label172.TabIndex = 249;
@@ -1307,7 +1307,7 @@ namespace KARO_AFDD
             // label173
             // 
             this.label173.AutoSize = true;
-            this.label173.Location = new System.Drawing.Point(500, 251);
+            this.label173.Location = new System.Drawing.Point(714, 318);
             this.label173.Name = "label173";
             this.label173.Size = new System.Drawing.Size(36, 15);
             this.label173.TabIndex = 250;
@@ -1316,7 +1316,7 @@ namespace KARO_AFDD
             // label174
             // 
             this.label174.AutoSize = true;
-            this.label174.Location = new System.Drawing.Point(534, 251);
+            this.label174.Location = new System.Drawing.Point(764, 318);
             this.label174.Name = "label174";
             this.label174.Size = new System.Drawing.Size(36, 15);
             this.label174.TabIndex = 251;
@@ -1325,7 +1325,7 @@ namespace KARO_AFDD
             // label175
             // 
             this.label175.AutoSize = true;
-            this.label175.Location = new System.Drawing.Point(579, 251);
+            this.label175.Location = new System.Drawing.Point(827, 318);
             this.label175.Name = "label175";
             this.label175.Size = new System.Drawing.Size(36, 15);
             this.label175.TabIndex = 252;
@@ -1334,7 +1334,7 @@ namespace KARO_AFDD
             // label176
             // 
             this.label176.AutoSize = true;
-            this.label176.Location = new System.Drawing.Point(613, 251);
+            this.label176.Location = new System.Drawing.Point(877, 318);
             this.label176.Name = "label176";
             this.label176.Size = new System.Drawing.Size(36, 15);
             this.label176.TabIndex = 253;
@@ -1343,7 +1343,7 @@ namespace KARO_AFDD
             // label177
             // 
             this.label177.AutoSize = true;
-            this.label177.Location = new System.Drawing.Point(650, 251);
+            this.label177.Location = new System.Drawing.Point(930, 318);
             this.label177.Name = "label177";
             this.label177.Size = new System.Drawing.Size(36, 15);
             this.label177.TabIndex = 254;
@@ -1352,7 +1352,7 @@ namespace KARO_AFDD
             // label178
             // 
             this.label178.AutoSize = true;
-            this.label178.Location = new System.Drawing.Point(684, 251);
+            this.label178.Location = new System.Drawing.Point(980, 318);
             this.label178.Name = "label178";
             this.label178.Size = new System.Drawing.Size(36, 15);
             this.label178.TabIndex = 255;
@@ -1364,15 +1364,15 @@ namespace KARO_AFDD
             this.groupBox69.Controls.Add(this.DOC6);
             this.groupBox69.Controls.Add(this.DOC4);
             this.groupBox69.Controls.Add(this.DOC5);
-            this.groupBox69.Location = new System.Drawing.Point(578, 260);
+            this.groupBox69.Location = new System.Drawing.Point(826, 327);
             this.groupBox69.Name = "groupBox69";
-            this.groupBox69.Size = new System.Drawing.Size(144, 38);
+            this.groupBox69.Size = new System.Drawing.Size(208, 38);
             this.groupBox69.TabIndex = 247;
             this.groupBox69.TabStop = false;
             // 
             // DOC7
             // 
-            this.DOC7.Location = new System.Drawing.Point(111, 9);
+            this.DOC7.Location = new System.Drawing.Point(159, 9);
             this.DOC7.Name = "DOC7";
             this.DOC7.Size = new System.Drawing.Size(26, 27);
             this.DOC7.TabIndex = 5;
@@ -1380,7 +1380,7 @@ namespace KARO_AFDD
             // 
             // DOC6
             // 
-            this.DOC6.Location = new System.Drawing.Point(76, 9);
+            this.DOC6.Location = new System.Drawing.Point(108, 9);
             this.DOC6.Name = "DOC6";
             this.DOC6.Size = new System.Drawing.Size(26, 27);
             this.DOC6.TabIndex = 6;
@@ -1396,7 +1396,7 @@ namespace KARO_AFDD
             // 
             // DOC5
             // 
-            this.DOC5.Location = new System.Drawing.Point(41, 9);
+            this.DOC5.Location = new System.Drawing.Point(57, 9);
             this.DOC5.Name = "DOC5";
             this.DOC5.Size = new System.Drawing.Size(26, 27);
             this.DOC5.TabIndex = 4;
@@ -1408,15 +1408,15 @@ namespace KARO_AFDD
             this.groupBox70.Controls.Add(this.DOC2);
             this.groupBox70.Controls.Add(this.DOC0);
             this.groupBox70.Controls.Add(this.DOC1);
-            this.groupBox70.Location = new System.Drawing.Point(428, 260);
+            this.groupBox70.Location = new System.Drawing.Point(610, 327);
             this.groupBox70.Name = "groupBox70";
-            this.groupBox70.Size = new System.Drawing.Size(144, 38);
+            this.groupBox70.Size = new System.Drawing.Size(208, 38);
             this.groupBox70.TabIndex = 245;
             this.groupBox70.TabStop = false;
             // 
             // DOC3
             // 
-            this.DOC3.Location = new System.Drawing.Point(111, 9);
+            this.DOC3.Location = new System.Drawing.Point(159, 9);
             this.DOC3.Name = "DOC3";
             this.DOC3.Size = new System.Drawing.Size(26, 27);
             this.DOC3.TabIndex = 5;
@@ -1424,7 +1424,7 @@ namespace KARO_AFDD
             // 
             // DOC2
             // 
-            this.DOC2.Location = new System.Drawing.Point(76, 9);
+            this.DOC2.Location = new System.Drawing.Point(108, 9);
             this.DOC2.Name = "DOC2";
             this.DOC2.Size = new System.Drawing.Size(26, 27);
             this.DOC2.TabIndex = 6;
@@ -1440,7 +1440,7 @@ namespace KARO_AFDD
             // 
             // DOC1
             // 
-            this.DOC1.Location = new System.Drawing.Point(41, 9);
+            this.DOC1.Location = new System.Drawing.Point(57, 9);
             this.DOC1.Name = "DOC1";
             this.DOC1.Size = new System.Drawing.Size(26, 27);
             this.DOC1.TabIndex = 4;
@@ -1449,7 +1449,7 @@ namespace KARO_AFDD
             // PortHexC
             // 
             this.PortHexC.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHexC.Location = new System.Drawing.Point(738, 268);
+            this.PortHexC.Location = new System.Drawing.Point(1036, 337);
             this.PortHexC.Name = "PortHexC";
             this.PortHexC.Size = new System.Drawing.Size(30, 28);
             this.PortHexC.TabIndex = 244;
@@ -1458,7 +1458,7 @@ namespace KARO_AFDD
             // PortNumC
             // 
             this.PortNumC.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNumC.Location = new System.Drawing.Point(387, 270);
+            this.PortNumC.Location = new System.Drawing.Point(571, 337);
             this.PortNumC.Name = "PortNumC";
             this.PortNumC.Size = new System.Drawing.Size(28, 28);
             this.PortNumC.TabIndex = 242;
@@ -1467,7 +1467,7 @@ namespace KARO_AFDD
             // label61
             // 
             this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(429, 199);
+            this.label61.Location = new System.Drawing.Point(611, 259);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(36, 15);
             this.label61.TabIndex = 234;
@@ -1476,7 +1476,7 @@ namespace KARO_AFDD
             // label62
             // 
             this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(463, 199);
+            this.label62.Location = new System.Drawing.Point(661, 259);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(36, 15);
             this.label62.TabIndex = 235;
@@ -1485,7 +1485,7 @@ namespace KARO_AFDD
             // label63
             // 
             this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(500, 199);
+            this.label63.Location = new System.Drawing.Point(714, 259);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(36, 15);
             this.label63.TabIndex = 236;
@@ -1494,7 +1494,7 @@ namespace KARO_AFDD
             // label64
             // 
             this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(534, 199);
+            this.label64.Location = new System.Drawing.Point(764, 259);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(36, 15);
             this.label64.TabIndex = 237;
@@ -1503,7 +1503,7 @@ namespace KARO_AFDD
             // label65
             // 
             this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(579, 199);
+            this.label65.Location = new System.Drawing.Point(827, 259);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(36, 15);
             this.label65.TabIndex = 238;
@@ -1512,7 +1512,7 @@ namespace KARO_AFDD
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(613, 199);
+            this.label66.Location = new System.Drawing.Point(877, 259);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(36, 15);
             this.label66.TabIndex = 239;
@@ -1521,7 +1521,7 @@ namespace KARO_AFDD
             // label67
             // 
             this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(650, 199);
+            this.label67.Location = new System.Drawing.Point(930, 259);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(36, 15);
             this.label67.TabIndex = 240;
@@ -1530,7 +1530,7 @@ namespace KARO_AFDD
             // label68
             // 
             this.label68.AutoSize = true;
-            this.label68.Location = new System.Drawing.Point(684, 199);
+            this.label68.Location = new System.Drawing.Point(980, 259);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(36, 15);
             this.label68.TabIndex = 241;
@@ -1542,15 +1542,15 @@ namespace KARO_AFDD
             this.groupBox25.Controls.Add(this.DOB6);
             this.groupBox25.Controls.Add(this.DOB4);
             this.groupBox25.Controls.Add(this.DOB5);
-            this.groupBox25.Location = new System.Drawing.Point(578, 208);
+            this.groupBox25.Location = new System.Drawing.Point(826, 268);
             this.groupBox25.Name = "groupBox25";
-            this.groupBox25.Size = new System.Drawing.Size(144, 38);
+            this.groupBox25.Size = new System.Drawing.Size(208, 38);
             this.groupBox25.TabIndex = 233;
             this.groupBox25.TabStop = false;
             // 
             // DOB7
             // 
-            this.DOB7.Location = new System.Drawing.Point(111, 9);
+            this.DOB7.Location = new System.Drawing.Point(159, 9);
             this.DOB7.Name = "DOB7";
             this.DOB7.Size = new System.Drawing.Size(26, 27);
             this.DOB7.TabIndex = 5;
@@ -1558,7 +1558,7 @@ namespace KARO_AFDD
             // 
             // DOB6
             // 
-            this.DOB6.Location = new System.Drawing.Point(76, 9);
+            this.DOB6.Location = new System.Drawing.Point(108, 9);
             this.DOB6.Name = "DOB6";
             this.DOB6.Size = new System.Drawing.Size(26, 27);
             this.DOB6.TabIndex = 6;
@@ -1574,7 +1574,7 @@ namespace KARO_AFDD
             // 
             // DOB5
             // 
-            this.DOB5.Location = new System.Drawing.Point(41, 9);
+            this.DOB5.Location = new System.Drawing.Point(57, 9);
             this.DOB5.Name = "DOB5";
             this.DOB5.Size = new System.Drawing.Size(26, 27);
             this.DOB5.TabIndex = 4;
@@ -1586,15 +1586,15 @@ namespace KARO_AFDD
             this.groupBox26.Controls.Add(this.DOB2);
             this.groupBox26.Controls.Add(this.DOB0);
             this.groupBox26.Controls.Add(this.DOB1);
-            this.groupBox26.Location = new System.Drawing.Point(428, 208);
+            this.groupBox26.Location = new System.Drawing.Point(610, 268);
             this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(144, 38);
+            this.groupBox26.Size = new System.Drawing.Size(208, 38);
             this.groupBox26.TabIndex = 231;
             this.groupBox26.TabStop = false;
             // 
             // DOB3
             // 
-            this.DOB3.Location = new System.Drawing.Point(111, 9);
+            this.DOB3.Location = new System.Drawing.Point(159, 9);
             this.DOB3.Name = "DOB3";
             this.DOB3.Size = new System.Drawing.Size(26, 27);
             this.DOB3.TabIndex = 5;
@@ -1602,7 +1602,7 @@ namespace KARO_AFDD
             // 
             // DOB2
             // 
-            this.DOB2.Location = new System.Drawing.Point(76, 9);
+            this.DOB2.Location = new System.Drawing.Point(108, 9);
             this.DOB2.Name = "DOB2";
             this.DOB2.Size = new System.Drawing.Size(26, 27);
             this.DOB2.TabIndex = 6;
@@ -1618,7 +1618,7 @@ namespace KARO_AFDD
             // 
             // DOB1
             // 
-            this.DOB1.Location = new System.Drawing.Point(41, 9);
+            this.DOB1.Location = new System.Drawing.Point(57, 9);
             this.DOB1.Name = "DOB1";
             this.DOB1.Size = new System.Drawing.Size(26, 27);
             this.DOB1.TabIndex = 4;
@@ -1627,7 +1627,7 @@ namespace KARO_AFDD
             // PortHexB
             // 
             this.PortHexB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHexB.Location = new System.Drawing.Point(738, 216);
+            this.PortHexB.Location = new System.Drawing.Point(1036, 278);
             this.PortHexB.Name = "PortHexB";
             this.PortHexB.Size = new System.Drawing.Size(30, 28);
             this.PortHexB.TabIndex = 230;
@@ -1636,7 +1636,7 @@ namespace KARO_AFDD
             // PortNumB
             // 
             this.PortNumB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNumB.Location = new System.Drawing.Point(387, 218);
+            this.PortNumB.Location = new System.Drawing.Point(571, 278);
             this.PortNumB.Name = "PortNumB";
             this.PortNumB.Size = new System.Drawing.Size(28, 28);
             this.PortNumB.TabIndex = 228;
@@ -1645,7 +1645,7 @@ namespace KARO_AFDD
             // label71
             // 
             this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(429, 147);
+            this.label71.Location = new System.Drawing.Point(611, 200);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(36, 15);
             this.label71.TabIndex = 220;
@@ -1654,7 +1654,7 @@ namespace KARO_AFDD
             // label72
             // 
             this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(463, 147);
+            this.label72.Location = new System.Drawing.Point(661, 200);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(36, 15);
             this.label72.TabIndex = 221;
@@ -1663,7 +1663,7 @@ namespace KARO_AFDD
             // label73
             // 
             this.label73.AutoSize = true;
-            this.label73.Location = new System.Drawing.Point(500, 147);
+            this.label73.Location = new System.Drawing.Point(714, 200);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(36, 15);
             this.label73.TabIndex = 222;
@@ -1672,7 +1672,7 @@ namespace KARO_AFDD
             // label74
             // 
             this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(534, 147);
+            this.label74.Location = new System.Drawing.Point(764, 200);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(36, 15);
             this.label74.TabIndex = 223;
@@ -1681,7 +1681,7 @@ namespace KARO_AFDD
             // label75
             // 
             this.label75.AutoSize = true;
-            this.label75.Location = new System.Drawing.Point(579, 147);
+            this.label75.Location = new System.Drawing.Point(827, 200);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(36, 15);
             this.label75.TabIndex = 224;
@@ -1690,7 +1690,7 @@ namespace KARO_AFDD
             // label76
             // 
             this.label76.AutoSize = true;
-            this.label76.Location = new System.Drawing.Point(613, 147);
+            this.label76.Location = new System.Drawing.Point(877, 200);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(36, 15);
             this.label76.TabIndex = 225;
@@ -1699,7 +1699,7 @@ namespace KARO_AFDD
             // label77
             // 
             this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(650, 147);
+            this.label77.Location = new System.Drawing.Point(930, 200);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(36, 15);
             this.label77.TabIndex = 226;
@@ -1708,7 +1708,7 @@ namespace KARO_AFDD
             // label78
             // 
             this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(684, 147);
+            this.label78.Location = new System.Drawing.Point(980, 200);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(36, 15);
             this.label78.TabIndex = 227;
@@ -1720,15 +1720,15 @@ namespace KARO_AFDD
             this.groupBox29.Controls.Add(this.DOA6);
             this.groupBox29.Controls.Add(this.DOA4);
             this.groupBox29.Controls.Add(this.DOA5);
-            this.groupBox29.Location = new System.Drawing.Point(578, 156);
+            this.groupBox29.Location = new System.Drawing.Point(826, 209);
             this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Size = new System.Drawing.Size(144, 38);
+            this.groupBox29.Size = new System.Drawing.Size(208, 38);
             this.groupBox29.TabIndex = 219;
             this.groupBox29.TabStop = false;
             // 
             // DOA7
             // 
-            this.DOA7.Location = new System.Drawing.Point(111, 9);
+            this.DOA7.Location = new System.Drawing.Point(159, 9);
             this.DOA7.Name = "DOA7";
             this.DOA7.Size = new System.Drawing.Size(26, 27);
             this.DOA7.TabIndex = 5;
@@ -1736,7 +1736,7 @@ namespace KARO_AFDD
             // 
             // DOA6
             // 
-            this.DOA6.Location = new System.Drawing.Point(76, 9);
+            this.DOA6.Location = new System.Drawing.Point(108, 9);
             this.DOA6.Name = "DOA6";
             this.DOA6.Size = new System.Drawing.Size(26, 27);
             this.DOA6.TabIndex = 6;
@@ -1752,7 +1752,7 @@ namespace KARO_AFDD
             // 
             // DOA5
             // 
-            this.DOA5.Location = new System.Drawing.Point(41, 9);
+            this.DOA5.Location = new System.Drawing.Point(57, 9);
             this.DOA5.Name = "DOA5";
             this.DOA5.Size = new System.Drawing.Size(26, 27);
             this.DOA5.TabIndex = 4;
@@ -1764,15 +1764,15 @@ namespace KARO_AFDD
             this.groupBox30.Controls.Add(this.DOA2);
             this.groupBox30.Controls.Add(this.DOA0);
             this.groupBox30.Controls.Add(this.DOA1);
-            this.groupBox30.Location = new System.Drawing.Point(428, 156);
+            this.groupBox30.Location = new System.Drawing.Point(610, 209);
             this.groupBox30.Name = "groupBox30";
-            this.groupBox30.Size = new System.Drawing.Size(144, 38);
+            this.groupBox30.Size = new System.Drawing.Size(208, 38);
             this.groupBox30.TabIndex = 217;
             this.groupBox30.TabStop = false;
             // 
             // DOA3
             // 
-            this.DOA3.Location = new System.Drawing.Point(111, 9);
+            this.DOA3.Location = new System.Drawing.Point(159, 9);
             this.DOA3.Name = "DOA3";
             this.DOA3.Size = new System.Drawing.Size(26, 27);
             this.DOA3.TabIndex = 5;
@@ -1780,7 +1780,7 @@ namespace KARO_AFDD
             // 
             // DOA2
             // 
-            this.DOA2.Location = new System.Drawing.Point(76, 9);
+            this.DOA2.Location = new System.Drawing.Point(108, 9);
             this.DOA2.Name = "DOA2";
             this.DOA2.Size = new System.Drawing.Size(26, 27);
             this.DOA2.TabIndex = 6;
@@ -1796,7 +1796,7 @@ namespace KARO_AFDD
             // 
             // DOA1
             // 
-            this.DOA1.Location = new System.Drawing.Point(41, 9);
+            this.DOA1.Location = new System.Drawing.Point(57, 9);
             this.DOA1.Name = "DOA1";
             this.DOA1.Size = new System.Drawing.Size(26, 27);
             this.DOA1.TabIndex = 4;
@@ -1805,7 +1805,7 @@ namespace KARO_AFDD
             // PortHexA
             // 
             this.PortHexA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHexA.Location = new System.Drawing.Point(738, 164);
+            this.PortHexA.Location = new System.Drawing.Point(1036, 219);
             this.PortHexA.Name = "PortHexA";
             this.PortHexA.Size = new System.Drawing.Size(30, 28);
             this.PortHexA.TabIndex = 216;
@@ -1814,7 +1814,7 @@ namespace KARO_AFDD
             // PortNumA
             // 
             this.PortNumA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNumA.Location = new System.Drawing.Point(387, 166);
+            this.PortNumA.Location = new System.Drawing.Point(571, 219);
             this.PortNumA.Name = "PortNumA";
             this.PortNumA.Size = new System.Drawing.Size(28, 28);
             this.PortNumA.TabIndex = 214;
@@ -1823,7 +1823,7 @@ namespace KARO_AFDD
             // label81
             // 
             this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(431, 93);
+            this.label81.Location = new System.Drawing.Point(611, 141);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(36, 15);
             this.label81.TabIndex = 206;
@@ -1832,7 +1832,7 @@ namespace KARO_AFDD
             // label82
             // 
             this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(465, 93);
+            this.label82.Location = new System.Drawing.Point(661, 141);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(36, 15);
             this.label82.TabIndex = 207;
@@ -1841,7 +1841,7 @@ namespace KARO_AFDD
             // label83
             // 
             this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(506, 93);
+            this.label83.Location = new System.Drawing.Point(718, 141);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(27, 15);
             this.label83.TabIndex = 208;
@@ -1850,7 +1850,7 @@ namespace KARO_AFDD
             // label84
             // 
             this.label84.AutoSize = true;
-            this.label84.Location = new System.Drawing.Point(540, 93);
+            this.label84.Location = new System.Drawing.Point(768, 141);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(27, 15);
             this.label84.TabIndex = 209;
@@ -1859,7 +1859,7 @@ namespace KARO_AFDD
             // label85
             // 
             this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(585, 93);
+            this.label85.Location = new System.Drawing.Point(831, 141);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(27, 15);
             this.label85.TabIndex = 210;
@@ -1868,7 +1868,7 @@ namespace KARO_AFDD
             // label86
             // 
             this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(619, 93);
+            this.label86.Location = new System.Drawing.Point(881, 141);
             this.label86.Name = "label86";
             this.label86.Size = new System.Drawing.Size(27, 15);
             this.label86.TabIndex = 211;
@@ -1877,7 +1877,7 @@ namespace KARO_AFDD
             // label87
             // 
             this.label87.AutoSize = true;
-            this.label87.Location = new System.Drawing.Point(656, 93);
+            this.label87.Location = new System.Drawing.Point(934, 141);
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(27, 15);
             this.label87.TabIndex = 212;
@@ -1886,7 +1886,7 @@ namespace KARO_AFDD
             // label88
             // 
             this.label88.AutoSize = true;
-            this.label88.Location = new System.Drawing.Point(690, 93);
+            this.label88.Location = new System.Drawing.Point(984, 141);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(27, 15);
             this.label88.TabIndex = 213;
@@ -1898,15 +1898,15 @@ namespace KARO_AFDD
             this.groupBox33.Controls.Add(this.DO96);
             this.groupBox33.Controls.Add(this.DO94);
             this.groupBox33.Controls.Add(this.DO95);
-            this.groupBox33.Location = new System.Drawing.Point(580, 102);
+            this.groupBox33.Location = new System.Drawing.Point(826, 150);
             this.groupBox33.Name = "groupBox33";
-            this.groupBox33.Size = new System.Drawing.Size(144, 38);
+            this.groupBox33.Size = new System.Drawing.Size(206, 38);
             this.groupBox33.TabIndex = 205;
             this.groupBox33.TabStop = false;
             // 
             // DO97
             // 
-            this.DO97.Location = new System.Drawing.Point(111, 9);
+            this.DO97.Location = new System.Drawing.Point(159, 9);
             this.DO97.Name = "DO97";
             this.DO97.Size = new System.Drawing.Size(26, 27);
             this.DO97.TabIndex = 5;
@@ -1914,7 +1914,7 @@ namespace KARO_AFDD
             // 
             // DO96
             // 
-            this.DO96.Location = new System.Drawing.Point(76, 9);
+            this.DO96.Location = new System.Drawing.Point(108, 9);
             this.DO96.Name = "DO96";
             this.DO96.Size = new System.Drawing.Size(26, 27);
             this.DO96.TabIndex = 6;
@@ -1930,7 +1930,7 @@ namespace KARO_AFDD
             // 
             // DO95
             // 
-            this.DO95.Location = new System.Drawing.Point(41, 9);
+            this.DO95.Location = new System.Drawing.Point(57, 9);
             this.DO95.Name = "DO95";
             this.DO95.Size = new System.Drawing.Size(26, 27);
             this.DO95.TabIndex = 4;
@@ -1942,15 +1942,15 @@ namespace KARO_AFDD
             this.groupBox34.Controls.Add(this.DO92);
             this.groupBox34.Controls.Add(this.DO90);
             this.groupBox34.Controls.Add(this.DO91);
-            this.groupBox34.Location = new System.Drawing.Point(430, 102);
+            this.groupBox34.Location = new System.Drawing.Point(610, 150);
             this.groupBox34.Name = "groupBox34";
-            this.groupBox34.Size = new System.Drawing.Size(144, 38);
+            this.groupBox34.Size = new System.Drawing.Size(206, 38);
             this.groupBox34.TabIndex = 203;
             this.groupBox34.TabStop = false;
             // 
             // DO93
             // 
-            this.DO93.Location = new System.Drawing.Point(111, 9);
+            this.DO93.Location = new System.Drawing.Point(159, 9);
             this.DO93.Name = "DO93";
             this.DO93.Size = new System.Drawing.Size(26, 27);
             this.DO93.TabIndex = 5;
@@ -1958,7 +1958,7 @@ namespace KARO_AFDD
             // 
             // DO92
             // 
-            this.DO92.Location = new System.Drawing.Point(76, 9);
+            this.DO92.Location = new System.Drawing.Point(108, 9);
             this.DO92.Name = "DO92";
             this.DO92.Size = new System.Drawing.Size(26, 27);
             this.DO92.TabIndex = 6;
@@ -1974,7 +1974,7 @@ namespace KARO_AFDD
             // 
             // DO91
             // 
-            this.DO91.Location = new System.Drawing.Point(41, 9);
+            this.DO91.Location = new System.Drawing.Point(57, 9);
             this.DO91.Name = "DO91";
             this.DO91.Size = new System.Drawing.Size(26, 27);
             this.DO91.TabIndex = 4;
@@ -1983,7 +1983,7 @@ namespace KARO_AFDD
             // PortHex9
             // 
             this.PortHex9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHex9.Location = new System.Drawing.Point(738, 112);
+            this.PortHex9.Location = new System.Drawing.Point(1036, 160);
             this.PortHex9.Name = "PortHex9";
             this.PortHex9.Size = new System.Drawing.Size(30, 28);
             this.PortHex9.TabIndex = 202;
@@ -1992,7 +1992,7 @@ namespace KARO_AFDD
             // PortNum9
             // 
             this.PortNum9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNum9.Location = new System.Drawing.Point(387, 114);
+            this.PortNum9.Location = new System.Drawing.Point(571, 160);
             this.PortNum9.Name = "PortNum9";
             this.PortNum9.Size = new System.Drawing.Size(28, 28);
             this.PortNum9.TabIndex = 200;
@@ -2001,7 +2001,7 @@ namespace KARO_AFDD
             // label91
             // 
             this.label91.AutoSize = true;
-            this.label91.Location = new System.Drawing.Point(431, 43);
+            this.label91.Location = new System.Drawing.Point(611, 82);
             this.label91.Name = "label91";
             this.label91.Size = new System.Drawing.Size(36, 15);
             this.label91.TabIndex = 192;
@@ -2010,7 +2010,7 @@ namespace KARO_AFDD
             // label92
             // 
             this.label92.AutoSize = true;
-            this.label92.Location = new System.Drawing.Point(465, 43);
+            this.label92.Location = new System.Drawing.Point(661, 82);
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(36, 15);
             this.label92.TabIndex = 193;
@@ -2019,7 +2019,7 @@ namespace KARO_AFDD
             // label93
             // 
             this.label93.AutoSize = true;
-            this.label93.Location = new System.Drawing.Point(502, 43);
+            this.label93.Location = new System.Drawing.Point(714, 82);
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(36, 15);
             this.label93.TabIndex = 194;
@@ -2028,7 +2028,7 @@ namespace KARO_AFDD
             // label94
             // 
             this.label94.AutoSize = true;
-            this.label94.Location = new System.Drawing.Point(536, 43);
+            this.label94.Location = new System.Drawing.Point(764, 82);
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(36, 15);
             this.label94.TabIndex = 195;
@@ -2037,7 +2037,7 @@ namespace KARO_AFDD
             // label95
             // 
             this.label95.AutoSize = true;
-            this.label95.Location = new System.Drawing.Point(581, 43);
+            this.label95.Location = new System.Drawing.Point(825, 82);
             this.label95.Name = "label95";
             this.label95.Size = new System.Drawing.Size(36, 15);
             this.label95.TabIndex = 196;
@@ -2046,7 +2046,7 @@ namespace KARO_AFDD
             // label96
             // 
             this.label96.AutoSize = true;
-            this.label96.Location = new System.Drawing.Point(615, 43);
+            this.label96.Location = new System.Drawing.Point(875, 82);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(36, 15);
             this.label96.TabIndex = 197;
@@ -2055,7 +2055,7 @@ namespace KARO_AFDD
             // label97
             // 
             this.label97.AutoSize = true;
-            this.label97.Location = new System.Drawing.Point(652, 43);
+            this.label97.Location = new System.Drawing.Point(928, 82);
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(36, 15);
             this.label97.TabIndex = 198;
@@ -2064,7 +2064,7 @@ namespace KARO_AFDD
             // label98
             // 
             this.label98.AutoSize = true;
-            this.label98.Location = new System.Drawing.Point(686, 43);
+            this.label98.Location = new System.Drawing.Point(978, 82);
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(36, 15);
             this.label98.TabIndex = 199;
@@ -2076,15 +2076,15 @@ namespace KARO_AFDD
             this.groupBox37.Controls.Add(this.DO86);
             this.groupBox37.Controls.Add(this.DO84);
             this.groupBox37.Controls.Add(this.DO85);
-            this.groupBox37.Location = new System.Drawing.Point(580, 52);
+            this.groupBox37.Location = new System.Drawing.Point(824, 91);
             this.groupBox37.Name = "groupBox37";
-            this.groupBox37.Size = new System.Drawing.Size(144, 38);
+            this.groupBox37.Size = new System.Drawing.Size(206, 38);
             this.groupBox37.TabIndex = 191;
             this.groupBox37.TabStop = false;
             // 
             // DO87
             // 
-            this.DO87.Location = new System.Drawing.Point(111, 9);
+            this.DO87.Location = new System.Drawing.Point(159, 9);
             this.DO87.Name = "DO87";
             this.DO87.Size = new System.Drawing.Size(26, 27);
             this.DO87.TabIndex = 5;
@@ -2092,7 +2092,7 @@ namespace KARO_AFDD
             // 
             // DO86
             // 
-            this.DO86.Location = new System.Drawing.Point(76, 9);
+            this.DO86.Location = new System.Drawing.Point(108, 9);
             this.DO86.Name = "DO86";
             this.DO86.Size = new System.Drawing.Size(26, 27);
             this.DO86.TabIndex = 6;
@@ -2108,7 +2108,7 @@ namespace KARO_AFDD
             // 
             // DO85
             // 
-            this.DO85.Location = new System.Drawing.Point(41, 9);
+            this.DO85.Location = new System.Drawing.Point(57, 9);
             this.DO85.Name = "DO85";
             this.DO85.Size = new System.Drawing.Size(26, 27);
             this.DO85.TabIndex = 4;
@@ -2120,15 +2120,15 @@ namespace KARO_AFDD
             this.groupBox38.Controls.Add(this.DO82);
             this.groupBox38.Controls.Add(this.DO80);
             this.groupBox38.Controls.Add(this.DO81);
-            this.groupBox38.Location = new System.Drawing.Point(430, 52);
+            this.groupBox38.Location = new System.Drawing.Point(610, 91);
             this.groupBox38.Name = "groupBox38";
-            this.groupBox38.Size = new System.Drawing.Size(144, 38);
+            this.groupBox38.Size = new System.Drawing.Size(206, 38);
             this.groupBox38.TabIndex = 189;
             this.groupBox38.TabStop = false;
             // 
             // DO83
             // 
-            this.DO83.Location = new System.Drawing.Point(111, 9);
+            this.DO83.Location = new System.Drawing.Point(159, 9);
             this.DO83.Name = "DO83";
             this.DO83.Size = new System.Drawing.Size(26, 27);
             this.DO83.TabIndex = 5;
@@ -2136,7 +2136,7 @@ namespace KARO_AFDD
             // 
             // DO82
             // 
-            this.DO82.Location = new System.Drawing.Point(76, 9);
+            this.DO82.Location = new System.Drawing.Point(108, 9);
             this.DO82.Name = "DO82";
             this.DO82.Size = new System.Drawing.Size(26, 27);
             this.DO82.TabIndex = 6;
@@ -2152,7 +2152,7 @@ namespace KARO_AFDD
             // 
             // DO81
             // 
-            this.DO81.Location = new System.Drawing.Point(41, 9);
+            this.DO81.Location = new System.Drawing.Point(57, 9);
             this.DO81.Name = "DO81";
             this.DO81.Size = new System.Drawing.Size(26, 27);
             this.DO81.TabIndex = 4;
@@ -2161,7 +2161,7 @@ namespace KARO_AFDD
             // PortHex8
             // 
             this.PortHex8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHex8.Location = new System.Drawing.Point(738, 60);
+            this.PortHex8.Location = new System.Drawing.Point(1036, 101);
             this.PortHex8.Name = "PortHex8";
             this.PortHex8.Size = new System.Drawing.Size(30, 28);
             this.PortHex8.TabIndex = 188;
@@ -2170,7 +2170,7 @@ namespace KARO_AFDD
             // PortNum8
             // 
             this.PortNum8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNum8.Location = new System.Drawing.Point(387, 62);
+            this.PortNum8.Location = new System.Drawing.Point(571, 101);
             this.PortNum8.Name = "PortNum8";
             this.PortNum8.Size = new System.Drawing.Size(28, 28);
             this.PortNum8.TabIndex = 186;
@@ -2179,7 +2179,7 @@ namespace KARO_AFDD
             // label101
             // 
             this.label101.AutoSize = true;
-            this.label101.Location = new System.Drawing.Point(52, 408);
+            this.label101.Location = new System.Drawing.Point(79, 495);
             this.label101.Name = "label101";
             this.label101.Size = new System.Drawing.Size(36, 15);
             this.label101.TabIndex = 178;
@@ -2188,7 +2188,7 @@ namespace KARO_AFDD
             // label102
             // 
             this.label102.AutoSize = true;
-            this.label102.Location = new System.Drawing.Point(86, 408);
+            this.label102.Location = new System.Drawing.Point(129, 495);
             this.label102.Name = "label102";
             this.label102.Size = new System.Drawing.Size(36, 15);
             this.label102.TabIndex = 179;
@@ -2197,7 +2197,7 @@ namespace KARO_AFDD
             // label103
             // 
             this.label103.AutoSize = true;
-            this.label103.Location = new System.Drawing.Point(123, 408);
+            this.label103.Location = new System.Drawing.Point(182, 495);
             this.label103.Name = "label103";
             this.label103.Size = new System.Drawing.Size(36, 15);
             this.label103.TabIndex = 180;
@@ -2206,7 +2206,7 @@ namespace KARO_AFDD
             // label104
             // 
             this.label104.AutoSize = true;
-            this.label104.Location = new System.Drawing.Point(157, 408);
+            this.label104.Location = new System.Drawing.Point(232, 495);
             this.label104.Name = "label104";
             this.label104.Size = new System.Drawing.Size(36, 15);
             this.label104.TabIndex = 181;
@@ -2215,7 +2215,7 @@ namespace KARO_AFDD
             // label105
             // 
             this.label105.AutoSize = true;
-            this.label105.Location = new System.Drawing.Point(202, 408);
+            this.label105.Location = new System.Drawing.Point(291, 495);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(36, 15);
             this.label105.TabIndex = 182;
@@ -2224,7 +2224,7 @@ namespace KARO_AFDD
             // label106
             // 
             this.label106.AutoSize = true;
-            this.label106.Location = new System.Drawing.Point(236, 408);
+            this.label106.Location = new System.Drawing.Point(341, 495);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(36, 15);
             this.label106.TabIndex = 183;
@@ -2233,7 +2233,7 @@ namespace KARO_AFDD
             // label107
             // 
             this.label107.AutoSize = true;
-            this.label107.Location = new System.Drawing.Point(273, 408);
+            this.label107.Location = new System.Drawing.Point(394, 495);
             this.label107.Name = "label107";
             this.label107.Size = new System.Drawing.Size(36, 15);
             this.label107.TabIndex = 184;
@@ -2242,7 +2242,7 @@ namespace KARO_AFDD
             // label108
             // 
             this.label108.AutoSize = true;
-            this.label108.Location = new System.Drawing.Point(307, 408);
+            this.label108.Location = new System.Drawing.Point(444, 495);
             this.label108.Name = "label108";
             this.label108.Size = new System.Drawing.Size(36, 15);
             this.label108.TabIndex = 185;
@@ -2254,15 +2254,15 @@ namespace KARO_AFDD
             this.groupBox41.Controls.Add(this.DO76);
             this.groupBox41.Controls.Add(this.DO74);
             this.groupBox41.Controls.Add(this.DO75);
-            this.groupBox41.Location = new System.Drawing.Point(201, 417);
+            this.groupBox41.Location = new System.Drawing.Point(290, 504);
             this.groupBox41.Name = "groupBox41";
-            this.groupBox41.Size = new System.Drawing.Size(144, 38);
+            this.groupBox41.Size = new System.Drawing.Size(206, 38);
             this.groupBox41.TabIndex = 177;
             this.groupBox41.TabStop = false;
             // 
             // DO77
             // 
-            this.DO77.Location = new System.Drawing.Point(111, 9);
+            this.DO77.Location = new System.Drawing.Point(159, 9);
             this.DO77.Name = "DO77";
             this.DO77.Size = new System.Drawing.Size(26, 27);
             this.DO77.TabIndex = 5;
@@ -2270,7 +2270,7 @@ namespace KARO_AFDD
             // 
             // DO76
             // 
-            this.DO76.Location = new System.Drawing.Point(76, 9);
+            this.DO76.Location = new System.Drawing.Point(108, 9);
             this.DO76.Name = "DO76";
             this.DO76.Size = new System.Drawing.Size(26, 27);
             this.DO76.TabIndex = 6;
@@ -2286,7 +2286,7 @@ namespace KARO_AFDD
             // 
             // DO75
             // 
-            this.DO75.Location = new System.Drawing.Point(41, 9);
+            this.DO75.Location = new System.Drawing.Point(57, 9);
             this.DO75.Name = "DO75";
             this.DO75.Size = new System.Drawing.Size(26, 27);
             this.DO75.TabIndex = 4;
@@ -2298,15 +2298,15 @@ namespace KARO_AFDD
             this.groupBox42.Controls.Add(this.DO72);
             this.groupBox42.Controls.Add(this.DO70);
             this.groupBox42.Controls.Add(this.DO71);
-            this.groupBox42.Location = new System.Drawing.Point(51, 417);
+            this.groupBox42.Location = new System.Drawing.Point(78, 504);
             this.groupBox42.Name = "groupBox42";
-            this.groupBox42.Size = new System.Drawing.Size(144, 38);
+            this.groupBox42.Size = new System.Drawing.Size(206, 38);
             this.groupBox42.TabIndex = 175;
             this.groupBox42.TabStop = false;
             // 
             // DO73
             // 
-            this.DO73.Location = new System.Drawing.Point(111, 9);
+            this.DO73.Location = new System.Drawing.Point(157, 9);
             this.DO73.Name = "DO73";
             this.DO73.Size = new System.Drawing.Size(26, 27);
             this.DO73.TabIndex = 5;
@@ -2314,7 +2314,7 @@ namespace KARO_AFDD
             // 
             // DO72
             // 
-            this.DO72.Location = new System.Drawing.Point(76, 9);
+            this.DO72.Location = new System.Drawing.Point(106, 9);
             this.DO72.Name = "DO72";
             this.DO72.Size = new System.Drawing.Size(26, 27);
             this.DO72.TabIndex = 6;
@@ -2322,7 +2322,7 @@ namespace KARO_AFDD
             // 
             // DO70
             // 
-            this.DO70.Location = new System.Drawing.Point(6, 9);
+            this.DO70.Location = new System.Drawing.Point(4, 9);
             this.DO70.Name = "DO70";
             this.DO70.Size = new System.Drawing.Size(26, 27);
             this.DO70.TabIndex = 0;
@@ -2330,7 +2330,7 @@ namespace KARO_AFDD
             // 
             // DO71
             // 
-            this.DO71.Location = new System.Drawing.Point(41, 9);
+            this.DO71.Location = new System.Drawing.Point(55, 9);
             this.DO71.Name = "DO71";
             this.DO71.Size = new System.Drawing.Size(26, 27);
             this.DO71.TabIndex = 4;
@@ -2339,7 +2339,7 @@ namespace KARO_AFDD
             // PortHex7
             // 
             this.PortHex7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHex7.Location = new System.Drawing.Point(351, 427);
+            this.PortHex7.Location = new System.Drawing.Point(506, 514);
             this.PortHex7.Name = "PortHex7";
             this.PortHex7.Size = new System.Drawing.Size(30, 28);
             this.PortHex7.TabIndex = 174;
@@ -2348,7 +2348,7 @@ namespace KARO_AFDD
             // PortNum7
             // 
             this.PortNum7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNum7.Location = new System.Drawing.Point(17, 427);
+            this.PortNum7.Location = new System.Drawing.Point(37, 514);
             this.PortNum7.Name = "PortNum7";
             this.PortNum7.Size = new System.Drawing.Size(28, 28);
             this.PortNum7.TabIndex = 172;
@@ -2357,7 +2357,7 @@ namespace KARO_AFDD
             // label111
             // 
             this.label111.AutoSize = true;
-            this.label111.Location = new System.Drawing.Point(52, 356);
+            this.label111.Location = new System.Drawing.Point(79, 436);
             this.label111.Name = "label111";
             this.label111.Size = new System.Drawing.Size(36, 15);
             this.label111.TabIndex = 164;
@@ -2366,7 +2366,7 @@ namespace KARO_AFDD
             // label112
             // 
             this.label112.AutoSize = true;
-            this.label112.Location = new System.Drawing.Point(86, 356);
+            this.label112.Location = new System.Drawing.Point(129, 436);
             this.label112.Name = "label112";
             this.label112.Size = new System.Drawing.Size(36, 15);
             this.label112.TabIndex = 165;
@@ -2375,7 +2375,7 @@ namespace KARO_AFDD
             // label113
             // 
             this.label113.AutoSize = true;
-            this.label113.Location = new System.Drawing.Point(123, 356);
+            this.label113.Location = new System.Drawing.Point(182, 436);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(36, 15);
             this.label113.TabIndex = 166;
@@ -2384,7 +2384,7 @@ namespace KARO_AFDD
             // label114
             // 
             this.label114.AutoSize = true;
-            this.label114.Location = new System.Drawing.Point(157, 356);
+            this.label114.Location = new System.Drawing.Point(232, 436);
             this.label114.Name = "label114";
             this.label114.Size = new System.Drawing.Size(36, 15);
             this.label114.TabIndex = 167;
@@ -2393,7 +2393,7 @@ namespace KARO_AFDD
             // label115
             // 
             this.label115.AutoSize = true;
-            this.label115.Location = new System.Drawing.Point(202, 356);
+            this.label115.Location = new System.Drawing.Point(291, 436);
             this.label115.Name = "label115";
             this.label115.Size = new System.Drawing.Size(36, 15);
             this.label115.TabIndex = 168;
@@ -2402,7 +2402,7 @@ namespace KARO_AFDD
             // label116
             // 
             this.label116.AutoSize = true;
-            this.label116.Location = new System.Drawing.Point(236, 356);
+            this.label116.Location = new System.Drawing.Point(341, 436);
             this.label116.Name = "label116";
             this.label116.Size = new System.Drawing.Size(36, 15);
             this.label116.TabIndex = 169;
@@ -2411,7 +2411,7 @@ namespace KARO_AFDD
             // label117
             // 
             this.label117.AutoSize = true;
-            this.label117.Location = new System.Drawing.Point(273, 356);
+            this.label117.Location = new System.Drawing.Point(394, 436);
             this.label117.Name = "label117";
             this.label117.Size = new System.Drawing.Size(36, 15);
             this.label117.TabIndex = 170;
@@ -2420,7 +2420,7 @@ namespace KARO_AFDD
             // label118
             // 
             this.label118.AutoSize = true;
-            this.label118.Location = new System.Drawing.Point(307, 356);
+            this.label118.Location = new System.Drawing.Point(444, 436);
             this.label118.Name = "label118";
             this.label118.Size = new System.Drawing.Size(36, 15);
             this.label118.TabIndex = 171;
@@ -2432,15 +2432,15 @@ namespace KARO_AFDD
             this.groupBox45.Controls.Add(this.DO66);
             this.groupBox45.Controls.Add(this.DO64);
             this.groupBox45.Controls.Add(this.DO65);
-            this.groupBox45.Location = new System.Drawing.Point(201, 365);
+            this.groupBox45.Location = new System.Drawing.Point(290, 445);
             this.groupBox45.Name = "groupBox45";
-            this.groupBox45.Size = new System.Drawing.Size(144, 38);
+            this.groupBox45.Size = new System.Drawing.Size(206, 38);
             this.groupBox45.TabIndex = 163;
             this.groupBox45.TabStop = false;
             // 
             // DO67
             // 
-            this.DO67.Location = new System.Drawing.Point(111, 9);
+            this.DO67.Location = new System.Drawing.Point(159, 9);
             this.DO67.Name = "DO67";
             this.DO67.Size = new System.Drawing.Size(26, 27);
             this.DO67.TabIndex = 5;
@@ -2448,7 +2448,7 @@ namespace KARO_AFDD
             // 
             // DO66
             // 
-            this.DO66.Location = new System.Drawing.Point(76, 9);
+            this.DO66.Location = new System.Drawing.Point(108, 9);
             this.DO66.Name = "DO66";
             this.DO66.Size = new System.Drawing.Size(26, 27);
             this.DO66.TabIndex = 6;
@@ -2464,7 +2464,7 @@ namespace KARO_AFDD
             // 
             // DO65
             // 
-            this.DO65.Location = new System.Drawing.Point(41, 9);
+            this.DO65.Location = new System.Drawing.Point(57, 9);
             this.DO65.Name = "DO65";
             this.DO65.Size = new System.Drawing.Size(26, 27);
             this.DO65.TabIndex = 4;
@@ -2476,15 +2476,15 @@ namespace KARO_AFDD
             this.groupBox46.Controls.Add(this.DO62);
             this.groupBox46.Controls.Add(this.DO60);
             this.groupBox46.Controls.Add(this.DO61);
-            this.groupBox46.Location = new System.Drawing.Point(51, 365);
+            this.groupBox46.Location = new System.Drawing.Point(78, 445);
             this.groupBox46.Name = "groupBox46";
-            this.groupBox46.Size = new System.Drawing.Size(144, 38);
+            this.groupBox46.Size = new System.Drawing.Size(206, 38);
             this.groupBox46.TabIndex = 161;
             this.groupBox46.TabStop = false;
             // 
             // DO63
             // 
-            this.DO63.Location = new System.Drawing.Point(111, 9);
+            this.DO63.Location = new System.Drawing.Point(157, 9);
             this.DO63.Name = "DO63";
             this.DO63.Size = new System.Drawing.Size(26, 27);
             this.DO63.TabIndex = 5;
@@ -2492,7 +2492,7 @@ namespace KARO_AFDD
             // 
             // DO62
             // 
-            this.DO62.Location = new System.Drawing.Point(76, 9);
+            this.DO62.Location = new System.Drawing.Point(106, 9);
             this.DO62.Name = "DO62";
             this.DO62.Size = new System.Drawing.Size(26, 27);
             this.DO62.TabIndex = 6;
@@ -2508,7 +2508,7 @@ namespace KARO_AFDD
             // 
             // DO61
             // 
-            this.DO61.Location = new System.Drawing.Point(41, 9);
+            this.DO61.Location = new System.Drawing.Point(54, 9);
             this.DO61.Name = "DO61";
             this.DO61.Size = new System.Drawing.Size(26, 27);
             this.DO61.TabIndex = 4;
@@ -2517,7 +2517,7 @@ namespace KARO_AFDD
             // PortHex6
             // 
             this.PortHex6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHex6.Location = new System.Drawing.Point(351, 375);
+            this.PortHex6.Location = new System.Drawing.Point(506, 455);
             this.PortHex6.Name = "PortHex6";
             this.PortHex6.Size = new System.Drawing.Size(30, 28);
             this.PortHex6.TabIndex = 160;
@@ -2526,7 +2526,7 @@ namespace KARO_AFDD
             // PortNum6
             // 
             this.PortNum6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNum6.Location = new System.Drawing.Point(17, 375);
+            this.PortNum6.Location = new System.Drawing.Point(37, 455);
             this.PortNum6.Name = "PortNum6";
             this.PortNum6.Size = new System.Drawing.Size(28, 28);
             this.PortNum6.TabIndex = 158;
@@ -2535,7 +2535,7 @@ namespace KARO_AFDD
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(57, 303);
+            this.label51.Location = new System.Drawing.Point(84, 377);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(27, 15);
             this.label51.TabIndex = 150;
@@ -2544,7 +2544,7 @@ namespace KARO_AFDD
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(91, 303);
+            this.label52.Location = new System.Drawing.Point(134, 377);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(27, 15);
             this.label52.TabIndex = 151;
@@ -2553,7 +2553,7 @@ namespace KARO_AFDD
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(128, 303);
+            this.label53.Location = new System.Drawing.Point(187, 377);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(27, 15);
             this.label53.TabIndex = 152;
@@ -2562,7 +2562,7 @@ namespace KARO_AFDD
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(162, 303);
+            this.label54.Location = new System.Drawing.Point(237, 377);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(27, 15);
             this.label54.TabIndex = 153;
@@ -2571,7 +2571,7 @@ namespace KARO_AFDD
             // label55
             // 
             this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(207, 303);
+            this.label55.Location = new System.Drawing.Point(296, 377);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(27, 15);
             this.label55.TabIndex = 154;
@@ -2580,7 +2580,7 @@ namespace KARO_AFDD
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(241, 303);
+            this.label56.Location = new System.Drawing.Point(346, 377);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(27, 15);
             this.label56.TabIndex = 155;
@@ -2589,7 +2589,7 @@ namespace KARO_AFDD
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(278, 303);
+            this.label57.Location = new System.Drawing.Point(399, 377);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(27, 15);
             this.label57.TabIndex = 156;
@@ -2598,7 +2598,7 @@ namespace KARO_AFDD
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(312, 303);
+            this.label58.Location = new System.Drawing.Point(449, 377);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(27, 15);
             this.label58.TabIndex = 157;
@@ -2610,15 +2610,15 @@ namespace KARO_AFDD
             this.groupBox21.Controls.Add(this.DO56);
             this.groupBox21.Controls.Add(this.DO54);
             this.groupBox21.Controls.Add(this.DO55);
-            this.groupBox21.Location = new System.Drawing.Point(201, 312);
+            this.groupBox21.Location = new System.Drawing.Point(290, 386);
             this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(144, 38);
+            this.groupBox21.Size = new System.Drawing.Size(206, 38);
             this.groupBox21.TabIndex = 149;
             this.groupBox21.TabStop = false;
             // 
             // DO57
             // 
-            this.DO57.Location = new System.Drawing.Point(111, 9);
+            this.DO57.Location = new System.Drawing.Point(159, 9);
             this.DO57.Name = "DO57";
             this.DO57.Size = new System.Drawing.Size(26, 27);
             this.DO57.TabIndex = 5;
@@ -2626,7 +2626,7 @@ namespace KARO_AFDD
             // 
             // DO56
             // 
-            this.DO56.Location = new System.Drawing.Point(76, 9);
+            this.DO56.Location = new System.Drawing.Point(108, 9);
             this.DO56.Name = "DO56";
             this.DO56.Size = new System.Drawing.Size(26, 27);
             this.DO56.TabIndex = 6;
@@ -2642,7 +2642,7 @@ namespace KARO_AFDD
             // 
             // DO55
             // 
-            this.DO55.Location = new System.Drawing.Point(41, 9);
+            this.DO55.Location = new System.Drawing.Point(57, 9);
             this.DO55.Name = "DO55";
             this.DO55.Size = new System.Drawing.Size(26, 27);
             this.DO55.TabIndex = 4;
@@ -2654,15 +2654,15 @@ namespace KARO_AFDD
             this.groupBox22.Controls.Add(this.DO52);
             this.groupBox22.Controls.Add(this.DO50);
             this.groupBox22.Controls.Add(this.DO51);
-            this.groupBox22.Location = new System.Drawing.Point(51, 312);
+            this.groupBox22.Location = new System.Drawing.Point(78, 386);
             this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Size = new System.Drawing.Size(144, 38);
+            this.groupBox22.Size = new System.Drawing.Size(206, 38);
             this.groupBox22.TabIndex = 147;
             this.groupBox22.TabStop = false;
             // 
             // DO53
             // 
-            this.DO53.Location = new System.Drawing.Point(111, 9);
+            this.DO53.Location = new System.Drawing.Point(157, 9);
             this.DO53.Name = "DO53";
             this.DO53.Size = new System.Drawing.Size(26, 27);
             this.DO53.TabIndex = 5;
@@ -2670,7 +2670,7 @@ namespace KARO_AFDD
             // 
             // DO52
             // 
-            this.DO52.Location = new System.Drawing.Point(76, 9);
+            this.DO52.Location = new System.Drawing.Point(106, 9);
             this.DO52.Name = "DO52";
             this.DO52.Size = new System.Drawing.Size(26, 27);
             this.DO52.TabIndex = 6;
@@ -2686,7 +2686,7 @@ namespace KARO_AFDD
             // 
             // DO51
             // 
-            this.DO51.Location = new System.Drawing.Point(41, 9);
+            this.DO51.Location = new System.Drawing.Point(54, 8);
             this.DO51.Name = "DO51";
             this.DO51.Size = new System.Drawing.Size(26, 27);
             this.DO51.TabIndex = 4;
@@ -2695,7 +2695,7 @@ namespace KARO_AFDD
             // PortHex5
             // 
             this.PortHex5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHex5.Location = new System.Drawing.Point(351, 322);
+            this.PortHex5.Location = new System.Drawing.Point(506, 396);
             this.PortHex5.Name = "PortHex5";
             this.PortHex5.Size = new System.Drawing.Size(30, 28);
             this.PortHex5.TabIndex = 146;
@@ -2704,7 +2704,7 @@ namespace KARO_AFDD
             // PortNum5
             // 
             this.PortNum5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNum5.Location = new System.Drawing.Point(17, 322);
+            this.PortNum5.Location = new System.Drawing.Point(37, 396);
             this.PortNum5.Name = "PortNum5";
             this.PortNum5.Size = new System.Drawing.Size(28, 28);
             this.PortNum5.TabIndex = 144;
@@ -2713,7 +2713,7 @@ namespace KARO_AFDD
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(52, 251);
+            this.label41.Location = new System.Drawing.Point(79, 318);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(36, 15);
             this.label41.TabIndex = 136;
@@ -2722,7 +2722,7 @@ namespace KARO_AFDD
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(86, 251);
+            this.label42.Location = new System.Drawing.Point(129, 318);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(36, 15);
             this.label42.TabIndex = 137;
@@ -2731,7 +2731,7 @@ namespace KARO_AFDD
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(123, 251);
+            this.label43.Location = new System.Drawing.Point(182, 318);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(36, 15);
             this.label43.TabIndex = 138;
@@ -2740,7 +2740,7 @@ namespace KARO_AFDD
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(157, 251);
+            this.label44.Location = new System.Drawing.Point(232, 318);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(36, 15);
             this.label44.TabIndex = 139;
@@ -2749,7 +2749,7 @@ namespace KARO_AFDD
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(202, 251);
+            this.label45.Location = new System.Drawing.Point(291, 318);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(36, 15);
             this.label45.TabIndex = 140;
@@ -2758,7 +2758,7 @@ namespace KARO_AFDD
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(236, 251);
+            this.label46.Location = new System.Drawing.Point(341, 318);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(36, 15);
             this.label46.TabIndex = 141;
@@ -2767,7 +2767,7 @@ namespace KARO_AFDD
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(276, 251);
+            this.label47.Location = new System.Drawing.Point(397, 318);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(27, 15);
             this.label47.TabIndex = 142;
@@ -2776,7 +2776,7 @@ namespace KARO_AFDD
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(311, 251);
+            this.label48.Location = new System.Drawing.Point(448, 318);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(27, 15);
             this.label48.TabIndex = 143;
@@ -2788,15 +2788,15 @@ namespace KARO_AFDD
             this.groupBox16.Controls.Add(this.DO46);
             this.groupBox16.Controls.Add(this.DO44);
             this.groupBox16.Controls.Add(this.DO45);
-            this.groupBox16.Location = new System.Drawing.Point(201, 260);
+            this.groupBox16.Location = new System.Drawing.Point(290, 327);
             this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(144, 38);
+            this.groupBox16.Size = new System.Drawing.Size(206, 38);
             this.groupBox16.TabIndex = 135;
             this.groupBox16.TabStop = false;
             // 
             // DO47
             // 
-            this.DO47.Location = new System.Drawing.Point(111, 9);
+            this.DO47.Location = new System.Drawing.Point(159, 9);
             this.DO47.Name = "DO47";
             this.DO47.Size = new System.Drawing.Size(26, 27);
             this.DO47.TabIndex = 5;
@@ -2804,7 +2804,7 @@ namespace KARO_AFDD
             // 
             // DO46
             // 
-            this.DO46.Location = new System.Drawing.Point(76, 9);
+            this.DO46.Location = new System.Drawing.Point(108, 9);
             this.DO46.Name = "DO46";
             this.DO46.Size = new System.Drawing.Size(26, 27);
             this.DO46.TabIndex = 6;
@@ -2820,7 +2820,7 @@ namespace KARO_AFDD
             // 
             // DO45
             // 
-            this.DO45.Location = new System.Drawing.Point(41, 9);
+            this.DO45.Location = new System.Drawing.Point(57, 9);
             this.DO45.Name = "DO45";
             this.DO45.Size = new System.Drawing.Size(26, 27);
             this.DO45.TabIndex = 4;
@@ -2832,15 +2832,15 @@ namespace KARO_AFDD
             this.groupBox17.Controls.Add(this.DO42);
             this.groupBox17.Controls.Add(this.DO40);
             this.groupBox17.Controls.Add(this.DO41);
-            this.groupBox17.Location = new System.Drawing.Point(51, 260);
+            this.groupBox17.Location = new System.Drawing.Point(78, 327);
             this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(144, 38);
+            this.groupBox17.Size = new System.Drawing.Size(206, 38);
             this.groupBox17.TabIndex = 133;
             this.groupBox17.TabStop = false;
             // 
             // DO43
             // 
-            this.DO43.Location = new System.Drawing.Point(111, 9);
+            this.DO43.Location = new System.Drawing.Point(157, 9);
             this.DO43.Name = "DO43";
             this.DO43.Size = new System.Drawing.Size(26, 27);
             this.DO43.TabIndex = 5;
@@ -2848,7 +2848,7 @@ namespace KARO_AFDD
             // 
             // DO42
             // 
-            this.DO42.Location = new System.Drawing.Point(76, 9);
+            this.DO42.Location = new System.Drawing.Point(106, 9);
             this.DO42.Name = "DO42";
             this.DO42.Size = new System.Drawing.Size(26, 27);
             this.DO42.TabIndex = 6;
@@ -2864,7 +2864,7 @@ namespace KARO_AFDD
             // 
             // DO41
             // 
-            this.DO41.Location = new System.Drawing.Point(41, 9);
+            this.DO41.Location = new System.Drawing.Point(54, 9);
             this.DO41.Name = "DO41";
             this.DO41.Size = new System.Drawing.Size(26, 27);
             this.DO41.TabIndex = 4;
@@ -2873,7 +2873,7 @@ namespace KARO_AFDD
             // PortHex4
             // 
             this.PortHex4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHex4.Location = new System.Drawing.Point(351, 270);
+            this.PortHex4.Location = new System.Drawing.Point(506, 337);
             this.PortHex4.Name = "PortHex4";
             this.PortHex4.Size = new System.Drawing.Size(30, 28);
             this.PortHex4.TabIndex = 132;
@@ -2882,7 +2882,7 @@ namespace KARO_AFDD
             // PortNum4
             // 
             this.PortNum4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNum4.Location = new System.Drawing.Point(17, 270);
+            this.PortNum4.Location = new System.Drawing.Point(37, 337);
             this.PortNum4.Name = "PortNum4";
             this.PortNum4.Size = new System.Drawing.Size(28, 28);
             this.PortNum4.TabIndex = 130;
@@ -2891,7 +2891,7 @@ namespace KARO_AFDD
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(52, 199);
+            this.label31.Location = new System.Drawing.Point(79, 259);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(36, 15);
             this.label31.TabIndex = 122;
@@ -2900,7 +2900,7 @@ namespace KARO_AFDD
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(86, 199);
+            this.label32.Location = new System.Drawing.Point(129, 259);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(36, 15);
             this.label32.TabIndex = 123;
@@ -2909,7 +2909,7 @@ namespace KARO_AFDD
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(123, 199);
+            this.label33.Location = new System.Drawing.Point(182, 259);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(36, 15);
             this.label33.TabIndex = 124;
@@ -2918,7 +2918,7 @@ namespace KARO_AFDD
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(157, 199);
+            this.label34.Location = new System.Drawing.Point(232, 259);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(36, 15);
             this.label34.TabIndex = 125;
@@ -2927,7 +2927,7 @@ namespace KARO_AFDD
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(202, 199);
+            this.label35.Location = new System.Drawing.Point(291, 259);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(36, 15);
             this.label35.TabIndex = 126;
@@ -2936,7 +2936,7 @@ namespace KARO_AFDD
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(236, 199);
+            this.label36.Location = new System.Drawing.Point(341, 259);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(36, 15);
             this.label36.TabIndex = 127;
@@ -2945,7 +2945,7 @@ namespace KARO_AFDD
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(273, 199);
+            this.label37.Location = new System.Drawing.Point(394, 259);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(36, 15);
             this.label37.TabIndex = 128;
@@ -2954,7 +2954,7 @@ namespace KARO_AFDD
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(307, 199);
+            this.label38.Location = new System.Drawing.Point(444, 259);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(36, 15);
             this.label38.TabIndex = 129;
@@ -2966,15 +2966,15 @@ namespace KARO_AFDD
             this.groupBox12.Controls.Add(this.DO36);
             this.groupBox12.Controls.Add(this.DO34);
             this.groupBox12.Controls.Add(this.DO35);
-            this.groupBox12.Location = new System.Drawing.Point(201, 208);
+            this.groupBox12.Location = new System.Drawing.Point(290, 268);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(144, 38);
+            this.groupBox12.Size = new System.Drawing.Size(206, 38);
             this.groupBox12.TabIndex = 121;
             this.groupBox12.TabStop = false;
             // 
             // DO37
             // 
-            this.DO37.Location = new System.Drawing.Point(111, 9);
+            this.DO37.Location = new System.Drawing.Point(159, 9);
             this.DO37.Name = "DO37";
             this.DO37.Size = new System.Drawing.Size(26, 27);
             this.DO37.TabIndex = 5;
@@ -2982,7 +2982,7 @@ namespace KARO_AFDD
             // 
             // DO36
             // 
-            this.DO36.Location = new System.Drawing.Point(76, 9);
+            this.DO36.Location = new System.Drawing.Point(108, 9);
             this.DO36.Name = "DO36";
             this.DO36.Size = new System.Drawing.Size(26, 27);
             this.DO36.TabIndex = 6;
@@ -2998,7 +2998,7 @@ namespace KARO_AFDD
             // 
             // DO35
             // 
-            this.DO35.Location = new System.Drawing.Point(41, 9);
+            this.DO35.Location = new System.Drawing.Point(57, 9);
             this.DO35.Name = "DO35";
             this.DO35.Size = new System.Drawing.Size(26, 27);
             this.DO35.TabIndex = 4;
@@ -3010,15 +3010,15 @@ namespace KARO_AFDD
             this.groupBox13.Controls.Add(this.DO32);
             this.groupBox13.Controls.Add(this.DO30);
             this.groupBox13.Controls.Add(this.DO31);
-            this.groupBox13.Location = new System.Drawing.Point(51, 208);
+            this.groupBox13.Location = new System.Drawing.Point(78, 268);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(144, 38);
+            this.groupBox13.Size = new System.Drawing.Size(206, 38);
             this.groupBox13.TabIndex = 119;
             this.groupBox13.TabStop = false;
             // 
             // DO33
             // 
-            this.DO33.Location = new System.Drawing.Point(111, 9);
+            this.DO33.Location = new System.Drawing.Point(157, 9);
             this.DO33.Name = "DO33";
             this.DO33.Size = new System.Drawing.Size(26, 27);
             this.DO33.TabIndex = 5;
@@ -3026,7 +3026,7 @@ namespace KARO_AFDD
             // 
             // DO32
             // 
-            this.DO32.Location = new System.Drawing.Point(76, 9);
+            this.DO32.Location = new System.Drawing.Point(106, 9);
             this.DO32.Name = "DO32";
             this.DO32.Size = new System.Drawing.Size(26, 27);
             this.DO32.TabIndex = 6;
@@ -3034,7 +3034,7 @@ namespace KARO_AFDD
             // 
             // DO30
             // 
-            this.DO30.Location = new System.Drawing.Point(6, 9);
+            this.DO30.Location = new System.Drawing.Point(4, 9);
             this.DO30.Name = "DO30";
             this.DO30.Size = new System.Drawing.Size(26, 27);
             this.DO30.TabIndex = 0;
@@ -3042,7 +3042,7 @@ namespace KARO_AFDD
             // 
             // DO31
             // 
-            this.DO31.Location = new System.Drawing.Point(41, 9);
+            this.DO31.Location = new System.Drawing.Point(55, 9);
             this.DO31.Name = "DO31";
             this.DO31.Size = new System.Drawing.Size(26, 27);
             this.DO31.TabIndex = 4;
@@ -3051,7 +3051,7 @@ namespace KARO_AFDD
             // PortHex3
             // 
             this.PortHex3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHex3.Location = new System.Drawing.Point(351, 218);
+            this.PortHex3.Location = new System.Drawing.Point(506, 278);
             this.PortHex3.Name = "PortHex3";
             this.PortHex3.Size = new System.Drawing.Size(30, 28);
             this.PortHex3.TabIndex = 118;
@@ -3060,7 +3060,7 @@ namespace KARO_AFDD
             // PortNum3
             // 
             this.PortNum3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNum3.Location = new System.Drawing.Point(17, 218);
+            this.PortNum3.Location = new System.Drawing.Point(37, 278);
             this.PortNum3.Name = "PortNum3";
             this.PortNum3.Size = new System.Drawing.Size(28, 28);
             this.PortNum3.TabIndex = 116;
@@ -3069,7 +3069,7 @@ namespace KARO_AFDD
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(52, 147);
+            this.label13.Location = new System.Drawing.Point(79, 200);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(36, 15);
             this.label13.TabIndex = 108;
@@ -3078,7 +3078,7 @@ namespace KARO_AFDD
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(86, 147);
+            this.label14.Location = new System.Drawing.Point(129, 200);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(36, 15);
             this.label14.TabIndex = 109;
@@ -3087,7 +3087,7 @@ namespace KARO_AFDD
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(123, 147);
+            this.label15.Location = new System.Drawing.Point(182, 200);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(36, 15);
             this.label15.TabIndex = 110;
@@ -3096,7 +3096,7 @@ namespace KARO_AFDD
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(157, 147);
+            this.label16.Location = new System.Drawing.Point(232, 200);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(36, 15);
             this.label16.TabIndex = 111;
@@ -3105,7 +3105,7 @@ namespace KARO_AFDD
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(202, 147);
+            this.label25.Location = new System.Drawing.Point(291, 200);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(36, 15);
             this.label25.TabIndex = 112;
@@ -3114,7 +3114,7 @@ namespace KARO_AFDD
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(236, 147);
+            this.label26.Location = new System.Drawing.Point(341, 200);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(36, 15);
             this.label26.TabIndex = 113;
@@ -3123,7 +3123,7 @@ namespace KARO_AFDD
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(273, 147);
+            this.label27.Location = new System.Drawing.Point(394, 200);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(36, 15);
             this.label27.TabIndex = 114;
@@ -3132,7 +3132,7 @@ namespace KARO_AFDD
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(307, 147);
+            this.label28.Location = new System.Drawing.Point(444, 200);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(36, 15);
             this.label28.TabIndex = 115;
@@ -3144,15 +3144,15 @@ namespace KARO_AFDD
             this.groupBox8.Controls.Add(this.DO26);
             this.groupBox8.Controls.Add(this.DO24);
             this.groupBox8.Controls.Add(this.DO25);
-            this.groupBox8.Location = new System.Drawing.Point(201, 156);
+            this.groupBox8.Location = new System.Drawing.Point(290, 209);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(144, 38);
+            this.groupBox8.Size = new System.Drawing.Size(206, 38);
             this.groupBox8.TabIndex = 107;
             this.groupBox8.TabStop = false;
             // 
             // DO27
             // 
-            this.DO27.Location = new System.Drawing.Point(111, 9);
+            this.DO27.Location = new System.Drawing.Point(159, 9);
             this.DO27.Name = "DO27";
             this.DO27.Size = new System.Drawing.Size(26, 27);
             this.DO27.TabIndex = 5;
@@ -3160,7 +3160,7 @@ namespace KARO_AFDD
             // 
             // DO26
             // 
-            this.DO26.Location = new System.Drawing.Point(76, 9);
+            this.DO26.Location = new System.Drawing.Point(108, 9);
             this.DO26.Name = "DO26";
             this.DO26.Size = new System.Drawing.Size(26, 27);
             this.DO26.TabIndex = 6;
@@ -3176,7 +3176,7 @@ namespace KARO_AFDD
             // 
             // DO25
             // 
-            this.DO25.Location = new System.Drawing.Point(41, 9);
+            this.DO25.Location = new System.Drawing.Point(57, 9);
             this.DO25.Name = "DO25";
             this.DO25.Size = new System.Drawing.Size(26, 27);
             this.DO25.TabIndex = 4;
@@ -3188,15 +3188,15 @@ namespace KARO_AFDD
             this.groupBox9.Controls.Add(this.DO22);
             this.groupBox9.Controls.Add(this.DO20);
             this.groupBox9.Controls.Add(this.DO21);
-            this.groupBox9.Location = new System.Drawing.Point(51, 156);
+            this.groupBox9.Location = new System.Drawing.Point(78, 209);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(144, 38);
+            this.groupBox9.Size = new System.Drawing.Size(206, 38);
             this.groupBox9.TabIndex = 105;
             this.groupBox9.TabStop = false;
             // 
             // DO23
             // 
-            this.DO23.Location = new System.Drawing.Point(111, 9);
+            this.DO23.Location = new System.Drawing.Point(157, 10);
             this.DO23.Name = "DO23";
             this.DO23.Size = new System.Drawing.Size(26, 27);
             this.DO23.TabIndex = 5;
@@ -3204,7 +3204,7 @@ namespace KARO_AFDD
             // 
             // DO22
             // 
-            this.DO22.Location = new System.Drawing.Point(76, 9);
+            this.DO22.Location = new System.Drawing.Point(106, 10);
             this.DO22.Name = "DO22";
             this.DO22.Size = new System.Drawing.Size(26, 27);
             this.DO22.TabIndex = 6;
@@ -3212,7 +3212,7 @@ namespace KARO_AFDD
             // 
             // DO20
             // 
-            this.DO20.Location = new System.Drawing.Point(6, 9);
+            this.DO20.Location = new System.Drawing.Point(4, 10);
             this.DO20.Name = "DO20";
             this.DO20.Size = new System.Drawing.Size(26, 27);
             this.DO20.TabIndex = 0;
@@ -3220,7 +3220,7 @@ namespace KARO_AFDD
             // 
             // DO21
             // 
-            this.DO21.Location = new System.Drawing.Point(41, 9);
+            this.DO21.Location = new System.Drawing.Point(55, 10);
             this.DO21.Name = "DO21";
             this.DO21.Size = new System.Drawing.Size(26, 27);
             this.DO21.TabIndex = 4;
@@ -3229,7 +3229,7 @@ namespace KARO_AFDD
             // PortHex2
             // 
             this.PortHex2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHex2.Location = new System.Drawing.Point(351, 166);
+            this.PortHex2.Location = new System.Drawing.Point(506, 219);
             this.PortHex2.Name = "PortHex2";
             this.PortHex2.Size = new System.Drawing.Size(30, 28);
             this.PortHex2.TabIndex = 104;
@@ -3238,7 +3238,7 @@ namespace KARO_AFDD
             // PortNum2
             // 
             this.PortNum2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNum2.Location = new System.Drawing.Point(17, 166);
+            this.PortNum2.Location = new System.Drawing.Point(37, 219);
             this.PortNum2.Name = "PortNum2";
             this.PortNum2.Size = new System.Drawing.Size(28, 28);
             this.PortNum2.TabIndex = 102;
@@ -3247,7 +3247,7 @@ namespace KARO_AFDD
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 95);
+            this.label2.Location = new System.Drawing.Point(79, 142);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 15);
             this.label2.TabIndex = 94;
@@ -3256,7 +3256,7 @@ namespace KARO_AFDD
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(86, 95);
+            this.label3.Location = new System.Drawing.Point(129, 142);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 15);
             this.label3.TabIndex = 95;
@@ -3265,7 +3265,7 @@ namespace KARO_AFDD
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(123, 95);
+            this.label5.Location = new System.Drawing.Point(182, 142);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(36, 15);
             this.label5.TabIndex = 96;
@@ -3274,7 +3274,7 @@ namespace KARO_AFDD
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(163, 95);
+            this.label6.Location = new System.Drawing.Point(238, 142);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(27, 15);
             this.label6.TabIndex = 97;
@@ -3283,7 +3283,7 @@ namespace KARO_AFDD
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(207, 95);
+            this.label7.Location = new System.Drawing.Point(296, 141);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(27, 15);
             this.label7.TabIndex = 98;
@@ -3292,7 +3292,7 @@ namespace KARO_AFDD
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(241, 95);
+            this.label8.Location = new System.Drawing.Point(346, 141);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(27, 15);
             this.label8.TabIndex = 99;
@@ -3301,7 +3301,7 @@ namespace KARO_AFDD
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(277, 95);
+            this.label9.Location = new System.Drawing.Point(398, 141);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(27, 15);
             this.label9.TabIndex = 100;
@@ -3310,7 +3310,7 @@ namespace KARO_AFDD
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(311, 95);
+            this.label10.Location = new System.Drawing.Point(448, 141);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(27, 15);
             this.label10.TabIndex = 101;
@@ -3322,15 +3322,15 @@ namespace KARO_AFDD
             this.groupBox4.Controls.Add(this.DO16);
             this.groupBox4.Controls.Add(this.DO14);
             this.groupBox4.Controls.Add(this.DO15);
-            this.groupBox4.Location = new System.Drawing.Point(201, 104);
+            this.groupBox4.Location = new System.Drawing.Point(290, 150);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(144, 38);
+            this.groupBox4.Size = new System.Drawing.Size(206, 38);
             this.groupBox4.TabIndex = 93;
             this.groupBox4.TabStop = false;
             // 
             // DO17
             // 
-            this.DO17.Location = new System.Drawing.Point(111, 9);
+            this.DO17.Location = new System.Drawing.Point(159, 9);
             this.DO17.Name = "DO17";
             this.DO17.Size = new System.Drawing.Size(26, 27);
             this.DO17.TabIndex = 5;
@@ -3338,7 +3338,7 @@ namespace KARO_AFDD
             // 
             // DO16
             // 
-            this.DO16.Location = new System.Drawing.Point(76, 9);
+            this.DO16.Location = new System.Drawing.Point(108, 9);
             this.DO16.Name = "DO16";
             this.DO16.Size = new System.Drawing.Size(26, 27);
             this.DO16.TabIndex = 6;
@@ -3354,7 +3354,7 @@ namespace KARO_AFDD
             // 
             // DO15
             // 
-            this.DO15.Location = new System.Drawing.Point(41, 9);
+            this.DO15.Location = new System.Drawing.Point(57, 9);
             this.DO15.Name = "DO15";
             this.DO15.Size = new System.Drawing.Size(26, 27);
             this.DO15.TabIndex = 4;
@@ -3366,15 +3366,15 @@ namespace KARO_AFDD
             this.groupBox5.Controls.Add(this.DO12);
             this.groupBox5.Controls.Add(this.DO10);
             this.groupBox5.Controls.Add(this.DO11);
-            this.groupBox5.Location = new System.Drawing.Point(51, 104);
+            this.groupBox5.Location = new System.Drawing.Point(78, 150);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(144, 38);
+            this.groupBox5.Size = new System.Drawing.Size(206, 38);
             this.groupBox5.TabIndex = 91;
             this.groupBox5.TabStop = false;
             // 
             // DO13
             // 
-            this.DO13.Location = new System.Drawing.Point(111, 9);
+            this.DO13.Location = new System.Drawing.Point(157, 10);
             this.DO13.Name = "DO13";
             this.DO13.Size = new System.Drawing.Size(26, 27);
             this.DO13.TabIndex = 5;
@@ -3382,7 +3382,7 @@ namespace KARO_AFDD
             // 
             // DO12
             // 
-            this.DO12.Location = new System.Drawing.Point(76, 9);
+            this.DO12.Location = new System.Drawing.Point(106, 10);
             this.DO12.Name = "DO12";
             this.DO12.Size = new System.Drawing.Size(26, 27);
             this.DO12.TabIndex = 6;
@@ -3390,7 +3390,7 @@ namespace KARO_AFDD
             // 
             // DO10
             // 
-            this.DO10.Location = new System.Drawing.Point(6, 9);
+            this.DO10.Location = new System.Drawing.Point(4, 10);
             this.DO10.Name = "DO10";
             this.DO10.Size = new System.Drawing.Size(26, 27);
             this.DO10.TabIndex = 0;
@@ -3398,7 +3398,7 @@ namespace KARO_AFDD
             // 
             // DO11
             // 
-            this.DO11.Location = new System.Drawing.Point(41, 9);
+            this.DO11.Location = new System.Drawing.Point(55, 10);
             this.DO11.Name = "DO11";
             this.DO11.Size = new System.Drawing.Size(26, 27);
             this.DO11.TabIndex = 4;
@@ -3407,7 +3407,7 @@ namespace KARO_AFDD
             // PortHex1
             // 
             this.PortHex1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHex1.Location = new System.Drawing.Point(351, 114);
+            this.PortHex1.Location = new System.Drawing.Point(506, 160);
             this.PortHex1.Name = "PortHex1";
             this.PortHex1.Size = new System.Drawing.Size(30, 28);
             this.PortHex1.TabIndex = 90;
@@ -3416,7 +3416,7 @@ namespace KARO_AFDD
             // PortNum1
             // 
             this.PortNum1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNum1.Location = new System.Drawing.Point(17, 114);
+            this.PortNum1.Location = new System.Drawing.Point(37, 160);
             this.PortNum1.Name = "PortNum1";
             this.PortNum1.Size = new System.Drawing.Size(28, 28);
             this.PortNum1.TabIndex = 88;
@@ -3425,7 +3425,7 @@ namespace KARO_AFDD
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(52, 43);
+            this.label24.Location = new System.Drawing.Point(79, 82);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(36, 15);
             this.label24.TabIndex = 78;
@@ -3434,7 +3434,7 @@ namespace KARO_AFDD
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(86, 43);
+            this.label23.Location = new System.Drawing.Point(129, 82);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(36, 15);
             this.label23.TabIndex = 79;
@@ -3443,7 +3443,7 @@ namespace KARO_AFDD
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(123, 43);
+            this.label22.Location = new System.Drawing.Point(182, 82);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(36, 15);
             this.label22.TabIndex = 80;
@@ -3452,7 +3452,7 @@ namespace KARO_AFDD
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(157, 43);
+            this.label21.Location = new System.Drawing.Point(232, 82);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(36, 15);
             this.label21.TabIndex = 81;
@@ -3461,7 +3461,7 @@ namespace KARO_AFDD
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(202, 43);
+            this.label20.Location = new System.Drawing.Point(291, 82);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(36, 15);
             this.label20.TabIndex = 84;
@@ -3470,7 +3470,7 @@ namespace KARO_AFDD
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(236, 43);
+            this.label19.Location = new System.Drawing.Point(341, 82);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(36, 15);
             this.label19.TabIndex = 85;
@@ -3479,7 +3479,7 @@ namespace KARO_AFDD
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(273, 43);
+            this.label18.Location = new System.Drawing.Point(394, 82);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(36, 15);
             this.label18.TabIndex = 86;
@@ -3488,7 +3488,7 @@ namespace KARO_AFDD
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(307, 43);
+            this.label17.Location = new System.Drawing.Point(444, 82);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(36, 15);
             this.label17.TabIndex = 87;
@@ -3498,7 +3498,7 @@ namespace KARO_AFDD
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(347, 21);
+            this.label4.Location = new System.Drawing.Point(502, 77);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 20);
             this.label4.TabIndex = 16;
@@ -3507,7 +3507,7 @@ namespace KARO_AFDD
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 6);
+            this.label1.Location = new System.Drawing.Point(34, 61);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 36);
             this.label1.TabIndex = 13;
@@ -3520,15 +3520,15 @@ namespace KARO_AFDD
             this.groupBox18.Controls.Add(this.DO06);
             this.groupBox18.Controls.Add(this.DO04);
             this.groupBox18.Controls.Add(this.DO05);
-            this.groupBox18.Location = new System.Drawing.Point(201, 52);
+            this.groupBox18.Location = new System.Drawing.Point(290, 91);
             this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(144, 38);
+            this.groupBox18.Size = new System.Drawing.Size(206, 38);
             this.groupBox18.TabIndex = 74;
             this.groupBox18.TabStop = false;
             // 
             // DO07
             // 
-            this.DO07.Location = new System.Drawing.Point(111, 9);
+            this.DO07.Location = new System.Drawing.Point(159, 9);
             this.DO07.Name = "DO07";
             this.DO07.Size = new System.Drawing.Size(26, 27);
             this.DO07.TabIndex = 5;
@@ -3536,7 +3536,7 @@ namespace KARO_AFDD
             // 
             // DO06
             // 
-            this.DO06.Location = new System.Drawing.Point(76, 9);
+            this.DO06.Location = new System.Drawing.Point(108, 9);
             this.DO06.Name = "DO06";
             this.DO06.Size = new System.Drawing.Size(26, 27);
             this.DO06.TabIndex = 6;
@@ -3552,7 +3552,7 @@ namespace KARO_AFDD
             // 
             // DO05
             // 
-            this.DO05.Location = new System.Drawing.Point(41, 9);
+            this.DO05.Location = new System.Drawing.Point(57, 9);
             this.DO05.Name = "DO05";
             this.DO05.Size = new System.Drawing.Size(26, 27);
             this.DO05.TabIndex = 4;
@@ -3564,15 +3564,15 @@ namespace KARO_AFDD
             this.groupBox2.Controls.Add(this.DO02);
             this.groupBox2.Controls.Add(this.DO00);
             this.groupBox2.Controls.Add(this.DO01);
-            this.groupBox2.Location = new System.Drawing.Point(51, 52);
+            this.groupBox2.Location = new System.Drawing.Point(78, 91);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(144, 38);
+            this.groupBox2.Size = new System.Drawing.Size(206, 38);
             this.groupBox2.TabIndex = 54;
             this.groupBox2.TabStop = false;
             // 
             // DO03
             // 
-            this.DO03.Location = new System.Drawing.Point(111, 9);
+            this.DO03.Location = new System.Drawing.Point(159, 9);
             this.DO03.Name = "DO03";
             this.DO03.Size = new System.Drawing.Size(26, 27);
             this.DO03.TabIndex = 5;
@@ -3580,7 +3580,7 @@ namespace KARO_AFDD
             // 
             // DO02
             // 
-            this.DO02.Location = new System.Drawing.Point(76, 9);
+            this.DO02.Location = new System.Drawing.Point(108, 9);
             this.DO02.Name = "DO02";
             this.DO02.Size = new System.Drawing.Size(26, 27);
             this.DO02.TabIndex = 6;
@@ -3596,7 +3596,7 @@ namespace KARO_AFDD
             // 
             // DO01
             // 
-            this.DO01.Location = new System.Drawing.Point(41, 9);
+            this.DO01.Location = new System.Drawing.Point(57, 9);
             this.DO01.Name = "DO01";
             this.DO01.Size = new System.Drawing.Size(26, 27);
             this.DO01.TabIndex = 4;
@@ -3605,7 +3605,7 @@ namespace KARO_AFDD
             // PortHex0
             // 
             this.PortHex0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortHex0.Location = new System.Drawing.Point(351, 62);
+            this.PortHex0.Location = new System.Drawing.Point(506, 101);
             this.PortHex0.Name = "PortHex0";
             this.PortHex0.Size = new System.Drawing.Size(30, 28);
             this.PortHex0.TabIndex = 19;
@@ -3614,7 +3614,7 @@ namespace KARO_AFDD
             // PortNum0
             // 
             this.PortNum0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PortNum0.Location = new System.Drawing.Point(17, 62);
+            this.PortNum0.Location = new System.Drawing.Point(37, 101);
             this.PortNum0.Name = "PortNum0";
             this.PortNum0.Size = new System.Drawing.Size(28, 28);
             this.PortNum0.TabIndex = 17;
@@ -3623,7 +3623,7 @@ namespace KARO_AFDD
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(595, 5);
+            this.pictureBox4.Location = new System.Drawing.Point(1052, 2);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(196, 329);
@@ -3650,17 +3650,21 @@ namespace KARO_AFDD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(794, 572);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(241)))), ((int)(((byte)(231)))));
+            this.ClientSize = new System.Drawing.Size(1260, 736);
+            this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox4);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(800, 600);
+            this.MaximumSize = new System.Drawing.Size(1260, 736);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(800, 600);
+            this.MinimumSize = new System.Drawing.Size(1260, 736);
             this.Name = "frmDOTest";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "DO Test";
             this.Load += new System.EventHandler(this.frmDOTest_Load);
             this.panel1.ResumeLayout(false);

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -473,11 +473,11 @@
     <Compile Include="frmDITest.Designer.cs">
       <DependentUpon>frmDITest.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAndArc.cs">
+    <Compile Include="frmAndArcManual.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAndArc.Designer.cs">
-      <DependentUpon>frmAndArc.cs</DependentUpon>
+    <Compile Include="frmAndArcManual.Designer.cs">
+      <DependentUpon>frmAndArcManual.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -692,8 +692,8 @@
     <EmbeddedResource Include="frmDITest.resx">
       <DependentUpon>frmDITest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAndArc.resx">
-      <DependentUpon>frmAndArc.cs</DependentUpon>
+    <EmbeddedResource Include="frmAndArcManual.resx">
+      <DependentUpon>frmAndArcManual.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AFD\6.3.3\frmAFD633.resx">
       <DependentUpon>frmAFD633.cs</DependentUpon>

@@ -127,7 +127,7 @@ namespace KARO_AFDD
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(629, 75);
             this.label1.TabIndex = 12;
-            this.label1.Text = "6.3.3.2 串弧发生器试验";
+            this.label1.Text = "6.3.3.2 并联抗扰动试验";
             // 
             // panel1
             // 
@@ -147,7 +147,7 @@ namespace KARO_AFDD
             this.cbxArcGear.Name = "cbxArcGear";
             this.cbxArcGear.Size = new System.Drawing.Size(150, 35);
             this.cbxArcGear.TabIndex = 4;
-            this.cbxArcGear.Text = "碳化电缆试品";
+            this.cbxArcGear.Text = "电弧发生器";
             // 
             // label2
             // 

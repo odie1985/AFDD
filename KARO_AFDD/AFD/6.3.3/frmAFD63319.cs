@@ -577,7 +577,7 @@ namespace KARO_AFDD
             instantDiCtrl1.Dispose();
             instantDoCtrl1.Dispose();
             bufferedAiCtrl1.Dispose();
-            this.Close();
+            this.hide();
         }
     }
 }
