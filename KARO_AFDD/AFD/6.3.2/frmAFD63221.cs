@@ -85,6 +85,8 @@ namespace KARO_AFDD
             textBox_div_V.ReadOnly = true;
             textBox_shift_V.ReadOnly = true;
 
+            btnStart.Enabled = false;
+
             sampleCount = (int)bufferedAiCtrl1.ConvertClock.Rate;
             convertClkRatePerChan = bufferedAiCtrl1.ScanChannel.Samples;
             txtClockRate.Text = convertClkRatePerChan.ToString();
@@ -483,74 +485,15 @@ namespace KARO_AFDD
 
                     do
                     {
-                        DO_Click(4, 3);    //S317,S318
-                    } while ((int)DI_Check(4) == 3);
-
-                    do
-                    {
-                        DO_Click(11, 128);    //S516
-                    } while ((int)DI_Check(11) == 128);
+                        DO_Click(4, 7);    //S317,S318,S319
+                    } while ((int)DI_Check(4) == 7);
                 }
                 else if (cbxPowerFactor.Text == "0.3")
                 {
                     do
                     {
-                        DO_Click(4, 5);    //S317,S319
-                    } while ((int)DI_Check(4) == 5);
-
-                    do
-                    {
-                        DO_Click(11, 128);    //S516
-                    } while ((int)DI_Check(11) == 128);
-                }
-            }
-            else if (cbxPower.Text == "3")
-            {
-                if (cbxPowerFactor.Text == "1")
-                {
-                    do
-                    {
-                        DO_Click(3, 32);    //S314
-                    } while ((int)DI_Check(3) == 32);
-                }
-                else if (cbxPowerFactor.Text == "0.7")
-                {
-                    do
-                    {
-                        DO_Click(3, 192);    //S315,S316
-                    } while ((int)DI_Check(3) == 192);
-
-                    do
-                    {
-                        DO_Click(11, 128);    //S516
-                    } while ((int)DI_Check(11) == 128);
-                }
-            }
-            else if (cbxPower.Text == "5")
-            {
-                if (cbxPowerFactor.Text == "1")
-                {
-                    do
-                    {
-                        DO_Click(3, 16);    //S313
-                    } while ((int)DI_Check(3) == 16);
-                }
-                else if (cbxPowerFactor.Text == "0.7")
-                {
-                    do
-                    {
-                        DO_Click(3, 32);    //S314
-                    } while ((int)DI_Check(3) == 32);
-
-                    do
-                    {
-                        DO_Click(4, 2);    //S318
-                    } while ((int)DI_Check(4) == 2);
-
-                    do
-                    {
-                        DO_Click(11, 128);    //S516
-                    } while ((int)DI_Check(11) == 128);
+                        DO_Click(4, 7);    //S317,S318,S319
+                    } while ((int)DI_Check(4) == 7);
                 }
             }
 
@@ -722,36 +665,11 @@ namespace KARO_AFDD
                 {
                     lblRemark.Text = "调整调压器示数为245V，" + "\r\n" + "电焊机示数为100（手柄朝下）";
                 }
+                btnStart.Enabled = true;
             }
-            else if (cbxPower.Text == "3")
+            else
             {
-                if (cbxPowerFactor.Text == "1")
-                {
-                    lblRemark.Text = "无需调整调压器和电焊机";
-                }
-                else if (cbxPowerFactor.Text == "0.7")
-                {
-                    lblRemark.Text = "调整调压器示数为187.5V，" + "\r\n" + "电焊机示数为150（手柄朝下）";
-                }
-                else if (cbxPowerFactor.Text == "0.3")
-                {
-                    lblRemark.Text = " ";
-                }
-            } 
-            else if (cbxPower.Text == "5")
-            {
-                if (cbxPowerFactor.Text == "1")
-                {
-                    lblRemark.Text = "无需调整调压器和电焊机";
-                }
-                else if (cbxPowerFactor.Text == "0.7")
-                {
-                    lblRemark.Text = "调整调压器示数为240V，" + "\r\n" + "电焊机示数为150（手柄朝下）";
-                }
-                else if (cbxPowerFactor.Text == "0.3")
-                {
-                    lblRemark.Text = " ";
-                }
+                lblRemark.Text = "设置无效，请重新选择参数！";
             }
         }
     }
